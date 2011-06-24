@@ -1,0 +1,616 @@
+/*
+	elgg.org
+	v1.0
+	
+	dark blue #00487d
+	light blue #e5eff6
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: top;
+}
+
+body {
+	text-align:center;
+	margin:0 auto;
+	padding:0;
+	font: 0.9em/1.3  "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+	color:#474747;
+	background:#e5eff6 url(../images/page_background.gif) repeat-x top left;
+}
+
+a {
+    /* color: #00487d; */
+    color: #599ac6;
+    text-decoration:none;
+    font-weight: bold;
+	-moz-outline-style: none;
+	outline: none;
+}
+
+a:hover { color: #00487d; text-decoration:underline; }
+
+p { padding:4px 0 4px 0; }
+
+small {font-size: 85%;}
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; line-height: normal; color:#00487d; }
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.0em; }
+h5 { font-size: 0.9em; }
+h6 { font-size: 0.8em; }
+
+ul, ol { list-style-position: inside; } 
+
+.clearfloat { clear:both;height:0;font-size: 1px;line-height: 0px; }
+
+/* ***************************************
+    PAGE STRUCTURE
+*************************************** */
+#header {
+   height:72px;
+   padding:0;
+   margin:0;
+}
+#header-inner {
+    width:940px;
+    margin:auto;
+    text-align:left;
+    padding:0;
+}
+#header-inner h1 {
+    color:#fff;
+    margin:0 0 0 0;
+    padding:0;
+    display:none;
+}
+#header-inner #logo {
+    margin:0;
+    padding:0;
+    background: url(../images/elgg_org_logo.gif) no-repeat top left;
+    width:121px;
+    height:72px;
+}
+#footer {
+    text-align:center;
+    height:60px;
+    margin-top:40px;
+	background: #00487d url(../images/footerback.png) repeat-x top left;
+	border-top: 1px solid #e5eff6;
+	color:#e5eff6;
+	padding-top: 24px;
+}
+#spotlight {
+	text-align:left;
+	background:white; 
+	margin: 24px auto 0 auto;
+	padding:10px 0 0 0; 
+	min-height:100px;
+	width:940px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc; 
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px;
+}
+#spotlight #description {
+    width:436px;
+    padding:10px 0 10px 20px;
+    float:left;
+}
+#spotlight #slides {
+    width:484px;
+    height:241px;
+    float:right;
+}
+#spotlight #introduction {
+	padding:0 20px 10px 0;
+}
+/* IE 6 & 7 fix */
+* html #spotlight  {
+    /* height:206px; */
+}
+/* IE6&7 fix */
+* html #spotlight #description {
+	/* padding-top:17px; */
+}
+#readmore { display:hidden; margin-top: 10px; }
+
+
+/* ***************************************
+    page contents styles
+*************************************** */
+.roundedbox_pagewidth {
+	text-align:left;
+	background:white; 
+	padding:10px 0 10px 0;
+	margin: 24px auto 0 auto; 
+	width:940px;
+	min-height:100px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc; 
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px;	
+}
+.roundedbox_container {
+	padding:0;
+	margin: 24px auto 0 auto; 
+	width:940px;
+	text-align:left;
+}
+.roundedbox_halfpagewidth {
+	float:left;
+	text-align:left;
+	background:white;
+	padding:10px;
+	min-height:100px;
+	width:436px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+.leftbox {
+	margin-right:24px;
+}
+.innerbox_quarterpagewidth {
+	border-right:1px solid #dedede;
+	width:204px;
+	float:left;
+	padding:0 15px 0 15px;
+	text-align:left;
+	
+	min-height:135px;	
+}
+.noborder {
+	border:none;
+}
+.innerbox_quarterpagewidth h3 {
+	text-align: left;
+	margin-bottom:10px;
+}
+.innerbox_quarterpagewidth li {
+	list-style:none;
+	padding:0 0 4px 0;
+}
+.innerbox_thirdpagewidth {
+	border-right:1px solid #dedede;
+	padding:0 20px 0 20px;
+}
+.innerbox_thirdpagewidth_endbox {
+	padding:0 20px 0 20px;
+}
+
+.dividerline { margin:10px 0 10px 0; border-bottom:1px solid #cccccc;height:1px; }
+
+/* hosting page */
+.hosting_company {
+    margin:10px 20px 20px 0px;
+    padding:4px 50px 1px 10px;
+    background: #e5eff6;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+ .hosting_company p {
+    margin:0;
+    padding:4px 0 4px 0;
+    line-height: 1.1em;
+}
+
+#footer p {
+	color:#e5eff6;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top:18px;
+}
+
+#footer a {
+	color:#e5eff6;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color:#ffffff;
+}
+
+/* ***************************************
+    home page
+*************************************** */
+#homepage #spotlight {
+	background: #00487d url(../images/background.gif) no-repeat 20px top;
+	border-top:1px solid #00487d;
+	border-left:1px solid #00487d;
+	border-bottom:1px solid #00487d;
+	border-right:1px solid #00487d;
+	/* fff065  ffc855  d2e6f1  55d2ff */
+}
+#homepage #spotlight #description h2 {
+	color: white;
+}
+#homepage #spotlight #description h3 {
+	color: #599ac6;
+}
+#homepage .roundedbox_halfpagewidth {
+	min-height:166px;
+}
+#homepage .innerbox_quarterpagewidth p {
+	text-align: justify;
+	font-size: 85%;
+}
+#homepage .elgg_sites {
+	margin:6px 10px 4px 0;
+}
+/* IE 6 & 7 fix */
+* html #homepage .elgg_sites  { margin:6px 4px 4px 0; }
+*:first-child+html #homepage .elgg_sites { margin:6px 4px 4px 0; }
+
+/* ***************************************
+    about page
+*************************************** */
+.shortcutmenu { margin-bottom:20px;padding-bottom:8px; border-bottom:1px solid #cccccc; }
+.shortcutmenu a { margin-right:15px;margin-bottom:20px; }
+#about #spotlight h2 { margin:0 0 0 20px; }
+#about .roundedbox_halfpagewidth { margin:20px; width:407px; }
+#about .teaminfo { min-height:20px; }
+#about .teaminfo .readmorelink { padding-left:20px; }
+#about .tour { width:900px; padding-left:20px; padding-right:20px; }
+#about .morefeatures { width:900px; padding:20px; }
+#about .tour table td.rightcolumn {width:380px; text-align: right;}
+#about .morefeatures .more_content { margin:0 0 10px 0;padding:0 0 10px 0; border-bottom:1px solid #cccccc; }
+#about a.screencast {
+	margin-top:20px;
+	border:1px solid #ccc;
+	background: white;
+	padding:2px 10px 2px 10px; 
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px;
+}
+#about a.screencast:hover {
+	background:#00487d;
+	border:1px solid #00487d;
+	color:white;
+	text-decoration: none;
+}
+a.curveriderLink {
+	text-decoration: none;
+	margin: 0;
+	background:#e5eff6;
+	color:#00487d;
+	padding:2px 6px 2px 6px;
+	font-weight: bold;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+}
+a.curveriderLink:hover {
+	text-decoration: none;
+	background:#00487d;
+	color:white;
+}
+
+/* ***************************************
+    download page
+*************************************** */
+.gpl_license {
+    margin:20px 0 10px 0px;
+    padding:2px 8px 2px 8px;
+    background: #e5eff6;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+/* ***************************************
+    plugins page
+*************************************** */
+#plugins_table ul {
+	list-style-position: outside;
+	list-style: none;
+	padding: 4px 0 0 0;
+	margin: 0;
+}
+#plugins_table ul li {
+	padding: 0 0 10px 0;
+}
+
+/* ***************************************
+    spotlight menu
+*************************************** */
+#spotlight #page-options {
+    width:180px;
+    padding:0 0 10px 20px;
+    margin:0 125px 0 0;
+}
+#spotlight #page-options ul {
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#spotlight #page-options ul li.menuselected a {
+	background: #00487d;
+	color:white;
+}
+#spotlight #page-options ul li.menuselected a:hover {
+	background: #00487d;
+	color:white;
+}
+#spotlight #page-options ul li a {
+	text-decoration: none;
+	display: block;
+	margin: 2px 0 0 0;
+	color:#00487d;
+	padding:4px 6px 4px 10px;
+	font-weight: bold;
+	line-height: 1.1em;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+}
+#spotlight #page-options ul li a:hover {
+	color:white;
+	background: #00487d;
+}
+
+/* ***************************************
+    elgg.org tabbed menu
+*************************************** */
+#menu {
+    padding:0;
+    margin:0 auto;
+    text-align:left;
+    height:30px;
+}
+#menu-inner {
+    width:940px;
+    text-align:right;
+    margin:0 auto;
+    padding:0;
+}
+#menu-inner a span { cursor: pointer; }
+#menu a:active { outline: none; }
+#menu a:focus { -moz-outline-style: none; }
+#menu a {
+	float:right;
+	margin:0;
+	padding:0 0 0 10px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 100%;
+}
+#menu a span {
+	float:left;
+	display:block;
+	padding:5px 14px 0px 3px;
+	height:25px;
+	margin:0;
+	color:#ffffff;
+	/* color:#547faa;*/
+}
+#menu a.disabled span {
+	color:#547faa;
+}
+#menu a.disabled {
+	color:#547faa;
+}
+#menu a.disabled:hover {
+	color:#547faa;
+}
+#menu a.disabled:hover span {
+	color:#547faa;
+}
+/* IE 6 */
+* html #menu a span  {
+    height:22px;
+}
+#menu a:hover span {
+	color:#00487d;
+}
+#menu a:hover {
+	color:#00487d;
+}
+#menu a.selected {
+	background:transparent url(../images/tab_left_selected.gif) no-repeat left top;
+}
+#menu a.selected span {
+	background:transparent url(../images/tab_right_selected.gif) no-repeat right top;
+	color:#00487d;
+}
+
+/* ***************************************
+    form elements
+*************************************** */
+input {
+	border:1px solid #BBBBBB;
+	color:#666666;
+	font-size:15px;
+	font-weight:bold;
+	font-family:inherit;
+	margin:0;
+	padding:4px;
+	width:270px;
+	height:30px;
+}
+
+input.submitbutton {
+	color:#00487d;
+	border:1px solid #BBBBBB;
+	background: #ffffff url(../images/button_grad.png) repeat-x bottom left;
+	font-size:15px;
+	font-weight:bold;
+	margin:10px 0 0 0;
+	padding:4px 10px 5px 10px;
+	cursor:pointer;
+	width:auto;
+}
+input.submitbutton:hover {
+	color:#ffffff;
+	background: #00487d;
+}
+
+#paypal input {
+	width:160px;
+	height:47px;
+}
+
+/* GOOGLE SEARCH */
+#cse-search-box {
+	float:right;
+	width:auto;
+	height:auto;
+	top:20px;
+	right:36px;
+	position: absolute;
+}
+#cse-search-box input[type="text"] {
+	height:25px;
+	background-image: none !important;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border:3px solid white;
+	padding:0;
+	margin:3px;
+}
+#cse-search-box input[type="submit"] {
+	font: 13px/100% Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	background:#547faa;
+	border: 3px solid #547faa;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	width: auto;
+	height: 25px;
+	padding: 1px;
+	margin:3px;
+	cursor: pointer;
+}
+#cse-search-box input[type="submit"]:hover {
+	color: #00487D;
+	background:white;
+	border: 3px solid white;
+	cursor: pointer;	
+}
+
+/* PC IE 6&7 google search rules */
+* html #cse-search-box {
+
+}
+* html #cse-search-box input {
+	height:25px;
+	background-image: none !important;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border:3px solid white;
+	padding:0;
+	margin:3px;
+}
+* html #cse-search-box input.gsearchsubmit {
+	font: 13px/100% Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	background:#547faa;
+	border: 3px solid #547faa;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	width: auto;
+	height: 25px;
+	padding: 1px;
+	margin:3px;
+	cursor: pointer;
+}
+/* end PC IE google search rules */
+
+/* Dave's new edits */
+
+#usecases {
+	margin:0 10px 10px 10px;
+}
+
+#usecases li {
+	line-height:1.3em;
+	color:#666666;
+	padding:5px 0 0px 15px;
+	margin:0;
+	background:transparent url(http://elgg.com/images/bullet_arrow_sml.gif) no-repeat scroll left 9px;
+	list-style: none;
+}
+
+.rhs_content_column .sidebar_box {
+	padding: 0 0 5px 0;
+	width:297px;
+	background: url(http://elgg.com/images/sidebar_bottom_back.gif) no-repeat left bottom;
+}
+.rhs_content_column .sidebar_box h1 {
+	background: url(http://elgg.com/images/sidebar_header_back.gif) no-repeat left 30px;
+	font-size: 1.4em;
+	padding:40px 0 5px 10px;
+}
+.rhs_content_column .sidebar_box_content {
+	background: url(http://elgg.com/images/sidebar_middle_back.gif) no-repeat left top;
+	padding:0 10px 10px 10px;
+	font-size: 85%;
+}
+
+.main_content_table .icon {
+	float:left;
+	padding: 20px 30px 10px 0;	
+}
+#usecases h2.solutions_intro {
+	padding: 20px 0 0 0;
+	line-height:1.3em;
+	font-size: 1.8em;	
+	color:#6699cc;
+}
+
+#usecases h2.bullethead {
+	padding:30px 0 0px 0;
+	font-size:1.3em;
+	margin:10px 0 0 0;
+}
+
+.thirdpagewidth_standalonebox {
+	background:white;
+	width:268px;
+	float:left;
+	margin:0 20px 0 0;
+	padding:10px 10px 10px 20px;
+	min-height:120px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc; 
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px;
+}
+.thirdpagewidth_standalonebox.endbox {
+	margin-right:0;
+}
+.thirdpagewidth_standalonebox h2 a {
+	color: #00487d;
+}
+.thirdpagewidth_standalonebox h2 a:hover {
+	color: #00487d;
+	text-decoration: none;
+}
+
+
+
