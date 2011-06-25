@@ -36,7 +36,7 @@
 		<div id="page_contents">
 			<h1 class="header_color">External Projects</h1>
 			<p>The following is a list of various personal Elgg projects hosted elsewhere. These projects are not connected to the main Elgg project but they do use Elgg and build add-ons for the platform.</p>
-			<p>If you know of any others that you think should be listed here, please send details to dave@elgg.com.</p>
+			<p>If you know of any others that you think should be listed here, please send details to info@elgg.org.</p>
 			<ul>
 				<li><a href="http://github.com/cash">Cash Costello on GitHub</a><br />
 				A series of very useful utilities for those running Elgg.</li><br />
