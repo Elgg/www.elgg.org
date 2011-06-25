@@ -3,7 +3,7 @@
 	<div id="footer">
 		<div id="footer_right">
 		<span>Elgg is a leading open source social engine.</span>
-		<p>Elgg is a <a href="http://www.curverider.co.uk/" target="_blank">Curverider Ltd</a> project.<br />
+		<p>Elgg is an <a href="http://foundation.elgg.org/" target="_blank">Elgg Foundation</a> project.<br />
 		"Elgg" and the Elgg logo are registered trademarks of Curverider Limited.</p>
 		</div>
 	</div>
