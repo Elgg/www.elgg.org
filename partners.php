@@ -31,7 +31,7 @@
 				<div class="sidebar_box">
 				<p><img src="images/partner.gif" alt="Elgg Partner" /></p>
 					<h2>Interested in becoming an Elgg Partner?</h2>
-					<p>The Elgg Partner programme has been created to help meet the growing demand for expert advice and support for self-hosted Elgg deployments. If your company has a strong track record in delivering web-based business solutions for clients and you're interested in become an Elgg Partner, contact Richard Owen at <a href="mailto:richard@elgg.com" style="padding:0;">richard@elgg.com</a>.</p>
+					<p>The Elgg Partner programme has been created to help meet the growing demand for expert advice and support for self-hosted Elgg deployments. If your company has a strong track record in delivering web-based business solutions for clients and you're interested in become an Elgg Partner, contact Richard Owen at <a href="mailto:info@elgg.org" style="padding:0;">info@elgg.org</a>.</p>
 				</div>
 
 		</div>
