@@ -61,7 +61,7 @@
 				<p><span><br />
 				Are you an individual or organization would uses and likes Elgg? If so, then consider becoming an official supporter of the Elgg project. For only $50 per year for individuals and $150 per year for organizations, you can help the Elgg project.<br />
 				</span></p>
-				<p><span>Elgg supporters are listed below unless requested not to be. If you would like to become an Elgg supporter, please read the disclaimer located in the lefthand sidebar, then subscribe via PayPal and then send an email to <a href="mailto:supporters@elgg.com">supporters@elgg.org</a> confirming the date you subscribed and the relevant details for your level (these can be found on the tables below). Once all the details have been received, we will add you to the appropriate list. Thanks for your support!</p>
+				<p><span>Elgg supporters are listed below unless requested not to be. If you would like to become an Elgg supporter, please read the disclaimer located in the lefthand sidebar, then subscribe via PayPal and then send an email to <a href="mailto:info@elgg.org">info@elgg.org</a> confirming the date you subscribed and the relevant details for your level (these can be found on the tables below). Once all the details have been received, we will add you to the appropriate list. Thanks for your support!</p>
 				<div class="supporters_list">
 				<h2>Organization Supporters</h2>
 				<table>
