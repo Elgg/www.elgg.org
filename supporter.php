@@ -125,6 +125,11 @@
 						<td><a href="http://community.elgg.org/pg/profile/westor">Visit</a></td>
 					</tr>
 					<tr>
+						<td>Tarun Jangra</td>
+						<td><a href="http://www.pluginlotto.com">http://www.pluginlotto.com</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/izap">Visit</a></td>
+					</tr>
+					<tr>
 						<td>Shyam Somanadh</td>
 						<td><a href="http://frontiernxt.com">http://frontiernxt.com</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/codelust">Visit</a></td>
