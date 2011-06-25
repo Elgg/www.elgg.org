@@ -37,7 +37,7 @@
 					<h2>Disclaimer*</h2>
 					<p>We operate a no refund policy on supporter subscriptions. If you would like to withdraw your support, go to PayPal and cancel your subscription. You will not be billed the follow year.</p>
 					<p>Being an Elgg Supporter does not give an individual or organization the right to impersonate, trade as or imply they are connected to the Elgg project. They can however mention that they support the Elgg project.</p>
-					<p>If you have any questions about this disclaimer email <a href="mailto:supporters@elgg.com">supporters@elgg.com</a></p>
+					<p>If you have any questions about this disclaimer email <a href="mailto:info@elgg.org">info@elgg.org</a></p>
 					<p><small>We reserve the right to remove, or refuse, a listing without any prior warning at our complete discretion. There is no refund policy.</small></p>
 				</div>
 		</div>
