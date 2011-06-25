@@ -45,11 +45,6 @@
 Curverider Ltd, the company behind Elgg, offer consultation and development help with the core Elgg engine. If you would like some support, guidance or tutoring on best practice for Elgg then get in touch <a href="mailto:services@elgg.com">services@elgg.com</a>.</p>	
 				<div style="clear:both;"></div>
 				</div>  
-				<div class="partners"> 
-					<h2 class="subhead">Colombia - Nivel Siete <span style="font-size:10x;float:right;"><a href="partners.php">Official Elgg partner</a></span></h2> 
-				<p style="margin-top:10px;"><img src="http://elgg.com/images/partners/nivel.gif" alt="Nivel" align="left" style="margin:0 10px 10px 0;"/> 
-Nivel Siete was founded in 2002 in Colombia, South America, and has delivered e-Learning and Web solutions to more than 130 Higher Education and Corporate customers across 10 countries. In order to provide world-class levels of service, the company partners with leading solution providers such as Elgg, Moodle and Typo3 and offers robust, SaaS-based solutions. Nivel Siete provides a range of standard packages as well as unique Social e-Learning offerings tailored to the needs of customers. <a href="http://www.nivel7.net">www.nivel7.net</a></p>	
-				</div>  
 				<h1>Listings</h1>
 				<div class="award">
 				<p><a href="http://keetup.com"><img src="images/services/keetup.png" alt="Keetup" align="left" style="margin-right:10px;" width="40px" /></a><b>Keetup Development</b><br />
