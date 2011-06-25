@@ -124,6 +124,11 @@
 						<td><a href="http://www.community-software-24.com/">community-software-24.com</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/westor">Visit</a></td>
 					</tr>
+					<tr>
+						<td>Shyam Somanadh</td>
+						<td><a href="http://frontiernxt.com">http://frontiernxt.com</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/codelust">Visit</a></td>
+					</tr>
 				</table>
 				</div>
 		</div>
