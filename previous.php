@@ -8,6 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+<?php include 'analytics.php'; ?>
 </head>
 <body>
 <div id="globalheader_wrapper">
@@ -31,11 +32,22 @@
 			<ul>
 				<li><a href="download.php" class="aboutmenu">Download Elgg</a></li>
 				<li><a href="previous.php" class="aboutmenu selected">Previous releases</a></li>
-				<li><a href="http://community.elgg.org/mod/plugins/all.php" class="aboutmenu">Community plugins</a></li>
+				<li><a href="http://community.elgg.org/pg/plugins/all" class="aboutmenu">Community plugins</a></li>
 			</ul>
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+			<p><b>V1.7.12</b> - released September 29, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.12.zip">Download</a></p>
+			<p><b>V1.7.11</b> - released August 15, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.11.zip">Download</a></p>
+			<p><b>V1.7.10</b> - released June 15, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.10.zip">Download</a></p>
+			<p><b>V1.7.9</b> - released June 1, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.9.zip">Download</a></p>
+			<p><b>V1.8.0b1</b> - released May 11, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.0b1.zip">Download</a></p>
+			<p><b>V1.7.8</b> - released April 4, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.8.zip">Download</a></p>
+			<p><b>V1.7.7</b> - released February 1, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.7.zip">Download</a></p>
+			<p><b>V1.7.6 - Security Update</b> - released December 23, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.6.zip">Download</a></p>
+			<p><b>V1.7.5 - Security Update</b> - released November 26, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.5.zip">Download</a></p>
+			<p><b>V1.6.4 - Security Update</b> - released November 26, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.4.zip">Download</a></p>
+			<p><b>V1.7.4</b> - released October 14, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4.zip">Download</a></p>
 			<p><b>V1.7.3 - Security Update</b> - released September 2, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.3.zip">Download</a></p>
 			<p><b>V1.7.2</b> - released August 25, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.2.zip">Download</a></p>
 			<p><b>V1.7.1</b> - released April 21, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.1.zip">Download</a></p>
@@ -59,14 +71,6 @@
 	</div><!-- // content -->
 <?php include("globalfooter.php"); ?>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 </body>
 </html>

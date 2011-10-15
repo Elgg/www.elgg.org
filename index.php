@@ -8,6 +8,8 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style2.css" rel="stylesheet" type="text/css" />
+
+<?php include 'analytics.php'; ?>
 </head>
 <body id="homepage">
 <?php include("globalheader.php"); ?>
@@ -23,8 +25,13 @@
 					<p class="strap">Providing you with the core components you need<br />to build out socially aware applications</p>	
 				</div>
 				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 1.7.4</a></p>
+					<p><a href="download.php" class="download">Download Elgg 1.7.13</a></p>
 				</div>
+
+				<div id="download_btn" style="width:250px;">
+					<p><a href="download.php" class="download">Download Elgg 1.8.0.1</a></p>
+				</div>
+
 				</div>
 		</div>		
 		<div style="clear:both;"></div>
@@ -59,15 +66,7 @@
 
 <?php include("globalfooter.php"); ?>
 </div><!-- // content wrapper -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script> 
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/elgg.json?callback=twitterCallback2&count=1"></script> 
 </body>

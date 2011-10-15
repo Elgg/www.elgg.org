@@ -8,6 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+<?php include 'analytics.php'; ?>
 </head>
 <body>
 <div id="globalheader_wrapper">
@@ -50,7 +51,7 @@
 				<li>MySQL 5+ is needed for data storage</li>
 				<li>PHP 5.2+ needs to be installed as an Apache module (not in CGI mode or safe mode) with the following libraries:
 					<ul class="list_style">
-						<li>GD (for graphics processing, eg user icon rescaling and Captcha)</li>
+						<li>GD and Freetype (for graphics processing, eg user icon rescaling and Captcha)</li>
 						<li>JSON (for API functionality)</li>
 						<li>XML (not installed/compiled by default on all systems)</li>
 						<li>Multibyte String support (for internationalisation)</li>
@@ -63,14 +64,6 @@
 	</div><!-- // content -->
 <?php include("globalfooter.php"); ?>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 </body>
 </html>

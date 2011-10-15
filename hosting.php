@@ -8,6 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+<?php include 'analytics.php'; ?>
 </head>
 <body>
 <div id="globalheader_wrapper">
@@ -44,30 +45,27 @@
 		<div id="page_contents">
 				<h1 class="header_color">Elgg hosting</h1>
 				<p class="leader"><span>
-				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Curverider Ltd or the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
+				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
 				<div class="hosting_company"> 
 					<a href="http://www.arvixe.com/161-9-1-21.html" target="_blank"><img border="0" src="https://affiliates.arvixe.com/banners/elgg.468.60.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
+				<div class="hosting_company">
+					<a href="http://www.hostupon.com/idevaffiliate/idevaffiliate.php?id=137&url=9">
+					<img src="http://elgg.org/images/hostupon_banner.gif" border="0" alt="Hostupcon.com" /></a>
+					<p>Fully compatible Elgg hosting with 99.9% uptime and 24/7/365 support. For a limited time, use the coupon code "elgg" to get $30 off!</p>
+				</div>
 				<div class="hosting_company"> 
 					<a href="http://www.a2hosting.com/1686-elgg-229-custom.html"> 
 					<img src="https://affiliates.a2hosting.com/banners/Elgg.gif" border="0" alt="A2 graphic" /></a> 
-					<p>A2 Hosting provides a range of options from a shared server right up to a dedicated hosting environment for your Elgg powered network.</p> 
+					<p>Install Elgg with 1-CLICK! Each Web Hosting plan is ulta-reliable and includes 24/7/365 support. Try A2 Hosting risk free with their 30-day money back guarantee.</p>
 				</div> 
 		</div>
 		<div style="clear:both;"></div>
 	</div>
 <?php include("globalfooter.php"); ?>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 </body>
 </html>	

@@ -8,6 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+<?php include 'analytics.php'; ?>
 </head>
 <body>
 <div id="globalheader_wrapper">
@@ -31,7 +32,7 @@
 				<div class="sidebar_box">
 				<p><img src="images/partner.gif" alt="Elgg Partner" /></p>
 					<h2>Interested in becoming an Elgg Partner?</h2>
-					<p>The Elgg Partner programme has been created to help meet the growing demand for expert advice and support for self-hosted Elgg deployments. If your company has a strong track record in delivering web-based business solutions for clients and you're interested in become an Elgg Partner, contact Richard Owen at <a href="mailto:info@elgg.org" style="padding:0;">info@elgg.org</a>.</p>
+					<p>The Elgg Partner programme has been created to help meet the growing demand for expert advice and support for self-hosted Elgg deployments. If your company has a strong track record in delivering web-based business solutions for clients and you're interested in become an Elgg Partner, contact Richard Owen at <a href="mailto:richard@elgg.com" style="padding:0;">richard@elgg.com</a>.</p>
 				</div>
 
 		</div>
@@ -50,14 +51,6 @@ Nivel Siete was founded in 2002 in Colombia, South America, and has delivered e-
 	</div>
 <?php include("globalfooter.php"); ?>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 </body>
 </html>	

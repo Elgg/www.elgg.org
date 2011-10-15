@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+<?php include 'analytics.php'; ?>
 <body>
 <div id="globalheader_wrapper">
 	<div id="globalheader">
@@ -41,21 +42,37 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Domain policy</h1>
-			<p class="leader">We're delighted when people start a site or service powered by Elgg. However, please note that the Elgg name is a registered trademark, so please do not use "Elgg" in your domain name. "Elgg" in sub-domains is fine (like elgg.mysite.com), we're just concerned about top-level domains.</p>
-			<p class="leader">Thanks in advance for your co-operation.</p>
+			<p>The domain policy establishes who can use Elgg in top level domain names and 
+			exists to identify the official Elgg sites, to protect Elgg users, and to protect Elgg 
+			as a project.</p>
+			
+			<p>The only domains permitted to use "elgg" in the name are elgg.org, elggfoundation.org, 
+			and elgg.com. These are the official sites and are operated by the Elgg Foundation or 
+			Thematic Networks. Any other sites using “elgg” in a top level domain is in violation 
+			of this policy and the Elgg trademark.</p>
+			
+			<p>Special exceptions can be requested for sites dedicated to Elgg conferences. Elgg 
+			conferences, usually called “Elgg Camps,” serve to further Elgg as a project, are 
+			operated without generating revenue, and do not use Elgg in a commercial capacity. If 
+			you plan to organize an Elgg Camp and want to create a domain for it, please contact the 
+			Elgg Foundation at foundation@elgg.org to request a domain exception. You should not 
+			purchase a domain until you receive notification that your exception request has been 
+			approved.</p>
+			
+			<p>The domain policy does not apply to subdomains. For example, you may create the 
+			subdomain “elgg.mysite.org” and still satisfy the requirements of this policy.</p>
+			
+			<p>If your site is in violation of this policy, you should redirect to a subdomain or a 
+			new domain. We are happy to assist anyone who is planning to migrate their site from a 
+			violating domain, so please contact us if you need help.</p>
+			
+			<p>Violators of this policy will not be permitted to have an account on 
+			community.elgg.org or to advertise services on elgg.org.</p>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->
 <?php include("globalfooter.php"); ?>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-3487311-5");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<?php include 'urchin.php'; ?>
 </body>
 </html>
