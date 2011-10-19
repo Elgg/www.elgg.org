@@ -133,6 +133,12 @@
 						<td><a href="http://www.dating-service.com" rel="nofollow">Dating Service.com</a></td>
 						<td>&nbsp;</td>
 					</tr>
+					<tr>
+						<td>Taka Fujita</td>
+						<td><a href="http://kototoy.jp/">http://kototoy.jp</a></td>
+						<td><a href="http://kototoy.jp" rel="nofollow">Kototoy Factory Co., Ltd.</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">Visit</a></td>
+					</tr>
 				</table>
 				</div>
 				<div class="supporters_list users">
