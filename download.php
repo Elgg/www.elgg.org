@@ -58,10 +58,10 @@
 			distributed under an MIT license as they are GPL only. Those components have been removed from the MIT release so make sure you read the readme.txt file!</p>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4-mit.zip" class="downlaod">MIT version</a></h3>
 			</div>
-			<p class="leader">Elgg v1.7.13 includes important bugfixes and security updates.<br />
+			<p class="leader">Elgg v1.7.11 includes important bugfixes and security updates.<br />
 			It is the recommended release.</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.13.zip" class="download">Download Elgg 1.7.13</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.11.zip" class="download">Download Elgg 1.7.11</a></p>
 			</div>
 <!-- -->
 			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
