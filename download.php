@@ -52,7 +52,7 @@
 			</div>
 
 
-			<h1 class="header_color">Latest 1.7 release - October 8th, 2011</h1>
+			<h1 class="header_color">Latest 1.7 release - August 15th, 2011</h1>
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license. However, there are certain third party components that Elgg uses which can't be 
 			distributed under an MIT license as they are GPL only. Those components have been removed from the MIT release so make sure you read the readme.txt file!</p>
