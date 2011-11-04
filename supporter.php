@@ -136,8 +136,14 @@
 					<tr>
 						<td>Taka Fujita</td>
 						<td><a href="http://kototoy.jp/">http://kototoy.jp</a></td>
-						<td><a href="http://kototoy.jp" rel="nofollow">Kototoy Factory Co., Ltd.</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">Visit</a></td>
+						<td><a href="http://kototoy.jp">Kototoy Factory Co., Ltd.</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">visit</a></td>
+					</tr>
+					<tr>
+						<td>Jon Dron</td>
+						<td><a href="http://athabascau.ca">http://athabascau.ca</a></td>
+						<td><a href="http://athabascau.ca" rel="nofollow">Athabasca University</a></td>
+						<td>&nbps;</td>
 					</tr>
 				</table>
 				</div>
