@@ -143,7 +143,7 @@
 						<td>Jon Dron</td>
 						<td><a href="http://athabascau.ca">http://athabascau.ca</a></td>
 						<td><a href="http://athabascau.ca" rel="nofollow">Athabasca University</a></td>
-						<td>&nbps;</td>
+						<td>&nbsp;</td>
 					</tr>
 				</table>
 				</div>
