@@ -46,7 +46,7 @@
 			exists to identify the official Elgg sites, to protect Elgg users, and to protect Elgg 
 			as a project.</p>
 			
-			<p>The only domains permitted to use "elgg" in the name are elgg.org, elggfoundation.org, 
+			<p>The only domains permitted to use "elgg" in the name are elgg.org, theelggfoundation.org, 
 			and elgg.com. These are the official sites and are operated by the Elgg Foundation or 
 			Thematic Networks. Any other sites using “elgg” in a top level domain is in violation 
 			of this policy and the Elgg trademark.</p>
