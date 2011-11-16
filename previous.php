@@ -39,27 +39,27 @@
 			<h1 class="header_color">Previous releases and security updates</h1>
 			<p><b>V1.7.13</b> - released October 8, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.13.zip">Download</a></p>
 			<p><b>V1.7.12</b> - released September 29, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.12.zip">Download</a></p>
+			<p><b>V1.8.0.1</b> - released September 5, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.0.1.zip">Download</a></p>
 			<p><b>V1.7.11</b> - released August 15, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.11.zip">Download</a></p>
 			<p><b>V1.7.10</b> - released June 15, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.10.zip">Download</a></p>
 			<p><b>V1.7.9</b> - released June 1, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.9.zip">Download</a></p>
-			<p><b>V1.8.0b1</b> - released May 11, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.0b1.zip">Download</a></p>
 			<p><b>V1.7.8</b> - released April 4, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.8.zip">Download</a></p>
 			<p><b>V1.7.7</b> - released February 1, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.7.zip">Download</a></p>
 			<p><b>V1.7.6 - Security Update</b> - released December 23, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.6.zip">Download</a></p>
 			<p><b>V1.7.5 - Security Update</b> - released November 26, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.5.zip">Download</a></p>
-			<p><b>V1.6.4 - Security Update</b> - released November 26, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.4.zip">Download</a></p>
 			<p><b>V1.7.4</b> - released October 14, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4.zip">Download</a></p>
 			<p><b>V1.7.3 - Security Update</b> - released September 2, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.3.zip">Download</a></p>
 			<p><b>V1.7.2</b> - released August 25, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.2.zip">Download</a></p>
 			<p><b>V1.7.1</b> - released April 21, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.1.zip">Download</a></p>
-			<p><b>V1.6.3 - Security Update</b> - released September 2 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.3.zip">Download</a></p>
-			<p><b>V1.6.2 - Security Update</b> - released April 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.2.zip">Download</a></p>
-			<p><b>V1.7</b> - released March 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.zip">Download</a></p>
-			<p><b>V1.6.1</b> - released September 2009 <a href="http://elgg.org/getelgg.php?forward=elgg1.6.1.zip">Download</a></p>
-			<p><b>V1.6</b> - released August 2009 <a href="http://elgg.org/getelgg.php?forward=elgg1.6.zip">Download</a></p>
+			<p><b>V1.7.0</b> - released March 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.zip">Download</a></p>
 
 			<h1 class="header_color">Unsupported releases</h1>
-			<p><b>These versions of Elgg are no longer supported and are not safe to use!</b></p>
+			<p><b>These versions of Elgg are no longer supported:</b></p>
+			<p><b>V1.6.4 - Security Update</b> - released November 26, 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.4.zip">Download</a></p>
+			<p><b>V1.6.3 - Security Update</b> - released September 2 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.3.zip">Download</a></p>
+			<p><b>V1.6.2 - Security Update</b> - released April 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.6.2.zip">Download</a></p>
+			<p><b>V1.6.1</b> - released September 2009 <a href="http://elgg.org/getelgg.php?forward=elgg1.6.1.zip">Download</a></p>
+			<p><b>V1.6</b> - released August 2009 <a href="http://elgg.org/getelgg.php?forward=elgg1.6.zip">Download</a></p>
 			<p><b>V1.5.1 - Security Update</b> - released April 2010 <a href="http://elgg.org/getelgg.php?forward=elgg-1.5.1.zip">Download</a></p>
 			<p><b>V1.5</b> - released March 2009 <a href="http://elgg.org/getelgg.php?forward=elgg1.5.zip">Download</a></p>
 			<p><b>V1.2</b> - released December 2008 <a href="http://elgg.org/getelgg.php?forward=elgg1.2.zip">Download</a></p>

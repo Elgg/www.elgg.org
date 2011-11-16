@@ -42,13 +42,14 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - September 5th, 2011</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - November 16th, 2011</h1>
 			<p class="leader">
-				Elgg v1.8.0.1 is the latest and recommended version of Elgg.<br />
-				<small>(Elgg 1.8.0.1 was released immediately after 1.8.0 to address an installation problem.)</small>
+				Elgg v1.8.1 is the latest and recommended version of Elgg.<br />
+<!--				<small>(Elgg 1.8.0.1 was released immediately after 1.8.0 to address an installation problem.)</small>
+-->
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.0.1.zip" class="download">Download 1.8.0.1</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.1.zip" class="download">Download 1.8.1</a></p>
 			</div>
 
 
@@ -59,11 +60,11 @@
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4-mit.zip" class="downlaod">MIT version</a></h3>
 			</div>
 			<p class="leader">Elgg v1.7.14 includes important bugfixes and security updates.<br />
-			It is the recommended release.</p>
+			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.14.zip" class="download">Download Elgg 1.7.14</a></p>
 			</div>
-<!-- -->
+<!-- 
 			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
 			<p class="leader">Elgg v1.8.1 beta 1 is a candidate for the first bugfix release to the 1.8 branch of Elgg.<br />
 			This beta is intended for developers and bug hunters.<br />
@@ -74,8 +75,8 @@
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.1b1.zip" class="download">Download 1.8.1 beta1</a></p>
 			</div>
 
-			<div class="divider"></div>	
-<!-- -->
+			<div class="divider"></div>
+-->
 			
 		<div id="mid_left">
 			<h1>Hosting</h1> 
