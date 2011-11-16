@@ -62,7 +62,7 @@
 			<p class="leader">Elgg v1.7.14 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.14.zip" class="download">Download Elgg 1.7.14</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.14.zip" class="download">Download 1.7.14</a></p>
 			</div>
 <!-- 
 			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
