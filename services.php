@@ -23,15 +23,6 @@ $services = array(
 		'blurb' => 'We are Elgg specialists! We specialize on Elgg themes, plugins and sites from the scratch. We are ready to provide flexible and scalable solutions for organizations, groups and individuals.',
 		'icon_filename' => 'condi-minds.jpg'
 	),
-
-
-	array(
-		'name' => 'Team Webgalli',
-		'url' => 'http://webgalli.com/',
-		'profile_url' => 'http://community.elgg.org/pg/profile/webgalli',
-		'blurb' => 'We are a web development company from India, specialized in Elgg Social network theme / plugin development and consultancy services.',
-		'icon_filename' => 'webgalli.png'
-	),
 );
 
 shuffle($services);
