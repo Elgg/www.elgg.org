@@ -200,6 +200,11 @@
 						<td><a href="http://www.socialapparatus.com">http://www.socialapparatus.com</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/sbarron">Visit</a></td>
 					</tr>
+					<tr>
+						<td>Xavier Vaucois</td>
+						<td><a href="http://www.fairbusinessdeal.com/fbd">http://www.fairbusinessdeal.com/fbd</a></td>
+						<td>&nbsp;</td>
+					</tr>
 
 				</table>
 				</div>
