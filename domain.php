@@ -55,7 +55,7 @@
 			conferences, usually called “Elgg Camps,” serve to further Elgg as a project, are 
 			operated without generating revenue, and do not use Elgg in a commercial capacity. If 
 			you plan to organize an Elgg Camp and want to create a domain for it, please contact the 
-			Elgg Foundation at foundation@elgg.org to request a domain exception. You should not 
+			Elgg Foundation at info@elgg.org to request a domain exception. You should not 
 			purchase a domain until you receive notification that your exception request has been 
 			approved.</p>
 			
