@@ -137,7 +137,7 @@
 						<td>Taka Fujita</td>
 						<td><a href="http://kototoy.jp/">http://kototoy.jp</a></td>
 						<td><a href="http://kototoy.jp">Kototoy Factory Co., Ltd.</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">visit</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Jon Dron</td>
@@ -149,7 +149,7 @@
 						<td>Teodor Nica</td>
 						<td><a href="http://www.videowhisper.com">http://www.videowhisper.com</a></td>
 						<td><a href="http://www.videowhisper.com">VideoWhisper Webcam Software</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/videowhisper">visit</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/videowhisper">Visit</a></td>
 					</tr>
 				</table>
 				</div>
