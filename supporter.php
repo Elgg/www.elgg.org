@@ -142,8 +142,14 @@
 					<tr>
 						<td>Jon Dron</td>
 						<td><a href="http://athabascau.ca">http://athabascau.ca</a></td>
-						<td><a href="http://athabascau.ca" rel="nofollow">Athabasca University</a></td>
+						<td><a href="http://athabascau.ca">Athabasca University</a></td>
 						<td>&nbsp;</td>
+					</tr>
+                    <tr>
+						<td>Teodor Nica</td>
+						<td><a href="http://www.videowhisper.com">http://www.videowhisper.com</a></td>
+						<td><a href="http://www.videowhisper.com">VideoWhisper Webcam Software</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/videowhisper">visit</a></td>
 					</tr>
 				</table>
 				</div>
