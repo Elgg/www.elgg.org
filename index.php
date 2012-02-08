@@ -38,23 +38,39 @@
 		<div id="bottom"><!-- open bottom -->
 		<h2>Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications. Organizations with networks <a href="powering.php">powered by Elgg</a> include:</h2>
 <img style="margin-top:8px;" src="images/customer_logos.gif" />
-		<!-- <h2>Many leading organizations around the world have social networks powered by the Elgg engine.</h2> -->
-		<!-- <h2>The Elgg engine powers social networks for many leading organizations around the world.</h2> -->
-
 		</div><!-- // bottom -->
 
-<div id="bottom2" class="clearfloat">	
-	<div id="threecolbox" class="left">
+<div class="clearfloat bottom2">
+	<div class="twocolbox left">
+		<h1 class="header_color">Upcoming Events</h1>
+		<h2>Hosting an upcoming Elgg event? Let us know and we'll add you to the list!</h2>
+		<br />
+		<ul>
+			<li><a href="http://www.meetup.com/elggSF/events/50255262/">Elgg Meetup SF - February 24th</a></li>
+			<li><a href="http://elggcampsf.eventbrite.com/">ElggCampSF - March 24</a></li>
+		</ul>
+	</div>
+
+	<div class="twocolbox right">
+		<h1 class="header_color">Official Book</h1>
+		<h2>Core developer Cash Costello has published an official Elgg Book that can be purchased through <a href="http://www.packtpub.com/elgg-18-social-networking/book">Packt Publishing</a>.</h2>
+	</div>
+
+<div style="clear:both;"></div>
+</div>
+
+<div class="clearfloat bottom2">
+	<div class="threecolbox left">
 		<h1 class="header_color">Hosting</h1>
 		<h2>Looking for a provider to host your network built on the open source engine? Find companies who specialise in <a href="hosting.php">Elgg hosting</a>.</h2>
 	</div>
 	
-	<div id="threecolbox" class="middle">
+	<div class="threecolbox middle">
 		<h1 class="header_color">Giving back</h1>
 		<h2>There are several ways you can help out the Elgg project. The options range from <a href="http://trac.elgg.org">bug reporting</a> and <a href="http://trac.elgg.org">patch submission</a> to joining the <a href="http://elgg.org/supporter.php">supporters scheme</a> or buying a <a href="http://elgg.org/services.php">services listing</a>.</h2>
 	</div>
 	
-	<div id="threecolbox" class="right">
+	<div class="threecolbox right">
 		<h1 class="header_color"><a href="http://www.twitter.com/elgg" target="_blank">Elgg on Twitter</a></h1>
 		<h2 class="latest_tweet"><ul id="twitter_update_list"></ul></h2>
 		<span class="latest_tweet_tail"></span>

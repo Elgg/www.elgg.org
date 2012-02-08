@@ -163,25 +163,50 @@ p.leader {font-size:1.2em;}
 	color:#333333;
 	margin-bottom:10px;
 }
-#threecolbox {
+.threecolbox {
 	width:274px;
 	height:274px;
 	float:left;
 }
-#threecolbox.left {
+.threecolbox.left {
 	margin-right:46px;
 }
-#threecolbox.middle {
+.threecolbox.middle {
 	margin-right:46px;
 }
-#threecolbox.right {
+.threecolbox.right {
 	margin-right:0;
 }
-#bottom2 #threecolbox {
+.bottom2 .threecolbox {
 	width:292px;
 	height:auto;
 	margin-bottom:40px;
 }
+
+.twocolbox {
+	height:274px;
+	float:left;
+}
+
+.bottom2 .twocolbox {
+	width: 462px;
+	height: auto;
+	margin-bottom: 40px;
+}
+.twocolbox.left {
+	margin-right:46px;
+}
+.twocolbox.right {
+	margin-right:0;
+}
+
+.twocolbox ul li {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 135%;
+	font-weight: normal;
+}
+
 h2.latest_tweet {
 	background-color:#EEEEEE;
 	margin-left:-10px;
