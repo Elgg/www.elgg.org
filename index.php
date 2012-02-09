@@ -41,7 +41,7 @@
 		</div><!-- // bottom -->
 
 <div class="clearfloat bottom2">
-	<div class="twocolbox left">
+	<div class="twocolbox left" style="padding-left: 254px;">
 		<h1 class="header_color">Upcoming Events</h1>
 		<h2>Hosting an upcoming Elgg event? Let us know and we'll add you to the list!</h2>
 		<br />
@@ -50,11 +50,12 @@
 			<li><a href="http://elggcampsf.eventbrite.com/">ElggCampSF - March 24</a></li>
 		</ul>
 	</div>
-
+<?php /*
 	<div class="twocolbox right">
 		<h1 class="header_color">Official Book</h1>
 		<h2>Core developer Cash Costello has published an official Elgg Book that can be purchased through <a href="http://www.packtpub.com/elgg-18-social-networking/book">Packt Publishing</a>.</h2>
 	</div>
+*/ ?>
 
 <div style="clear:both;"></div>
 </div>
