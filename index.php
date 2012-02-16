@@ -43,11 +43,12 @@
 <div class="clearfloat bottom2">
 	<div class="twocolbox left" style="padding-left: 254px;">
 		<h1 class="header_color">Upcoming Events</h1>
-		<h2>Hosting an upcoming Elgg event? Let us know and we'll add you to the list!</h2>
+		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 		<br />
 		<ul>
-			<li><a href="http://www.meetup.com/elggSF/events/50255262/">Elgg Meetup SF - February 24th</a></li>
-			<li><a href="http://elggcampsf.eventbrite.com/">ElggCampSF - March 24</a></li>
+			<li><a href="http://www.meetup.com/elggSF/events/50255262/">February 24th - Elgg Meetup SF</a></li>
+            <li><a href="http://www.meetup.com/NYC-ELGG/events/51541192/">February 29th - Elgg Meetup NYC</a></li>
+			<li><a href="http://elggcampsf.eventbrite.com/">March 24th - ElggCampSF</a></li>
 		</ul>
 	</div>
 <?php /*
