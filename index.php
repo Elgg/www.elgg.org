@@ -47,6 +47,7 @@
 		<br />
 		<ul>
 			<li><a href="http://elggcampsf.eventbrite.com/">March 24th - ElggCampSF</a></li>
+			<li><a href="http://www.meetup.com/NYC-ELGG/events/54895692/">March 31st - NYC Elgg Meetup</a></li>
 		</ul>
 	</div>
 <?php /*
