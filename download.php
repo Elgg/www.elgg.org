@@ -42,7 +42,7 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - January 12th, 2012</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - April 24th, 2012</h1>
 			<p class="leader">
 				Elgg v1.8.4 is the latest and recommended version of Elgg.<br />
 			</p>
