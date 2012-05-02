@@ -43,7 +43,7 @@
 		<div id="page_contents">
 			<h1 class="header_color">License</h1>
 			<p class="leader">Elgg is free to download and use. It is dual licensed under the terms of the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License v2</a> as published by the Free Software Foundation and the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.</p>
-<p class="leader">If you have any questions please contact Curverider Ltd info@curverider.co.uk.</p>
+<p class="leader">If you have any questions please contact info@elgg.org.</p>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->
