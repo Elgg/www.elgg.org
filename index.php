@@ -46,8 +46,7 @@
 		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 		<br />
 		<ul>
-			<li><a href="http://elggcampsf.eventbrite.com/">March 24th - ElggCampSF</a></li>
-			<li><a href="http://www.meetup.com/NYC-ELGG/events/54895692/">March 31st - NYC Elgg Meetup</a></li>
+			<li><a href="http://www.meetup.com/London-Elgg-Meetup-Group/events/62892762/">May 31st - London Elgg Meetup</a></li>
 		</ul>
 	</div>
 <?php /*
