@@ -32,7 +32,6 @@
 			<ul>
 				<li><a href="about.php" class="aboutmenu">About</a></li>
 				<li><a href="supporter.php" class="aboutmenu">Elgg Supporters</a></li>
-				<li><a href="merchandise.php" class="aboutmenu">Elgg Gear</a></li>
 				<li><a href="features.php" class="aboutmenu">Features</a></li>
 				<li><a href="license.php" class="aboutmenu selected">License</a></li>
 				<li><a href="requirements.php" class="aboutmenu">Requirements</a></li>
