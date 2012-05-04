@@ -151,6 +151,13 @@
 						<td><a href="http://www.videowhisper.com">VideoWhisper Webcam Software</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/videowhisper">Visit</a></td>
 					</tr>
+					<tr>
+						<td>Aron West</td>
+						<td><a href="http://www.capaoc.org/" rel="nofollow">http://www.capaoc.org/</a></td>
+						<td><a href="http://www.capaoc.org/" rel="nofollow">Compassion And Peace Association of Canada (CAPAOC)</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/aronw9376">Visit</a></td>
+					</tr>
+
 				</table>
 				</div>
 				<div class="supporters_list users">
