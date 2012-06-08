@@ -58,7 +58,7 @@
 				</div>
 				<div class="hosting_company"> 
 					<a href="http://www.a2hosting.com/1686-elgg-229-custom.html"> 
-					<img src="https://affiliates.a2hosting.com/banners/Elgg.gif" border="0" alt="A2 graphic" /></a> 
+					<img src="http://elgg.org/images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
 					<p>Install Elgg with 1-CLICK! Each Web Hosting plan is ulta-reliable and includes 24/7/365 support. Try A2 Hosting risk free with their 30-day money back guarantee.</p>
 				</div> 
 		</div>

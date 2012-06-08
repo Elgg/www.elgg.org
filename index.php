@@ -45,9 +45,13 @@
 		<h1 class="header_color">Upcoming Events</h1>
 		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 		<br />
+		<?php
+		/*
 		<ul>
 			<li><a href="http://www.meetup.com/London-Elgg-Meetup-Group/events/62892762/">May 31st - London Elgg Meetup</a></li>
 		</ul>
+		*/
+		?>
 	</div>
 	<div class="twocolbox right">
 		<h1 class="header_color">Official Book</h1>
@@ -58,21 +62,15 @@
 </div>
 
 <div class="clearfloat bottom2">
-	<div class="threecolbox left">
+	<div class="twocolbox left">
 		<h1 class="header_color">Hosting</h1>
 		<h2>Looking for a provider to host your network built on the open source engine? Find companies who specialise in <a href="hosting.php">Elgg hosting</a>.</h2>
 	</div>
 	
-	<div class="threecolbox middle">
+	<div class="twocolbox right">
 		<h1 class="header_color">Giving back</h1>
 		<h2>There are several ways you can help out the Elgg project. The options range from <a href="http://trac.elgg.org">bug reporting</a> and <a href="http://trac.elgg.org">patch submission</a> to joining the <a href="http://elgg.org/supporter.php">supporters scheme</a> or buying a <a href="http://elgg.org/services.php">services listing</a>.</h2>
 	</div>
-	
-	<div class="threecolbox right">
-		<h1 class="header_color"><a href="http://www.twitter.com/elgg" target="_blank">Elgg on Twitter</a></h1>
-		<h2 class="latest_tweet"><ul id="twitter_update_list"></ul></h2>
-		<span class="latest_tweet_tail"></span>
-	</div>		
 <div style="clear:both;"></div>
 </div>
 <div style="clear: both;"></div>	
