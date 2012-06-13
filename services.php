@@ -98,7 +98,8 @@ ___HTML;
 }
 
 ?>
-
+				<?php
+				/*
 				<p style="margin:100px 0 0 0;"> ------------------- </p>
 				<div class="award"><p>					
 					<img src="images/sample.jpg" alt="Sample" align="left" style="margin-right:10px;" width="40px" />
@@ -106,6 +107,8 @@ ___HTML;
 					<a href="">sample company</a></p>
 					<div style="clear:both;"></div>
 				</div>	
+				*/
+				?>
 		</div>
 		<div style="clear:both;"></div>
 	</div>
