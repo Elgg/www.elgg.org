@@ -37,6 +37,7 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+			<p><b>V1.8.5</b> - released May 17, 2012 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.5.zip">Download</a></p>
 			<p><b>V1.8.4</b> - released April 24, 2012 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.4.zip">Download</a></p>
 			<p><b>V1.8.3</b> - released January 12, 2012 <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.3.zip">Download</a></p>
 			<p><b>V1.7.14</b> - released October 20, 2011 <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.14.zip">Download</a></p>

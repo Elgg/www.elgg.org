@@ -42,12 +42,12 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - May 17th, 2012</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - June 18th, 2012</h1>
 			<p class="leader">
-				Elgg v1.8.5 is the latest and recommended version of Elgg.<br />
+				Elgg v1.8.6 is the latest and recommended version of Elgg.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.5.zip" class="download">Download 1.8.5</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.6.zip" class="download">Download 1.8.6</a></p>
 			</div>
 
 
