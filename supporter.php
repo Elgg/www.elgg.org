@@ -174,6 +174,11 @@
 						<td><a href="http://community.elgg.org/pg/profile/bwerdmuller">Visit</a></td>
 					</tr>
 					<tr>
+						<td>Marcus Povey</td>
+						<td><a href="http://www.marcus-povey.co.uk">http://www.marcus-povey.co.uk</a></td>
+						<td><a href="http://community.elgg.org/pg/profile/marcus">Visit</a></td>
+					</tr>
+					<tr>
 						<td>Mark Bridges</td>
 						<td><a href="http://www.activityseeker.com">www.activityseeker.com</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/MisterBridges">Visit</a></td>
@@ -202,16 +207,6 @@
 						<td>Shyam Somanadh</td>
 						<td><a href="http://frontiernxt.com">http://frontiernxt.com</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/codelust">Visit</a></td>
-					</tr>
-					<tr>
-						<td>Chris Tun</td>
-						<td><a href="http://www.SoftwareIsSocial.com">http://www.SoftwareIsSocial.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/christun">Visit</a></td>
-					</tr>
-					<tr>
-						<td>Shane Barron</td>
-						<td><a href="http://www.socialapparatus.com">http://www.socialapparatus.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/sbarron">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Xavier Vaucois</td>
