@@ -42,12 +42,12 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - June 18th, 2012</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - July 9th, 2012</h1>
 			<p class="leader">
-				Elgg v1.8.6 is the latest and recommended version of Elgg.<br />
+				Elgg 1.8.7 is the latest and recommended version of Elgg.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.6.zip" class="download">Download 1.8.6</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.7.zip" class="download">Download 1.8.7</a></p>
 			</div>
 
 
@@ -57,14 +57,14 @@
 			distributed under an MIT license as they are GPL only. Those components have been removed from the MIT release so make sure you read the readme.txt file!</p>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4-mit.zip" class="downlaod">MIT version</a></h3>
 			</div>
-			<p class="leader">Elgg v1.7.15 includes important bugfixes and security updates.<br />
+			<p class="leader">Elgg 1.7.15 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.15.zip" class="download">Download 1.7.15</a></p>
 			</div>
 <!-- 
 			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
-			<p class="leader">Elgg v1.8.1 beta 1 is a candidate for the first bugfix release to the 1.8 branch of Elgg.<br />
+			<p class="leader">Elgg 1.8.1 beta 1 is a candidate for the first bugfix release to the 1.8 branch of Elgg.<br />
 			This beta is intended for developers and bug hunters.<br />
 			Do not use on a production server!
 			Please report all bugs to <a href="http://trac.elgg.org">trac</a>.

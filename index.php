@@ -24,12 +24,9 @@
 					<p><span class="strapline accent_color">Introducing a powerful open source<br />social networking engine</span></p>
 					<p class="strap">Providing you with the core components you need<br />to build out socially aware applications</p>	
 				</div>
-				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 1.7.15</a></p>
-				</div>
 
 				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 1.8.6</a></p>
+					<p><a href="download.php" class="download">Download Elgg 1.8.7</a></p>
 				</div>
 
 				</div>
