@@ -157,6 +157,12 @@
 						<td><a href="http://www.capaoc.org/" rel="nofollow">Compassion And Peace Association of Canada (CAPAOC)</a></td>
 						<td><a href="http://community.elgg.org/pg/profile/aronw9376">Visit</a></td>
 					</tr>
+					<tr>
+						<td>Michele &amp; Gianni</td>
+						<td><a href="http://www.socialbusinessworld.org/">http://www.socialbusinessworld.org/</a></td>
+						<td><a href="http://www.socialbusinessworld.org/">Organization Name Social Business World</a></td>
+						<td>&nbsp;</td>
+					</tr>
 
 				</table>
 				</div>
