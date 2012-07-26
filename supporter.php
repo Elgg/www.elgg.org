@@ -163,6 +163,12 @@
 						<td><a href="http://www.socialbusinessworld.org/">Organization Name Social Business World</a></td>
 						<td>&nbsp;</td>
 					</tr>
+					<tr>
+						<td>Nicolas CHAGNY</td>
+						<td><a href="http://www.les-argonautes.fr">http://www.les-argonautes.fr</a></td>
+						<td><a href="http://www.les-argonautes.fr/">LES ARGONAUTES</a></td>
+						<td><a href="http://community.elgg.org/profile/nicochagny">Visit</a></td>
+					</tr>
 
 				</table>
 				</div>
