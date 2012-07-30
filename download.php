@@ -32,7 +32,7 @@
 			<ul>
 				<li><a href="download.php" class="aboutmenu selected">Download</a></li>
 				<li><a href="previous.php" class="aboutmenu">Previous releases</a></li>
-				<li><a href="http://community.elgg.org/pg/plugins/all/" class="aboutmenu">Plugins</a></li>
+				<li><a href="http://community.elgg.org/plugins" class="aboutmenu">Plugins</a></li>
 			</ul>
 			<div style="margin:20px 0 20px 0;">
 			<h1>Support Elgg</h1>

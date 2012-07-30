@@ -64,7 +64,7 @@
 			</div>
 
 			<div style="clear:both;"></div>
-			<p class="leader">Browse the <a href="http://community.elgg.org/pg/plugins/all/" class="accent_color">plugins gallery</a> to find other exciting features to add to your Elgg network.</p>
+			<p class="leader">Browse the <a href="http://community.elgg.org/plugins" class="accent_color">plugins gallery</a> to find other exciting features to add to your Elgg network.</p>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->
