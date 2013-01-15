@@ -48,17 +48,17 @@
 				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
 				<div class="hosting_company"> 
-					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="https://affiliates.arvixe.com/banners/468.60.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
+					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="/images/arvixe_468x60.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
 				<div class="hosting_company">
 					<a href="http://www.hostupon.com/idevaffiliate/idevaffiliate.php?id=137&url=9">
-					<img src="http://elgg.org/images/hostupon_banner.gif" border="0" alt="Hostupcon.com" /></a>
+					<img src="/images/hostupon_banner.gif" border="0" alt="Hostupcon.com" /></a>
 					<p>Fully compatible Elgg hosting with 99.9% uptime and 24/7/365 support. For a limited time, use the coupon code "elgg" to get $30 off!</p>
 				</div>
 				<div class="hosting_company"> 
 					<a href="http://www.a2hosting.com/1686-elgg-229-custom.html"> 
-					<img src="http://elgg.org/images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
+					<img src="/images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
 					<p>Install Elgg with 1-CLICK! Each Web Hosting plan is ulta-reliable and includes 24/7/365 support. Try A2 Hosting risk free with their 30-day money back guarantee.</p>
 				</div> 
 		</div>
