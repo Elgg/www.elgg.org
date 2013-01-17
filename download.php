@@ -53,9 +53,10 @@
 
 			<h1 class="header_color">Latest 1.7 release - November 11th, 2012</h1>
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
-			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license. However, there are certain third party components that Elgg uses which can't be 
+			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license. In the 1.7 version, there are certain third party components that Elgg uses which can't be 
 			distributed under an MIT license as they are GPL only. Those components have been removed from the MIT release so make sure you read the readme.txt file!</p>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4-mit.zip" class="downlaod">MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.7.4-mit.zip" class="downlaod">1.7.4 MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.12-mit.zip" class="downlaod">1.8.12 MIT version</a></h3>
 			</div>
 			<p class="leader">Elgg 1.7.16 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
