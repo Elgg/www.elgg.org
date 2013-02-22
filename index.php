@@ -34,7 +34,7 @@
 		<div style="clear:both;"></div>
 		<div id="bottom"><!-- open bottom -->
 		<h2>Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications. Organizations with networks <a href="powering.php">powered by Elgg</a> include:</h2>
-<img style="margin-top:8px;" src="images/customer_logos.gif" />
+<img style="margin: 8px auto 0 auto; display: block;" src="images/customer_logos.gif" />
 		</div><!-- // bottom -->
 
 <div class="clearfloat bottom2">
