@@ -40,15 +40,15 @@
 <div class="clearfloat bottom2">
 	<div class="twocolbox left">
 		<h1 class="header_color">Upcoming Events</h1>
-		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 		<br />
 		<?php
 		/*
-		<ul>
-			<li><a href="http://www.meetup.com/London-Elgg-Meetup-Group/events/62892762/">May 31st - London Elgg Meetup</a></li>
-		</ul>
+		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 		*/
 		?>
+		<ul>
+			<li><a href="http://elggcampams.com/english/">June 14th - ElggCamp Amsterdam</a></li>
+		</ul>
 	</div>
 	<div class="twocolbox right">
 		<h1 class="header_color">Official Book</h1>
