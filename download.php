@@ -42,12 +42,12 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - March 12th, 2013</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - April 23rd, 2013</h1>
 			<p class="leader">
-				Elgg 1.8.14 is the latest and recommended version of Elgg.<br />
+				Elgg 1.8.15 is the latest and recommended version of Elgg. Please read the <a href="http://blog.elgg.org/pg/blog/cash/read/227/elgg-1815-released">release announcement</a> if you use the twitter, twitter_api, or oauth_api plugins.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.14.zip" class="download">Download 1.8.14</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.15.zip" class="download">Download 1.8.15</a></p>
 			</div>
 
 
@@ -55,7 +55,7 @@
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.14-mit.zip" class="downlaod">1.8.14 MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.15-mit.zip" class="downlaod">1.8.15 MIT version</a></h3>
 			</div>
 			<p class="leader">Elgg 1.7.19 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
@@ -88,10 +88,6 @@
 			<h1>Developer Access</h1>
 				<p>If you're a developer and want the latest code you can grab the latest work in progress through GitHub:</p>
 				<p><a href="https://github.com/Elgg/elgg">https://github.com/Elgg/elgg</a></p>
-				<br />
-				<h1>Nightly build</h1>
-				<p>Alternatively, you can grab a nightly build (please do not use this on production sites!):</p>
-				<p><a href="http://elgg.org/download/nightly/" class="accent_color" >http://elgg.org/download/nightly/</a></p>
 		</div>
 		<div style="clear:both;"></div>
 	</div>
