@@ -48,7 +48,7 @@
 				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
 				<div class="hosting_company"> 
-					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="/images/arvixe_468x60.gif" width="468" height="60" alt="Arvixe" /></a> 
+					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="/images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
 				<div class="hosting_company">
