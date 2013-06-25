@@ -42,12 +42,12 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - April 23rd, 2013</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - June 25th, 2013</h1>
 			<p class="leader">
-				Elgg 1.8.15 is the latest and recommended version of Elgg. Please read the <a href="http://blog.elgg.org/pg/blog/cash/read/227/elgg-1815-released">release announcement</a> if you use the twitter, twitter_api, or oauth_api plugins.<br />
+				Elgg 1.8.16 is the latest and recommended version of Elgg.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.15.zip" class="download">Download 1.8.15</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.16.zip" class="download">Download 1.8.16</a></p>
 			</div>
 
 
@@ -55,7 +55,7 @@
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.15-mit.zip" class="downlaod">1.8.15 MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.16-mit.zip" class="downlaod">1.8.16 MIT version</a></h3>
 			</div>
 			<p class="leader">Elgg 1.7.19 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
