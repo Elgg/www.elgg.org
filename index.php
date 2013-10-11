@@ -47,7 +47,7 @@
 		*/
 		?>
 		<ul>
-			<li><a href="http://elggcampams.com/english/">June 14th - ElggCamp Amsterdam</a></li>
+			<li><a href="http://www.elggcampdeluxe.com/">May 5, 2014 - ElggCamp Deluxe</a></li>
 		</ul>
 	</div>
 	<div class="twocolbox right">
