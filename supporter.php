@@ -175,6 +175,13 @@
 						<td><a href="http://www.hrdnz.com">Human Resource Development International Ltd</a></td>
 						<td><a href="http://community.elgg.org/profile/stuartrmealor">Visit</a></td>
 					</tr>
+					<tr>
+						<td>Chris McCoy</td>
+						<td><a href="http://yoursports.com">http://yoursports.com</a></td>
+						<td><a href="http://yoursports.com">YourSports</a></td>
+						<td>&nbsp;</td>
+					</tr>
+
 
 				</table>
 				</div>
