@@ -48,9 +48,9 @@
 				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
 				<div class="hosting_company"> 
-					<a href="http://www.a2hosting.com/1686-elgg-229-custom.html"> 
+					<a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443"> 
 					<img src="/images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
-					<p>Install Elgg with 1-CLICK! Each Web Hosting plan is ulta-reliable and includes 24/7/365 support. Try A2 Hosting risk free with their 30-day money back guarantee.</p>
+					<p>300% faster page loads than the competition on SwiftServer SSDs. Features a no-click Elgg install!</p>
 				</div> 
 				<div class="hosting_company"> 
 					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="/images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
