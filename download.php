@@ -51,17 +51,18 @@
 			</div>
 
 
-			<h1 class="header_color">Latest 1.7 release - March 14th, 2013</h1>
+			<h1 class="header_color">Latest 1.7 release - January 1st, 2014</h1>
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.17-mit.zip" class="downlaod">1.8.17 MIT version</a></h3>
 			</div>
-			<p class="leader">Elgg 1.7.19 includes important bugfixes and security updates.<br />
+			<p class="leader">Elgg 1.7.20 includes important bugfixes and security updates.<br />
 			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.19.zip" class="download">Download 1.7.19</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.20.zip" class="download">Download 1.7.20</a></p>
 			</div>
+<?php /**** why keep XML comments visible in the source?
 <!-- 
 			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
 			<p class="leader">Elgg 1.8.1 beta 1 is a candidate for the first bugfix release to the 1.8 branch of Elgg.<br />
@@ -75,6 +76,7 @@
 
 			<div class="divider"></div>
 -->
+*****************/ ?>
 			
 		<div id="mid_left">
 			<h1>Hosting</h1> 
@@ -82,7 +84,7 @@
 			<p><a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443"> 
 			<img src="http://elgg.org/images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p> 
 			<p><a href="http://www.arvixe.com/161-9-1-21.html" target="_blank">
-            <img border="0" src="https://affiliates.arvixe.com/banners/266x46.Elgg.gif" width="266" height="46" alt="Arvixe Hosting"></a></p>
+			<img border="0" src="https://affiliates.arvixe.com/banners/266x46.Elgg.gif" width="266" height="46" alt="Arvixe Hosting"></a></p>
 				</div>
 		<div id="mid_right">
 			<h1>Developer Access</h1>
