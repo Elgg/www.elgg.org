@@ -41,14 +41,7 @@
 	<div class="twocolbox left">
 		<h1 class="header_color">Upcoming Events</h1>
 		<br />
-		<?php
-		/*
 		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
-		*/
-		?>
-		<ul>
-			<li><a href="http://www.elggcampdeluxe.com/">May 5, 2014 - ElggCamp Deluxe</a></li>
-		</ul>
 	</div>
 	<div class="twocolbox right">
 		<h1 class="header_color">Official Book</h1>
