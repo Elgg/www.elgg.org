@@ -48,7 +48,6 @@
 				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
 				<div class="hosting_company">
-					<h3 style="font-weight: bold;">Recommended Hosting Provider</h3>
 					<a href="http://www.arckcloud.com/elgg-hosting/"> 
 					<img src="images/arck-big-banner.png" border="0" alt="Arckcloud Hosting" /></a> 
 					<p>High performance, single-click deploy, Elgg hosting from the expert Elgg development team at Arck Interactive. Individual and enterprise plans, CDN, support, development and code optimizations, All data storage is on our blazing fast CEPH SSD cluster and 10x.</p>
