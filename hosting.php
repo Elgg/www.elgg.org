@@ -47,18 +47,24 @@
 				<p class="leader"><span>
 				This page is a list of companies who specialise in Elgg hosting and is provided to help Elgg users looking for an appropriate hosting company. Neither Thematic Networks nor the Elgg project officially endorse the companies listed*, although they do help support Elgg.org through their related affiliate schemes.
 				</span></p>	
+				<div class="hosting_company">
+					<h3 style="font-weight: bold;">Recommended Hosting Provider</h3>
+					<a href="http://www.arckcloud.com/elgg-hosting/"> 
+					<img src="images/arck-big-banner.png" border="0" alt="Arckcloud Hosting" /></a> 
+					<p>High performance, single-click deploy, Elgg hosting from the expert Elgg development team at Arck Interactive. Individual and enterprise plans, CDN, support, development and code optimizations, All data storage is on our blazing fast CEPH SSD cluster and 10x.</p>
+				</div> 
 				<div class="hosting_company"> 
 					<a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443"> 
-					<img src="/images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
+					<img src="images/a2_banner.png" border="0" alt="A2 Hosting" /></a> 
 					<p>300% faster page loads than the competition on SwiftServer SSDs. Features a no-click Elgg install!</p>
 				</div> 
 				<div class="hosting_company"> 
-					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="/images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
+					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
 				<div class="hosting_company">
 					<a href="http://www.hostupon.com/idevaffiliate/idevaffiliate.php?id=137&url=9">
-					<img src="/images/hostupon_banner.gif" border="0" alt="Hostupcon.com" /></a>
+					<img src="images/hostupon_banner.gif" border="0" alt="Hostupcon.com" /></a>
 					<p>Fully compatible Elgg hosting with 99.9% uptime and 24/7/365 support. For a limited time, use the coupon code "elgg" to get $30 off!</p>
 				</div>
 		</div>
