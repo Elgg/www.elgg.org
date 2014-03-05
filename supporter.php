@@ -243,7 +243,11 @@
 						<td><a href="http://www.fairbusinessdeal.com/fbd">http://www.fairbusinessdeal.com/fbd</a></td>
 						<td>&nbsp;</td>
 					</tr>
-
+					<tr>
+						<td>Gordon Wu</td>
+						<td><a href="http://UnixPro.us">http://UnixPro.us</a></td>
+						<td><a href="http://community.elgg.org/profile/gordonwu888">gordonwu888</a></td>
+					</tr>
 				</table>
 				</div>
 		</div>
