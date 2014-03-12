@@ -42,25 +42,25 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - January 11th, 2014</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - March 12, 2014</h1>
 			<p class="leader">
-				Elgg 1.8.18 is the latest and recommended version of Elgg.<br />
+				Elgg 1.8.19 is the latest and recommended version of Elgg.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.18.zip" class="download">Download 1.8.18</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.19.zip" class="download">Download 1.8.19</a></p>
 			</div>
 
 
-			<h1 class="header_color">Latest 1.7 release - January 3rd, 2014</h1>
+			<h1 class="header_color">Latest 1.7 release - March 12th, 2014</h1>
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.18-mit.zip" class="download">1.8.18 MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.19-mit.zip" class="download">1.8.19 MIT version</a></h3>
 			</div>
-			<p class="leader">Elgg 1.7.21 includes an important bugfix.<br />
+			<p class="leader">Elgg 1.7.22 includes an important security fix.<br />
 			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.21.zip" class="download">Download 1.7.21</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.22.zip" class="download">Download 1.7.22</a></p>
 			</div>
 <?php /**** why keep XML comments visible in the source?
 <!-- 
