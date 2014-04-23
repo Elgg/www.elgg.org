@@ -122,12 +122,6 @@
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
-						<td>Scott Levy</td>
-						<td><a href="http://www.FuelInternetMarketing.com" rel="nofollow">http://www.FuelInternetMarketing.com</a></td>
-						<td><a href="http://www.FuelInternetMarketing.com" rel="nofollow">Social Media Companies</a></td>
-						<td>&nbsp;</td>
-					</tr>
-					<tr>
 						<td>Veronika Cardes</td>
 						<td><a href="http://www.dating-service.com" rel="nofollow">http://www.dating-service.com</a></td>
 						<td><a href="http://www.dating-service.com" rel="nofollow">Dating Service.com</a></td>
