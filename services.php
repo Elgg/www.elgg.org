@@ -12,7 +12,7 @@ $services = array(
 		'name' => 'Arck Interactive',
 		'url' => 'http://www.arckinteractive.com/',
 		'profile_url' => 'http://community.elgg.org/pg/profile/arckinteractive',
-		'blurb' => 'We are a Chicago-based web development agency focused on developing custom social networks, intranets and other applications using Elgg.',
+		'blurb' => 'We are a Portland-based web development agency focused on developing custom social networks, intranets and other applications using Elgg.',
 		'icon_filename' => 'arck.jpg'
 	),
 
