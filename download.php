@@ -82,7 +82,7 @@
 			<h1>Hosting</h1> 
 			<p>If you are looking for somewhere to host your Elgg powered network, we are putting together a <a href="hosting.php" class="accent_color">list of providers</a> who have added Elgg hosting to their services.</p> 
 			<p><a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443"> 
-			<img src="http://elgg.org/images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p> 
+			<img src="images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p> 
 			<p><a href="http://www.arckcloud.com/elgg-hosting/"> 
 			<img src="images/arckcloud-small-banner.png" border="0" alt="Arckcloud Hosting" /></a></p>
 			<p><a href="http://www.arvixe.com/161-9-1-21.html" target="_blank">
