@@ -42,6 +42,17 @@
 		</div>
 		
 		<div id="page_contents">
+			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - May 24, 2014</h1>
+			<p class="leader">
+				Elgg 1.9.0-rc.1 is the first release candidate of the upcoming 1.9 version of Elgg.<br />
+				This release candidate is intended for developers and bug hunters.<br />
+				Do not use on a production server!
+				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
+			</p>
+			<div id="download_btn">
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.9.0-rc.1.zip" class="download">Download 1.9.0-rc.1</a></p>
+			</div>
+			
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - March 12, 2014</h1>
 			<p class="leader">
 				Elgg 1.8.19 is the latest and recommended version of Elgg.<br />
@@ -55,6 +66,7 @@
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.0-rc.1-mit.zip" class="download">1.9.0-rc.1 MIT version</a></h3>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.19-mit.zip" class="download">1.8.19 MIT version</a></h3>
 			</div>
 			<p class="leader">Elgg 1.7.22 includes an important security fix.<br />
