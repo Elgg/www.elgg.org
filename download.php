@@ -42,15 +42,16 @@
 		</div>
 		
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - May 24, 2014</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - June 9, 2014</h1>
+			<?php $rc = '1.9.0-rc.2'; ?>
 			<p class="leader">
-				Elgg 1.9.0-rc.1 is the first release candidate of the upcoming 1.9 version of Elgg.<br />
+				Elgg <?php echo $rc; ?> is the latest release candidate of the upcoming 1.9 version of Elgg.<br />
 				This release candidate is intended for developers and bug hunters.<br />
 				Do not use on a production server!
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.9.0-rc.1.zip" class="download">Download 1.9.0-rc.1</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $rc; ?>.zip" class="download">Download <?php echo $rc; ?></a></p>
 			</div>
 			
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - March 12, 2014</h1>
@@ -62,34 +63,19 @@
 			</div>
 
 
-			<h1 class="header_color">Latest 1.7 release - March 12th, 2014</h1>
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.0-rc.1-mit.zip" class="download">1.9.0-rc.1 MIT version</a></h3>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $rc; ?>-mit.zip" class="download"><?php echo $rc; ?> MIT version</a></h3>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.19-mit.zip" class="download">1.8.19 MIT version</a></h3>
 			</div>
+			<h1 class="header_color">Latest 1.7 release - March 12th, 2014</h1>
 			<p class="leader">Elgg 1.7.22 includes an important security fix.<br />
 			It is the recommended release if using Elgg 1.7.</p>
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.7.22.zip" class="download">Download 1.7.22</a></p>
 			</div>
-<?php /**** why keep XML comments visible in the source?
-<!-- 
-			<h1 class="header_color" style="margin-top:40px;">Latest Beta - October 11, 2011</h1>
-			<p class="leader">Elgg 1.8.1 beta 1 is a candidate for the first bugfix release to the 1.8 branch of Elgg.<br />
-			This beta is intended for developers and bug hunters.<br />
-			Do not use on a production server!
-			Please report all bugs to <a href="http://trac.elgg.org">trac</a>.
-			</p>
-			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.1b1.zip" class="download">Download 1.8.1 beta1</a></p>
-			</div>
 
-			<div class="divider"></div>
--->
-*****************/ ?>
-			
 		<div id="mid_left">
 			<h1>Hosting</h1> 
 			<p>If you are looking for somewhere to host your Elgg powered network, we are putting together a <a href="hosting.php" class="accent_color">list of providers</a> who have added Elgg hosting to their services.</p> 
