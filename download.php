@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
-<head>		
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Elgg - Open Source Social Networking Platform.</title>
-	<meta name="description" content="Elgg is a leading open source social networking engine which can be used to power your social network." /> 
-	<meta name="keywords" content="open source social networking, social intranet, collaboration software, social networking software, community software, social media, social publishing, social media platform" /> 
+	<meta name="description" content="Elgg is a leading open source social networking engine which can be used to power your social network." />
+	<meta name="keywords" content="open source social networking, social intranet, collaboration software, social networking software, community software, social media, social publishing, social media platform" />
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
@@ -40,10 +40,10 @@
 			<p style="Margin-top:20px;">If you make money offering Elgg services then why not help core development by buying a listing on the services page? <a href="http://elgg.org/services.php">Elgg Services</a>.</p>
 			</div>
 		</div>
-		
+
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - July 10, 2014</h1>
-			<?php $rc = '1.9.0-rc.5'; ?>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - August 11, 2014</h1>
+			<?php $rc = '1.9.0-rc.6'; ?>
 			<p class="leader">
 				Elgg <?php echo $rc; ?> is the latest release candidate of the upcoming 1.9 version of Elgg.<br />
 				This release candidate is intended for developers and bug hunters.<br />
@@ -53,7 +53,7 @@
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $rc; ?>.zip" class="download">Download <?php echo $rc; ?></a></p>
 			</div>
-			
+
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - March 12, 2014</h1>
 			<p class="leader">
 				Elgg 1.8.19 is the latest and recommended version of Elgg.<br />
@@ -77,11 +77,11 @@
 			</div>
 
 		<div id="mid_left">
-			<h1>Hosting</h1> 
-			<p>If you are looking for somewhere to host your Elgg powered network, we are putting together a <a href="hosting.php" class="accent_color">list of providers</a> who have added Elgg hosting to their services.</p> 
-			<p><a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443"> 
-			<img src="images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p> 
-			<p><a href="http://www.arckcloud.com/elgg-hosting/"> 
+			<h1>Hosting</h1>
+			<p>If you are looking for somewhere to host your Elgg powered network, we are putting together a <a href="hosting.php" class="accent_color">list of providers</a> who have added Elgg hosting to their services.</p>
+			<p><a href="https://partners.a2hosting.com/solutions.php?id=1686&url=443">
+			<img src="images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p>
+			<p><a href="http://www.arckcloud.com/elgg-hosting/">
 			<img src="images/arckcloud-small-banner.png" border="0" alt="Arckcloud Hosting" /></a></p>
 			<p><a href="http://www.arvixe.com/161-9-1-21.html" target="_blank">
 			<img border="0" src="https://affiliates.arvixe.com/banners/266x46.Elgg.gif" width="266" height="46" alt="Arvixe Hosting"></a></p>
