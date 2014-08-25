@@ -43,7 +43,7 @@
 
 		<div id="page_contents">
 			<h1 class="header_color" style="margin-top:40px;">Latest Release Candidate - August 11, 2014</h1>
-			<?php $rc = '1.9.0-rc.6'; ?>
+			<?php $rc = '1.9.0-rc.7'; ?>
 			<p class="leader">
 				Elgg <?php echo $rc; ?> is the latest release candidate of the upcoming 1.9 version of Elgg.<br />
 				This release candidate is intended for developers and bug hunters.<br />
