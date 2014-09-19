@@ -20,7 +20,7 @@
 		<li><a href="services.php" class="header" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
 		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
-		<li><a href="http://docs.elgg.org" class="header" target="_top">Docs</a></li>
+		<li><a href="http://learn.elgg.org" class="header" target="_top">Docs</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
 	</div>

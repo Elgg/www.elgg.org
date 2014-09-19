@@ -39,7 +39,7 @@
 			<p>Welcome to the elgg.org developer center. If you are interested in developing on the Elgg engine, then this page will point you to all the resources you might need.</p>
 			<p>As always, if you like what you see with Elgg then please consider getting involved in its development.</p>
 			<div class="award"><p>
-				<a href="http://docs.elgg.org"><img src="images/docs.gif" alt="Documentation" align="left" style="margin-right:10px;" width="60px" /></a>
+				<a href="http://learn.elgg.org"><img src="images/docs.gif" alt="Documentation" align="left" style="margin-right:10px;" width="60px" /></a>
 				<b>Documentation</b><br />Here you will find information about Elgg's architecture, approach and features.</p>
 				<div style="clear:both;"></div>
 			</div>
