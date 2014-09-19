@@ -19,7 +19,7 @@
 		<li><a href="http://blog.elgg.org" class="header">Blog</a></li>
 		<li><a href="services.php" class="header" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
-		<li><a href="http://community.elgg.org" class="header" target="_top">Community</a></li>
+		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
 		<li><a href="developers.php" class="header" target="_top">Developers</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
@@ -83,7 +83,7 @@
 						<td>Fabrice Collette</td>
 						<td><a href="http://www.meleze-conseil.com">http://www.meleze-conseil.com</a></td>
 						<td><a href="http://www.meleze-conseil.com">M&#233;l&#232;ze Conseil</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/fabcol">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/fabcol">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Paul Stewart</td>
@@ -101,7 +101,7 @@
 						<td>Jeroen Dalsem</td>
 						<td><a href="http://www.coldtrick.com">http://www.coldtrick.com</a></td>
 						<td><a href="http://www.coldtrick.com">ColdTrick IT Solutions</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/jdalsem">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/jdalsem">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Tom Voorneveld</td>
@@ -113,7 +113,7 @@
 						<td>Mike Kasper</td>
 						<td><a href="http://myfreepersonals.com">http://myfreepersonals.com</a></td>
 						<td><a href="http://myfreepersonals.com">My Free Personals</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/topdog08">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/topdog08">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Andrew Boon</td>
@@ -131,7 +131,7 @@
 						<td>Taka Fujita</td>
 						<td><a href="http://kototoy.jp/">http://kototoy.jp</a></td>
 						<td><a href="http://kototoy.jp">Kototoy Factory Co., Ltd.</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/teilnehmen">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/teilnehmen">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Jon Dron</td>
@@ -143,13 +143,13 @@
 						<td>Teodor Nica</td>
 						<td><a href="http://www.videowhisper.com">http://www.videowhisper.com</a></td>
 						<td><a href="http://www.videowhisper.com">VideoWhisper Webcam Software</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/videowhisper">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/videowhisper">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Aron West</td>
 						<td><a href="http://www.capaoc.org/" rel="nofollow">http://www.capaoc.org/</a></td>
 						<td><a href="http://www.capaoc.org/" rel="nofollow">Compassion And Peace Association of Canada (CAPAOC)</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/aronw9376">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/aronw9376">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Michele &amp; Gianni</td>
@@ -161,13 +161,13 @@
 						<td>Nicolas CHAGNY</td>
 						<td><a href="http://www.les-argonautes.fr">http://www.les-argonautes.fr</a></td>
 						<td><a href="http://www.les-argonautes.fr/">LES ARGONAUTES</a></td>
-						<td><a href="http://community.elgg.org/profile/nicochagny">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/nicochagny">Visit</a></td>
 					</tr>
 					<tr>
 						<td>HRDNZ (Moodle Partner)</td>
 						<td><a href="http://www.hrdnz.com">http://www.hrdnz.com</a></td>
 						<td><a href="http://www.hrdnz.com">Human Resource Development International Ltd</a></td>
-						<td><a href="http://community.elgg.org/profile/stuartrmealor">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/stuartrmealor">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Chris McCoy</td>
@@ -195,42 +195,42 @@
 					<tr>
 						<td>Ben Werdmuller</td>
 						<td><a href="http://benwerd.com">http://benwerd.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/bwerdmuller">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/bwerdmuller">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Marcus Povey</td>
 						<td><a href="http://www.marcus-povey.co.uk">http://www.marcus-povey.co.uk</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/marcus">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/marcus">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Mark Bridges</td>
 						<td><a href="http://www.activityseeker.com">www.activityseeker.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/MisterBridges">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/MisterBridges">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Per Jensen</td>
 						<td><a href="http://www.perjensen-online.dk/">http://www.perjensen-online.dk/</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/gillie">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/gillie">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Dhrup Chand</td>
 						<td><a href="http://FKKids.Com">FKKids.Com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/Dhrup2000">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/Dhrup2000">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Torsten Wesolek</td>
 						<td><a href="http://www.community-software-24.com/">community-software-24.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/westor">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/westor">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Tarun Jangra</td>
 						<td><a href="http://www.pluginlotto.com">http://www.pluginlotto.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/izap">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/izap">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Shyam Somanadh</td>
 						<td><a href="http://frontiernxt.com">http://frontiernxt.com</a></td>
-						<td><a href="http://community.elgg.org/pg/profile/codelust">Visit</a></td>
+						<td><a href="https://community.elgg.org/profile/codelust">Visit</a></td>
 					</tr>
 					<tr>
 						<td>Xavier Vaucois</td>
@@ -240,7 +240,7 @@
 					<tr>
 						<td>Gordon Wu</td>
 						<td><a href="http://UnixPro.us">http://UnixPro.us</a></td>
-						<td><a href="http://community.elgg.org/profile/gordonwu888">gordonwu888</a></td>
+						<td><a href="https://community.elgg.org/profile/gordonwu888">gordonwu888</a></td>
 					</tr>
 				</table>
 				</div>

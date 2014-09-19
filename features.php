@@ -19,7 +19,7 @@
 		<li><a href="http://blog.elgg.org" target="_top" class="header">Blog</a></li>
 		<li><a href="services.php" class="header" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
-		<li><a href="http://community.elgg.org" class="header" target="_top">Community</a></li>
+		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
 		<li><a href="developers.php" class="header" target="_top">Developers</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
@@ -64,7 +64,7 @@
 			</div>
 
 			<div style="clear:both;"></div>
-			<p class="leader">Browse the <a href="http://community.elgg.org/plugins" class="accent_color">plugins gallery</a> to find other exciting features to add to your Elgg network.</p>
+			<p class="leader">Browse the <a href="https://community.elgg.org/plugins" class="accent_color">plugins gallery</a> to find other exciting features to add to your Elgg network.</p>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->

@@ -19,7 +19,7 @@
 		<li><a href="http://blog.elgg.org" target="_top" class="header">Blog</a></li>
 		<li><a href="services.php" class="header" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
-		<li><a href="http://community.elgg.org" class="header" target="_top">Community</a></li>
+		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
 		<li><a href="developers.php" class="header" target="_top">Developers</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
@@ -43,7 +43,7 @@
 		<div id="page_contents">
 			<h1 class="header_color">Get involved</h1>
 			<p class="leader">Elgg is continually being developed and enhanced by an active and growing community of organizations, developers and enthusiasts world wide. There are lots of ways to get involved, whether you're a developer contributing plugins, a designer contributing themes, or a user who just wants to spread the word.  We also welcome contributions from bug-fixers through to those generous enough to help new users get started.</p>
-			<p class="leader">The Elgg <a href="http://community.elgg.org" class="accent_color">community pages</a> are a great place to start.</p>
+			<p class="leader">The Elgg <a href="https://community.elgg.org" class="accent_color">community pages</a> are a great place to start.</p>
 			</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->

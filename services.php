@@ -4,14 +4,14 @@ $services = array(
 	array(
 		'name' => 'Keetup Development',
 		'url' => 'http://www.keetup.com/elgg-services',
-		'profile_url' => 'http://community.elgg.org/pg/profile/pedroprez',
+		'profile_url' => 'https://community.elgg.org/profile/pedroprez',
 		'blurb' => 'We are professional Elgg developers specializing in plugins, themes and social networking advice. We also advise companies on Elgg implementations.',
 		'icon_filename' => 'keetup.png'
 	),
 	array(
 		'name' => 'Arck Interactive',
 		'url' => 'http://www.arckinteractive.com/',
-		'profile_url' => 'http://community.elgg.org/pg/profile/arckinteractive',
+		'profile_url' => 'https://community.elgg.org/profile/arckinteractive',
 		'blurb' => 'We are a Portland-based web development agency focused on developing custom social networks, intranets and other applications using Elgg.',
 		'icon_filename' => 'arck.jpg'
 	),
@@ -19,7 +19,7 @@ $services = array(
 	array(
 		'name' => 'Condiminds',
 		'url' => 'http://condiminds.com/elgg.html',
-		'profile_url' => 'http://community.elgg.org/pg/profile/tulicipriota',
+		'profile_url' => 'https://community.elgg.org/profile/tulicipriota',
 		'blurb' => 'We are Elgg specialists! We specialize on Elgg themes, plugins and sites from the scratch. We are ready to provide flexible and scalable solutions for organizations, groups and individuals.',
 		'icon_filename' => 'condi-minds.jpg'
 	),
@@ -49,7 +49,7 @@ shuffle($services);
 		<li><a href="http://blog.elgg.org" class="header">Blog</a></li>
 		<li><a href="partners.php" class="header selected" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
-		<li><a href="http://community.elgg.org" class="header" target="_top">Community</a></li>
+		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
 		<li><a href="developers.php" class="header" target="_top">Developers</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
