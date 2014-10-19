@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
-<head>		
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Elgg - Open Source Social Networking Engine.</title>
-	<meta name="description" content="Elgg is a leading open source social networking engine which can be used to power your social network." /> 
-	<meta name="keywords" content="open source social networking, social intranet, collaboration software, social networking software, community software, social media, social publishing, social media platform" /> 
+	<meta name="description" content="Elgg is a leading open source social networking engine which can be used to power your social network." />
+	<meta name="keywords" content="open source social networking, social intranet, collaboration software, social networking software, community software, social media, social publishing, social media platform" />
 	<meta name="robots" content="index, follow" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
@@ -37,6 +37,7 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+			<p><b>1.9.3</b> - released October 6, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.3.zip">Download</a></p>
 			<p><b>1.9.2</b> - released September 21, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.2.zip">Download</a></p>
 			<p><b>1.9.1</b> - released September 12, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.1.zip">Download</a></p>
 
