@@ -37,6 +37,7 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+			<p><b>1.9.4</b> - released October 19, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.4.zip">Download</a></p>
 			<p><b>1.9.3</b> - released October 6, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.3.zip">Download</a></p>
 			<p><b>1.9.2</b> - released September 21, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.2.zip">Download</a></p>
 			<p><b>1.9.1</b> - released September 12, 2014 <a href="http://elgg.org/getelgg.php?forward=elgg-1.9.1.zip">Download</a></p>
