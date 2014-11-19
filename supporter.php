@@ -175,12 +175,6 @@
 						<td><a href="http://yoursports.com">YourSports</a></td>
 						<td>&nbsp;</td>
 					</tr>
-					<tr>
-						<td>Alan W. Johns</td>
-						<td><a href="http://www.weallpress.com">http://www.weallpress.com</a></td>
-						<td><a href="http://www.weallpress.com">We All Press</a></td>
-						<td>&nbsp;</td>
-					</tr>
 
 				</table>
 				</div>
