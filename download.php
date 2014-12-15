@@ -42,7 +42,7 @@
 		</div>
 
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - December 1, 2014</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - December 14, 2014</h1>
 			<?php $elgg19 = '1.9.7'; ?>
 			<p class="leader">
 				Elgg <?php echo $elgg19; ?> is the latest and recommended version of Elgg.<br />
