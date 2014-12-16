@@ -60,7 +60,7 @@
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg110; ?></a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg110; ?>.zip" class="download">Download <?php echo $elgg110; ?></a></p>
 			</div>
 
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - September 7, 2014</h1>
