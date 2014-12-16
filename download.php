@@ -51,6 +51,17 @@
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg19; ?></a></p>
 			</div>
+			
+			<h1 class="header_color" style="margin-top:40px;">Release Candidate - December 16, 2014</h1>
+			<?php $elgg110 = '1.10.0-rc.1'; ?>
+			<p class="leader">
+				Elgg <?php echo $elgg110; ?> is the latest release candidate of Elgg.  This is a release
+				candidate and should not be used directly on production without extensive testing.<br />
+				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
+			</p>
+			<div id="download_btn">
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg110; ?></a></p>
+			</div>
 
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - September 7, 2014</h1>
 			<p class="leader">
