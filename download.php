@@ -52,7 +52,7 @@
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg19; ?></a></p>
 			</div>
 			
-			<h1 class="header_color" style="margin-top:40px;">Release Candidate - December 16, 2014</h1>
+			<h1 class="header_color" style="margin-top:40px;">Release Candidate - December 15, 2014</h1>
 			<?php $elgg110 = '1.10.0-rc.1'; ?>
 			<p class="leader">
 				Elgg <?php echo $elgg110; ?> is the latest release candidate of Elgg.  This is a release
