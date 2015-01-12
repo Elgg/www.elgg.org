@@ -43,39 +43,29 @@
 
 		<div id="page_contents">
 			<h1 class="header_color" style="margin-top:40px;">Latest Release - January 11, 2015</h1>
-			<?php $elgg19 = '1.9.8'; ?>
+			<?php $elgg110 = '1.10.0'; ?>
 			<p class="leader">
-				Elgg <?php echo $elgg19; ?> is the latest and recommended version of Elgg.<br />
-				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
-			</p>
-			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg19; ?></a></p>
-			</div>
-			
-			<h1 class="header_color" style="margin-top:40px;">Release Candidate - December 15, 2014</h1>
-			<?php $elgg110 = '1.10.0-rc.1'; ?>
-			<p class="leader">
-				Elgg <?php echo $elgg110; ?> is the latest release candidate of Elgg.  This is a release
-				candidate and should not be used directly on production without extensive testing.<br />
+				Elgg <?php echo $elgg110; ?> is the latest and recommended version of Elgg.<br />
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
 			</p>
 			<div id="download_btn">
 				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg110; ?>.zip" class="download">Download <?php echo $elgg110; ?></a></p>
 			</div>
 
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - September 7, 2014</h1>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - January 11, 2015</h1>
+			<?php $elgg19 = '1.9.8'; ?>
 			<p class="leader">
-				Elgg 1.8.20 is the recommended release if using Elgg 1.8.<br />
+				Elgg <?php echo $elgg19; ?> is the recommended release if using Elgg 1.9.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="http://elgg.org/getelgg.php?forward=elgg-1.8.20.zip" class="download">Download 1.8.20</a></p>
+				<p><a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>.zip" class="download">Download <?php echo $elgg19; ?></a></p>
 			</div>
 
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
+			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg110; ?>-mit.zip" class="download"><?php echo $elgg110; ?> MIT version</a></h3>
 			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-<?php echo $elgg19; ?>-mit.zip" class="download"><?php echo $elgg19; ?> MIT version</a></h3>
-			<h3>Download: <a href="http://elgg.org/getelgg.php?forward=elgg-1.8.20-mit.zip" class="download">1.8.20 MIT version</a></h3>
 			</div>
 
 		<div id="mid_left">
