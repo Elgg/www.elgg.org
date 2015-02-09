@@ -59,7 +59,7 @@
 
 	<div class="twocolbox right">
 		<h1 class="header_color">Giving back</h1>
-		<h2>There are several ways you can help out the Elgg project. The options range from <a href="https://github.com/Elgg/Elgg/blob/master/CONTRIBUTING.md">bug reporting</a> and <a href="https://github.com/Elgg/Elgg/pulls">patch submission</a> to joining the <a href="http://elgg.org/supporter.php">supporters scheme</a> or buying a <a href="http://elgg.org/services.php">services listing</a>.</h2>
+		<h2>There are several ways you can help out the Elgg project. The options range from <a href="https://github.com/Elgg/Elgg/blob/master/CONTRIBUTING.md">bug reporting</a> and <a href="https://github.com/Elgg/Elgg/pulls">patch submission</a> to joining the <a href="supporter.php">supporters scheme</a> or buying a <a href="services.php">services listing</a>.</h2>
 	</div>
 <div style="clear:both;"></div>
 </div>
