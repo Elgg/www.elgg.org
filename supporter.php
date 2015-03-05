@@ -175,6 +175,12 @@
 						<td><a href="http://yoursports.com">YourSports</a></td>
 						<td>&nbsp;</td>
 					</tr>
+					<tr>
+						<td>Christophe Lamm</td>
+						<td><a href="http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html">http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html</a></td>
+						<td><a href="http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html">Ligne Bleue Cyber</a></td>
+						<td><a href="https://community.elgg.org/profile/clamm">Visit</a></td>
+					</tr>
 
 				</table>
 				</div>
