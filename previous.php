@@ -73,6 +73,7 @@
 
 			<h1 class="header_color">Unsupported releases</h1>
 			<p><b>These versions of Elgg are no longer supported:</b></p>
+			<p><b>1.7.23</b> - released March 18, 2015 <a href="getelgg.php?forward=elgg-1.7.23.zip">Download</a></p>
 			<p><b>1.7.22</b> - released March 12, 2014 <a href="getelgg.php?forward=elgg-1.7.22.zip">Download</a></p>
 			<p><b>1.7.21</b> - released January 3, 2014 <a href="getelgg.php?forward=elgg-1.7.21.zip">Download</a></p>
 			<p><b>1.7.20</b> - released January 1, 2014 <a href="getelgg.php?forward=elgg-1.7.20.zip">Download</a></p>
