@@ -16,10 +16,10 @@
 <div id="content_wrapper">
 	<div class="content"><!-- open content -->
 		<div id="box_wrapper" class="clearfloat">
-				<div id="logo">
-					<a href="index.php" target="_top"><img src="images/spacer.gif" width="290px" height="160px" alt="Elgg.org" border="0" /></a>
-				</div>
-				<div id="container_strapline">
+			<div id="logo">
+				<a href="index.php" target="_top"><img src="images/spacer.gif" width="290px" height="160px" alt="Elgg.org" border="0" /></a>
+			</div>
+			<div id="container_strapline">
 				<div id="tag">
 					<p><span class="strapline accent_color">Introducing a powerful open source<br />social networking engine</span></p>
 					<p class="strap">Providing you with the core components you need<br />to build out socially aware applications</p>
@@ -29,7 +29,10 @@
 					<p><a href="download.php" class="download">Download Elgg 1.10.5</a></p>
 				</div>
 
+				<div id="download_btn" style="width:250px;">
+					<p><a href="download.php" class="download">Download Elgg 1.11.0</a></p>
 				</div>
+			</div>
 		</div>
 		<div style="clear:both;"></div>
 		<div id="bottom"><!-- open bottom -->
