@@ -37,6 +37,7 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+            <p><b>1.11.1</b> - released April 26, 2015 <a href="getelgg.php?forward=elgg-1.11.1.zip">Download</a></p>
             <p><b>1.11.0</b> - released April 13, 2015 <a href="getelgg.php?forward=elgg-1.11.0.zip">Download</a></p>
 
 			<h1 class="header_color">Security releases</h1>
