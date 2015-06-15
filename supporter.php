@@ -176,11 +176,18 @@
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
-						<td>Christophe Lamm</td>
+						<td>christophe lamm</td>
 						<td><a href="http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html">http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html</a></td>
-						<td><a href="http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html">Ligne Bleue Cyber</a></td>
-						<td><a href="https://community.elgg.org/profile/clamm">Visit</a></td>
+						<td><a href="http://www.ligne-bleue-cyber.com/services/creation_de_sites_web.html">ligne bleue cyber</a></td>
+						<td><a href="https://community.elgg.org/profile/clamm">visit</a></td>
 					</tr>
+					<tr>
+						<td>Elena Ganenkova</td>
+						<td><a href="http://www.jetbrains.com">http://www.jetbrains.com</a></td>
+						<td><a href="http://www.jetbrains.com">JetBrains</a></td>
+						<td><a href="http://www.jetbrains.com">visit</a></td>
+					</tr>
+
 
 				</table>
 				</div>
