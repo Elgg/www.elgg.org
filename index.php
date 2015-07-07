@@ -26,7 +26,7 @@
 				</div>
 
 				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 1.11.2</a></p>
+					<p><a href="download.php" class="download">Download Elgg 1.12.0</a></p>
 				</div>
 			</div>
 		</div>
