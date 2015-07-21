@@ -1,0 +1,80 @@
+{
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "arckinteractive/elgg_solr": "dev-patch-1",
+        "beck24/image_proxy": "dev-patch-1",
+        "beck24/spam_throttle": "dev-patch-1",
+        "beck24/trusted_users": "dev-patch-1",
+        "beck24/trusted_user_spam_report": "dev-patch-1",
+        "brettp/admin_notes": "dev-master",
+        "brettp/bulk_user_admin": "dev-master",
+        "brettp/elgg-registration-randomizer": "dev-master",
+        "brettp/stale_users": "dev-master",
+        "elgg/ban": "dev-master",
+        "elgg/community_customizations": "dev-master",
+        "elgg/community_groups": "dev-master",
+        "elgg/community_plugins": "dev-master",
+        "elgg/community_solr": "dev-master",
+        "elgg/community_spam_tools": "dev-master",
+        "elgg/community_theme": "dev-master",
+        "elgg/community_web_services": "dev-master",
+        "elgg/dbvalidator": "dev-master",
+        "elgg/drop_unvalidated": "dev-master",
+        "elgg/elgg": "dev-master",
+        "elgg/login_as": "~1.9",
+        "elgg/opensearch": "dev-master",
+        "elgg/showcase": "dev-master",
+        "ewinslow/elgg-google": "dev-master",
+        "jumbojett/vroom": "dev-patch-1",
+        "thetruebumba/spam_login_filter": "dev-master",
+        "twentyfiveautumn/admin_blog": "dev-patch-1"
+    },
+    "require-dev": {
+        "srokap/code_review": "^1.0.5",
+        "phpunit/phpunit": "^4.1"
+    },
+    "scripts": {
+        "post-install-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
+        "post-update-cmd": "\\Elgg\\Composer\\PostUpdate::execute"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/brettp/admin-notes"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/brettp/bulk-user-admin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/admin_blog"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/elgg_solr"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/image_proxy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/spam_throttle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/trusted_users"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/trusted_user_spam_report"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/vroom"
+        }
+    ]
+}

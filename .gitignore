@@ -1,5 +1,11 @@
+.*
+!.gitignore
+settings.php
+
+/mod
+/vendor
+
 download
 credentials.php
-.idea/
 /google2*
 /google8*
