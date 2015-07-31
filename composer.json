@@ -33,11 +33,12 @@
     },
     "require-dev": {
         "srokap/code_review": "^1.0.5",
-        "phpunit/phpunit": "^4.1"
+        "phpunit/phpunit": "^4.7"
     },
     "scripts": {
         "post-install-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
-        "post-update-cmd": "\\Elgg\\Composer\\PostUpdate::execute"
+        "post-update-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
+        "test": "phpunit tests"
     },
     "repositories": [
         {

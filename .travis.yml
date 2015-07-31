@@ -1,0 +1,12 @@
+language: php
+
+# Keep this up-to-date with the production environment
+php: 5.5
+
+sudo: false
+
+before_install: composer global require fxp/composer-asset-plugin -vvv
+
+install: composer install -vvv
+
+script: composer test

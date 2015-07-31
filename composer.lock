@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26f1fde7511ddba5498948ac115d66ff",
+    "hash": "2db99ac314d58cd7f6a6bd7dc6552e31",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
