@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2db99ac314d58cd7f6a6bd7dc6552e31",
+    "hash": "b309eef31ecdfbcd4cbc3e979aa235a3",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -1166,12 +1166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_spam_tools.git",
-                "reference": "73c63d58d73c4e59a040f2630262205fe8478c39"
+                "reference": "bf1877d37405f011914e3c64a887b573e92d039a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_spam_tools/zipball/73c63d58d73c4e59a040f2630262205fe8478c39",
-                "reference": "73c63d58d73c4e59a040f2630262205fe8478c39",
+                "url": "https://api.github.com/repos/Elgg/community_spam_tools/zipball/bf1877d37405f011914e3c64a887b573e92d039a",
+                "reference": "bf1877d37405f011914e3c64a887b573e92d039a",
                 "shasum": ""
             },
             "require": {
@@ -1196,7 +1196,7 @@
                 "plugin",
                 "security"
             ],
-            "time": "2015-04-25 20:45:14"
+            "time": "2015-07-31 14:44:57"
         },
         {
             "name": "elgg/community_theme",
@@ -1905,7 +1905,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.7.2",
+            "version": "v2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
@@ -1963,16 +1963,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.7.2",
+            "version": "v2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "88903c0531b90d4ecd90282b18f08c0c77bde0b2"
+                "reference": "863af6898081b34c65d42100c370b9f3c51b70ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/88903c0531b90d4ecd90282b18f08c0c77bde0b2",
-                "reference": "88903c0531b90d4ecd90282b18f08c0c77bde0b2",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/863af6898081b34c65d42100c370b9f3c51b70ca",
+                "reference": "863af6898081b34c65d42100c370b9f3c51b70ca",
                 "shasum": ""
             },
             "require": {
@@ -2012,7 +2012,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-07-22 10:11:00"
         },
         {
             "name": "tedivm/stash",
@@ -2104,26 +2104,6 @@
                 "spam"
             ],
             "time": "2014-09-20 21:21:52"
-        },
-        {
-            "name": "twentyfiveautumn/admin_blog",
-            "version": "dev-patch-1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ewinslow/admin_blog.git",
-                "reference": "b778d54cbd77793cbe252482f38e5dd9eed37739"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/admin_blog/zipball/b778d54cbd77793cbe252482f38e5dd9eed37739",
-                "reference": "b778d54cbd77793cbe252482f38e5dd9eed37739",
-                "shasum": ""
-            },
-            "type": "elgg-plugin",
-            "support": {
-                "source": "https://github.com/ewinslow/admin_blog/tree/patch-1"
-            },
-            "time": "2015-07-21 05:08:04"
         },
         {
             "name": "twistor/flysystem-memory-adapter",
@@ -3548,16 +3528,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.2",
+            "version": "v2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860"
+                "reference": "71340e996171474a53f3d29111d046be4ad8a0ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/4bfbe0ed3909bfddd75b70c094391ec1f142f860",
-                "reference": "4bfbe0ed3909bfddd75b70c094391ec1f142f860",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/71340e996171474a53f3d29111d046be4ad8a0ff",
+                "reference": "71340e996171474a53f3d29111d046be4ad8a0ff",
                 "shasum": ""
             },
             "require": {
@@ -3593,7 +3573,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-01 11:25:50"
+            "time": "2015-07-28 14:07:07"
         }
     ],
     "aliases": [],
@@ -3623,8 +3603,7 @@
         "elgg/showcase": 20,
         "ewinslow/elgg-google": 20,
         "jumbojett/vroom": 20,
-        "thetruebumba/spam_login_filter": 20,
-        "twentyfiveautumn/admin_blog": 20
+        "thetruebumba/spam_login_filter": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

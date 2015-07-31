@@ -28,8 +28,7 @@
         "elgg/showcase": "dev-master",
         "ewinslow/elgg-google": "dev-master",
         "jumbojett/vroom": "dev-patch-1",
-        "thetruebumba/spam_login_filter": "dev-master",
-        "twentyfiveautumn/admin_blog": "dev-patch-1"
+        "thetruebumba/spam_login_filter": "dev-master"
     },
     "require-dev": {
         "srokap/code_review": "^1.0.5",
@@ -48,10 +47,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/brettp/bulk-user-admin"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ewinslow/admin_blog"
         },
         {
             "type": "vcs",
