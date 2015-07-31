@@ -1083,12 +1083,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "3251c29f4d338adbbc38c6b1b1c6f6390c4771ef"
+                "reference": "1bf4d1709edf2bfef53d00489600f7e43d4ae292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/3251c29f4d338adbbc38c6b1b1c6f6390c4771ef",
-                "reference": "3251c29f4d338adbbc38c6b1b1c6f6390c4771ef",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/1bf4d1709edf2bfef53d00489600f7e43d4ae292",
+                "reference": "1bf4d1709edf2bfef53d00489600f7e43d4ae292",
                 "shasum": ""
             },
             "require": {
@@ -1121,7 +1121,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-07-21 08:43:43"
+            "time": "2015-07-31 08:05:05"
         },
         {
             "name": "elgg/community_solr",
