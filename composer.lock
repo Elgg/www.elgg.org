@@ -1204,12 +1204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_theme.git",
-                "reference": "9adddf599eb21c3c24dbe17478581c4610cb167d"
+                "reference": "eaf40da4c5bad87f3c0a24c062a6c7332a723e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_theme/zipball/9adddf599eb21c3c24dbe17478581c4610cb167d",
-                "reference": "9adddf599eb21c3c24dbe17478581c4610cb167d",
+                "url": "https://api.github.com/repos/Elgg/community_theme/zipball/eaf40da4c5bad87f3c0a24c062a6c7332a723e94",
+                "reference": "eaf40da4c5bad87f3c0a24c062a6c7332a723e94",
                 "shasum": ""
             },
             "require": {
@@ -1233,7 +1233,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2014-08-21 13:26:31"
+            "time": "2015-07-31 05:21:12"
         },
         {
             "name": "elgg/community_web_services",
@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "9b1b9eac5150d9378eb6baa61751059dea498d52"
+                "reference": "4b2e7b27e3bd45550a5b2923757b42d8311d3e7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/9b1b9eac5150d9378eb6baa61751059dea498d52",
-                "reference": "9b1b9eac5150d9378eb6baa61751059dea498d52",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/4b2e7b27e3bd45550a5b2923757b42d8311d3e7c",
+                "reference": "4b2e7b27e3bd45550a5b2923757b42d8311d3e7c",
                 "shasum": ""
             },
             "require": {
@@ -1367,7 +1367,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-07-30 14:14:12"
+            "time": "2015-07-30 18:32:21"
         },
         {
             "name": "elgg/login_as",
