@@ -46,10 +46,10 @@ shuffle($services);
 	<ul>
 		<li><a href="index.php" target="_top" class="header">Home</a></li>
 		<li><a href="about.php" target="_top" class="header">About</a></li>
-		<li><a href="http://blog.elgg.org" class="header">Blog</a></li>
+		<li><a href="blog" class="header">Blog</a></li>
 		<li><a href="partners.php" class="header selected" target="_top">Services</a></li>
 		<li><a href="hosting.php" class="header" target="_top">Hosting</a></li>
-		<li><a href="https://community.elgg.org" class="header" target="_top">Community</a></li>
+		<li><a href="activity" class="header" target="_top">Community</a></li>
 		<li><a href="developers.php" class="header" target="_top">Developers</a></li>
 		<li><a href="download.php" target="_top" class="header">Download</a></li>
 	</ul>
@@ -61,7 +61,7 @@ shuffle($services);
 		<div id="sidebar_menu">
 				<div class="sidebar_box">
 					<h2>*Get Listed</h2>
-					The service listing feature is currently on hold while we establish the Elgg Foundation. Watch this space and the <a href="http://blog.elgg.org" style="padding: 0;">Elgg Blog</a> for more information!
+					The service listing feature is currently on hold while we establish the Elgg Foundation. Watch this space and the <a href="blog" style="padding: 0;">Elgg Blog</a> for more information!
 					<!--
 					<p>The following is a list of companies who offer various Elgg services which is provided to help Elgg users looking for services. Curverider Ltd does not endorse the companies listed and they are in no way affiliated with Curverider Ltd unless stated as an official Elgg Partner, although they do help support core Elgg development through a <b>$150 per 30 day</b> listing fee. All the money raised via these listings goes straight into core Elgg development!</p>
 					<p>We constantly monitor companies listed here to help create and foster good options for those requiring Elgg services. If you encounter issues with one of the providers listed here, please get in touch with us. If you are going to get in touch, please make sure you provide adequate detail regarding the issues you have had.</p>
