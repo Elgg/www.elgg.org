@@ -16,7 +16,7 @@ function only_admins_can_post_blogs($hook, $type, $return, $params) {
 }
 
 /**
- * Remove the group add button for non-admins
+ * Remove the duplicate add button for dicussions
  *
  * @param string $hook Hook name
  * @param string $type Hook type
