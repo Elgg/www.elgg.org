@@ -7,6 +7,11 @@ function init() {
 	elgg_register_plugin_hook_handler('container_permissions_check', 'object', __NAMESPACE__ . '\only_admins_can_post_blogs');
 
 	elgg_register_plugin_hook_handler('register', 'menu:title', __NAMESPACE__ . '\remove_discussion_add_button');
+	
+	elgg_register_page_handler('requirements.php', function() {
+		http_response_code(301);
+		forward('http://learn.elgg.org/en/latest/intro/install.html#requirements');
+	});
 }
 
 function only_admins_can_post_blogs($hook, $type, $return, $params) {
