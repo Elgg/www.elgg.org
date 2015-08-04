@@ -12,6 +12,11 @@ function init() {
 		http_response_code(301);
 		forward('http://learn.elgg.org/en/latest/intro/install.html#requirements');
 	});
+	
+	elgg_register_page_handler('external.php', function() {
+		http_response_code(301);
+		forward('/plugins');
+	});
 }
 
 function only_admins_can_post_blogs($hook, $type, $return, $params) {
