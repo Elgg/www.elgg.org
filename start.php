@@ -17,6 +17,11 @@ function init() {
 		http_response_code(301);
 		forward('/plugins');
 	});
+	
+	elgg_register_page_handler('license.php', function() {
+		http_response_code(301);
+		forward('http://learn.elgg.org/en/latest/intro/license.html');
+	});
 }
 
 function only_admins_can_post_blogs($hook, $type, $return, $params) {
