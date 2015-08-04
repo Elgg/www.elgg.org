@@ -2,6 +2,7 @@
 !.gitignore
 !.travis.yml
 settings.php
+cache
 
 /mod
 /vendor
