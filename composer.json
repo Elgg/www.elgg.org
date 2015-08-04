@@ -10,7 +10,7 @@
         "beck24/trusted_user_spam_report": "dev-patch-1",
         "brettp/admin_notes": "dev-master",
         "brettp/bulk_user_admin": "dev-master",
-        "brettp/elgg-registration-randomizer": "dev-master",
+        "brettp/elgg-registration-randomizer": "dev-no-mysql-2.0",
         "brettp/stale_users": "dev-master",
         "elgg/ban": "dev-master",
         "elgg/community_customizations": "dev-master",
@@ -48,6 +48,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/brettp/bulk-user-admin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ewinslow/elgg-registration-randomizer"
         },
         {
             "type": "vcs",
