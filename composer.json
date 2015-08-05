@@ -13,7 +13,6 @@
         "brettp/elgg-registration-randomizer": "dev-no-mysql-2.0",
         "brettp/stale_users": "dev-master",
         "elgg/ban": "dev-master",
-        "elgg/community_customizations": "dev-master",
         "elgg/community_groups": "dev-master",
         "elgg/community_plugins": "dev-master",
         "elgg/community_solr": "dev-master",

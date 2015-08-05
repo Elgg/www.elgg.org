@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6cfae9d5f47312b85f36fff8cd2d1dd",
+    "hash": "679fa9e491460bd91d2ddcc48c5846aa",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -1005,43 +1005,6 @@
             "time": "2015-07-21 04:45:03"
         },
         {
-            "name": "elgg/community_customizations",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Elgg/community_customizations.git",
-                "reference": "2a97b812fc428fde38b357f1178d5c7dc79d42de"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_customizations/zipball/2a97b812fc428fde38b357f1178d5c7dc79d42de",
-                "reference": "2a97b812fc428fde38b357f1178d5c7dc79d42de",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Core developers",
-                    "homepage": "https://github.com/Elgg/community_customizations",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Customizations for the Elgg community site.",
-            "homepage": "https://github.com/Elgg/community_customizations",
-            "keywords": [
-                "elgg",
-                "plugin"
-            ],
-            "time": "2014-10-25 20:03:02"
-        },
-        {
             "name": "elgg/community_groups",
             "version": "dev-master",
             "source": {
@@ -1316,12 +1279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "088670219c218c0ef4c789a2466411157a5e5d53"
+                "reference": "9eac5aacd0768fce746b91207be21d1d4e079684"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/088670219c218c0ef4c789a2466411157a5e5d53",
-                "reference": "088670219c218c0ef4c789a2466411157a5e5d53",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/9eac5aacd0768fce746b91207be21d1d4e079684",
+                "reference": "9eac5aacd0768fce746b91207be21d1d4e079684",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1332,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-08-04 13:51:27"
+            "time": "2015-08-05 01:07:25"
         },
         {
             "name": "elgg/login_as",
@@ -3594,7 +3557,6 @@
         "brettp/elgg-registration-randomizer": 20,
         "brettp/stale_users": 20,
         "elgg/ban": 20,
-        "elgg/community_customizations": 20,
         "elgg/community_groups": 20,
         "elgg/community_plugins": 20,
         "elgg/community_solr": 20,
