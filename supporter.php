@@ -187,6 +187,12 @@
 						<td><a href="http://www.jetbrains.com">JetBrains</a></td>
 						<td><a href="http://www.jetbrains.com">visit</a></td>
 					</tr>
+					<tr>
+						<td>Christian Bernert</td>
+						<td><a href="http://sogin.com" rel="nofollow">http://sogin.com</a></td>
+						<td><a href="http://sogin.com" rel="nofollow">SogIn Ltd.</a></td>
+						<td><a href="https://elgg.org/profile/sogln">visit</a></td>
+					</tr>
 
 
 				</table>
