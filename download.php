@@ -42,8 +42,8 @@
 		</div>
 
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - July 7, 2015</h1>
-			<?php $elgg_stable = '1.12.0'; ?>
+			<h1 class="header_color" style="margin-top:40px;">Latest Release - Aug 5, 2015</h1>
+			<?php $elgg_stable = '1.12.1'; ?>
 			<p class="leader">
 				Elgg <?php echo $elgg_stable; ?> is the latest and recommended version of Elgg.<br />
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
