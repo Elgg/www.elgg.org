@@ -37,12 +37,17 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
-            <p><b>1.11.1</b> - released April 26, 2015 <a href="getelgg.php?forward=elgg-1.11.1.zip">Download</a></p>
-            <p><b>1.11.0</b> - released April 13, 2015 <a href="getelgg.php?forward=elgg-1.11.0.zip">Download</a></p>
+			<p><b>1.12.1</b> - released August 5, 2015 <a href="getelgg.php?forward=elgg-1.12.1.zip">Download</a></p>
+			<p><b>1.12.0</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.12.0.zip">Download</a></p>
 
 			<h1 class="header_color">Security releases</h1>
-			<p><b>Elgg 1.8, 1.9 and 1.10 are receiving only security updates.</b></p>
-            <p><b>1.10.4</b> - released March 22, 2015 <a href="getelgg.php?forward=elgg-1.10.4.zip">Download</a></p>
+			<p><b>Elgg 1.8, 1.9, 1.10, and 1.11 are receiving only security updates.</b></p>
+			<p><b>1.11.4</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.11.4.zip">Download</a></p>
+			<p><b>1.11.3</b> - released June 14, 2015 <a href="getelgg.php?forward=elgg-1.11.3.zip">Download</a></p>
+			<p><b>1.11.2</b> - released May 25, 2015 <a href="getelgg.php?forward=elgg-1.11.2.zip">Download</a></p>
+			<p><b>1.11.1</b> - released April 26, 2015 <a href="getelgg.php?forward=elgg-1.11.1.zip">Download</a></p>
+			<p><b>1.11.0</b> - released April 13, 2015 <a href="getelgg.php?forward=elgg-1.11.0.zip">Download</a></p>
+			<p><b>1.10.4</b> - released March 22, 2015 <a href="getelgg.php?forward=elgg-1.10.4.zip">Download</a></p>
 			<p><b>1.10.3</b> - released March 8, 2015 <a href="getelgg.php?forward=elgg-1.10.3.zip">Download</a></p>
 			<p><b>1.10.2</b> - released February 21, 2015 <a href="getelgg.php?forward=elgg-1.10.2.zip">Download</a></p>
 			<p><b>1.10.1</b> - released January 25, 2015 <a href="getelgg.php?forward=elgg-1.10.1.zip">Download</a></p>
