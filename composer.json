@@ -3,7 +3,7 @@
     "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
-        "arckinteractive/elgg_solr": "dev-patch-1",
+        "arckinteractive/elgg_solr": "dev-master",
         "beck24/image_proxy": "dev-patch-1",
         "beck24/spam_throttle": "dev-patch-1",
         "beck24/trusted_users": "dev-patch-1",
@@ -54,7 +54,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ewinslow/elgg_solr"
+            "url": "https://github.com/arckinteractive/elgg_solr"
         },
         {
             "type": "vcs",

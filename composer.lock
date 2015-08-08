@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "679fa9e491460bd91d2ddcc48c5846aa",
+    "hash": "1869bb6e47a96a0a2d16f5691753b234",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/elgg_solr.git",
-                "reference": "8fece23a3be0214b9ecca8372f42e40baa33e6d0"
+                "url": "https://github.com/arckinteractive/elgg_solr.git",
+                "reference": "58e8fcb2f03c4548fab87c7a0bd32cd7cf64c420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/elgg_solr/zipball/8fece23a3be0214b9ecca8372f42e40baa33e6d0",
-                "reference": "8fece23a3be0214b9ecca8372f42e40baa33e6d0",
+                "url": "https://api.github.com/repos/arckinteractive/elgg_solr/zipball/58e8fcb2f03c4548fab87c7a0bd32cd7cf64c420",
+                "reference": "58e8fcb2f03c4548fab87c7a0bd32cd7cf64c420",
                 "shasum": ""
             },
             "require": {
@@ -26,9 +26,10 @@
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/elgg_solr/tree/patch-1"
+                "source": "https://github.com/arckinteractive/elgg_solr/tree/master",
+                "issues": "https://github.com/arckinteractive/elgg_solr/issues"
             },
-            "time": "2015-07-21 05:00:40"
+            "time": "2015-08-07 18:47:05"
         },
         {
             "name": "beck24/image_proxy",
@@ -1279,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "9eac5aacd0768fce746b91207be21d1d4e079684"
+                "reference": "c44c5c4b9e32cb119becbbb81954c1a10d7f4c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/9eac5aacd0768fce746b91207be21d1d4e079684",
-                "reference": "9eac5aacd0768fce746b91207be21d1d4e079684",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/c44c5c4b9e32cb119becbbb81954c1a10d7f4c63",
+                "reference": "c44c5c4b9e32cb119becbbb81954c1a10d7f4c63",
                 "shasum": ""
             },
             "require": {
@@ -1332,7 +1333,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-08-05 01:07:25"
+            "time": "2015-08-08 15:55:18"
         },
         {
             "name": "elgg/login_as",
@@ -1777,12 +1778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "4f1925fc351a2f058bb56117203a85c5da8852cc"
+                "reference": "b05fae3dbf60a0558d5e81d898605ed9a5ca2caf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4f1925fc351a2f058bb56117203a85c5da8852cc",
-                "reference": "4f1925fc351a2f058bb56117203a85c5da8852cc",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/b05fae3dbf60a0558d5e81d898605ed9a5ca2caf",
+                "reference": "b05fae3dbf60a0558d5e81d898605ed9a5ca2caf",
                 "shasum": ""
             },
             "conflict": {
@@ -1798,6 +1799,7 @@
                 "illuminate/auth": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26",
                 "illuminate/database": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
                 "laravel/framework": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26|>=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
+                "laravel/socialite": ">=1.0.0,<1.0.99|>=2.0.0,<2.0.9|>=1.0.0,<1.0.99|>=2.0.0,<2.0.10",
                 "monolog/monolog": ">=1.8.0,<1.12.0",
                 "namshi/jose": "<1.1.2|<2.0.3|<2.2.0",
                 "oro/crm": ">=1.7.0,<1.7.4",
@@ -1842,9 +1844,10 @@
                 "zendframework/zend-validator": ">=2.3.0,<2.3.6",
                 "zendframework/zend-view": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1.0,<2.1.6|>=2.2.0,<2.2.6",
-                "zendframework/zendframework": ">=2.0.0,<2.0.1|>=2.0.0,<2.0.5|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.2.0,<2.2.5|>=2.1.0,<2.1.6|>=2.2.0,<2.2.6|>=2.0.0,<2.2.7|>=2.3.0,<2.3.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.9|>=2.3.0,<2.3.4|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5|>=2.3.0,<2.3.6|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.1",
-                "zendframework/zendframework1": ">=1.7.0,<1.7.5|>=1.7.0,<1.7.6|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.9.0,<1.9.8|>=1.10.0,<1.10.3|>=1.0.0,<1.11.4|>=1.10.0,<1.10.9|>=1.11.0,<1.11.6|>=1.0.0,<1.11.13|>=1.0.0,<1.11.13|>=1.11.0,<1.11.15|>=1.12.0,<1.12.1|>=1.12.0,<1.12.4|>=1.12.0,<1.12.4|>=1.12.0,<1.12.7|>=1.12.0,<1.12.9|>=1.12.0,<1.12.9|>=1.12.0,<1.12.12",
+                "zendframework/zendframework": ">=2.0.0,<2.0.1|>=2.0.0,<2.0.5|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.2.0,<2.2.5|>=2.1.0,<2.1.6|>=2.2.0,<2.2.6|>=2.0.0,<2.2.7|>=2.3.0,<2.3.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.9|>=2.3.0,<2.3.4|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5|>=2.3.0,<2.3.6|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.6|>=2.5.0,<2.5.1",
+                "zendframework/zendframework1": ">=1.7.0,<1.7.5|>=1.7.0,<1.7.6|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.9.0,<1.9.8|>=1.10.0,<1.10.3|>=1.0.0,<1.11.4|>=1.10.0,<1.10.9|>=1.11.0,<1.11.6|>=1.0.0,<1.11.13|>=1.0.0,<1.11.13|>=1.11.0,<1.11.15|>=1.12.0,<1.12.1|>=1.12.0,<1.12.4|>=1.12.0,<1.12.4|>=1.12.0,<1.12.7|>=1.12.0,<1.12.9|>=1.12.0,<1.12.9|>=1.12.0,<1.12.12|>=1.12.0,<1.12.14",
                 "zendframework/zendopenid": ">=2.0.0,<2.0.2",
+                "zendframework/zendxml": ">=1.0.0,<1.0.1",
                 "zf-commons/zfc-user": "<1.2.2",
                 "zfr/zfr-oauth2-server-module": "<0.1.2"
             },
@@ -1861,7 +1864,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2015-07-12 17:29:58"
+            "time": "2015-08-07 02:47:02"
         },
         {
             "name": "solarium/solarium",
@@ -2950,16 +2953,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.7.7",
+            "version": "4.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9b97f9d807b862c2de2a36e86690000801c85724"
+                "reference": "748c6963c0a8c983fa69ee8884c885d0e98209bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9b97f9d807b862c2de2a36e86690000801c85724",
-                "reference": "9b97f9d807b862c2de2a36e86690000801c85724",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/748c6963c0a8c983fa69ee8884c885d0e98209bf",
+                "reference": "748c6963c0a8c983fa69ee8884c885d0e98209bf",
                 "shasum": ""
             },
             "require": {
@@ -2969,7 +2972,7 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
-                "phpspec/prophecy": "~1.3,>=1.3.1",
+                "phpspec/prophecy": "^1.3.1",
                 "phpunit/php-code-coverage": "~2.1",
                 "phpunit/php-file-iterator": "~1.4",
                 "phpunit/php-text-template": "~1.2",
@@ -2977,7 +2980,7 @@
                 "phpunit/phpunit-mock-objects": "~2.3",
                 "sebastian/comparator": "~1.1",
                 "sebastian/diff": "~1.2",
-                "sebastian/environment": "~1.2",
+                "sebastian/environment": "~1.3",
                 "sebastian/exporter": "~1.2",
                 "sebastian/global-state": "~1.0",
                 "sebastian/version": "~1.0",
@@ -2992,7 +2995,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.7.x-dev"
+                    "dev-master": "4.8.x-dev"
                 }
             },
             "autoload": {
@@ -3018,7 +3021,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-07-13 11:28:34"
+            "time": "2015-08-07 12:56:50"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
