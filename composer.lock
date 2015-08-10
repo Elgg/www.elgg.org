@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "757c08eb4d2180598fec147f749f80e3",
+    "hash": "7dd19c1c7489eb82bbda512977cdffc9",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -1233,43 +1233,6 @@
                 "security"
             ],
             "time": "2015-07-31 14:44:57"
-        },
-        {
-            "name": "elgg/community_theme",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Elgg/community_theme.git",
-                "reference": "eaf40da4c5bad87f3c0a24c062a6c7332a723e94"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_theme/zipball/eaf40da4c5bad87f3c0a24c062a6c7332a723e94",
-                "reference": "eaf40da4c5bad87f3c0a24c062a6c7332a723e94",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Core developers",
-                    "homepage": "http://www.elgg.org/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Elgg community theme",
-            "homepage": "http://www.elgg.org/",
-            "keywords": [
-                "elgg",
-                "plugin"
-            ],
-            "time": "2015-07-31 05:21:12"
         },
         {
             "name": "elgg/community_web_services",
@@ -3634,7 +3597,6 @@
         "elgg/community_plugins": 20,
         "elgg/community_solr": 20,
         "elgg/community_spam_tools": 20,
-        "elgg/community_theme": 20,
         "elgg/community_web_services": 20,
         "elgg/dbvalidator": 20,
         "elgg/drop_unvalidated": 20,
