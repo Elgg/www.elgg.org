@@ -17,7 +17,6 @@
         "elgg/community_plugins": "dev-master",
         "elgg/community_solr": "dev-master",
         "elgg/community_spam_tools": "dev-master",
-        "elgg/community_theme": "dev-master",
         "elgg/community_web_services": "dev-master",
         "elgg/dbvalidator": "dev-master",
         "elgg/drop_unvalidated": "dev-master",
