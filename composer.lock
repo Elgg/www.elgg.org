@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1869bb6e47a96a0a2d16f5691753b234",
+    "hash": "757c08eb4d2180598fec147f749f80e3",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -250,6 +250,34 @@
             }
         },
         {
+            "name": "bower-asset/require-css",
+            "version": "0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guybedford/require-css.git",
+                "reference": "3b1d86858259762e5bb9db72c3df6ea808cd9d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guybedford/require-css/zipball/3b1d86858259762e5bb9db72c3df6ea808cd9d6d",
+                "reference": "3b1d86858259762e5bb9db72c3df6ea808cd9d6d",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "css.js",
+                    "css-builder.js",
+                    "normalize.js"
+                ],
+                "bower-asset-ignore": [
+                    "example",
+                    "test",
+                    ".gitignore"
+                ]
+            }
+        },
+        {
             "name": "bower-asset/requirejs",
             "version": "2.1.20",
             "source": {
@@ -391,6 +419,48 @@
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "time": "2015-07-21 13:39:32"
+        },
+        {
+            "name": "components/highlightjs",
+            "version": "8.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/highlightjs.git",
+                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/highlightjs/zipball/3c0b4bc4a70ca3312437829c6d48ccd342467d74",
+                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "highlight.pack.min.js"
+                    ],
+                    "files": [
+                        "styles/*"
+                    ],
+                    "shim": {
+                        "exports": "hljs"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Sagalaev",
+                    "email": "maniac@softwaremaniacs.org",
+                    "homepage": "http://softwaremaniacs.org"
+                }
+            ],
+            "description": "Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages.",
+            "time": "2015-08-05 04:32:44"
         },
         {
             "name": "composer/installers",

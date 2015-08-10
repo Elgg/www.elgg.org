@@ -1,0 +1,15 @@
+pre {
+	background: #F0F0F0;
+	padding: 10px;
+}
+
+pre > code {
+	background: #F0F0F0;
+	padding: 0;
+}
+
+pre > .hljs {
+	background: #F0F0F0;
+	margin: -10px;
+	padding: 10px;
+}
