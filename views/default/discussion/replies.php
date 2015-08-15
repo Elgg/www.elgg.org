@@ -21,7 +21,7 @@ $replies = elgg_list_entities(array(
 ));
 
 if ($replies) {
-	echo '<h3>' . elgg_echo('group:replies') . '</h3>';
+	echo '<h3>' . elgg_echo('discussion:replies') . '</h3>';
 	echo $replies;
 }
 
