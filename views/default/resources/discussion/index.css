@@ -1,0 +1,64 @@
+.actions {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	white-space: nowrap;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 0 12px;
+}
+
+.listItem {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	padding-left: 12px;
+}
+
+.listItem:not(:last-child) {
+	border-bottom: 1px solid #ccc;
+}
+
+.listItem--unread {
+	font-weight: bold;
+}
+
+.listItem-author {
+	display: block;
+	
+	/* If we don't set this explicit, the div grows to be 46px???? */
+	height: 40px;
+}
+
+.listItem-body {
+	flex: 100%;
+
+}
+
+.listItem-metadata {
+	padding: 0 12px 8px;
+}
+
+.listItem-title {
+	display: block;
+	font-size: larger;
+	padding: 8px 12px;
+}
+
+.pagination {
+	display: flex;
+	padding: 8px 12px;
+}
+
+.pagination > * {
+	flex: 1;
+	text-align: center;
+}
+
+.title {
+	flex: 100%;
+	padding: .5em 0;
+}
