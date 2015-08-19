@@ -1,20 +1,47 @@
 .actions {
-	align-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	white-space: nowrap;
 }
 
 .header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	padding: 0 12px;
 }
 
 .listItem {
-	align-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	padding-left: 12px;
 }
 
@@ -34,7 +61,10 @@
 }
 
 .listItem-body {
-	flex: 100%;
+	-webkit-box-flex: 100%;
+	-webkit-flex: 100%;
+	    -ms-flex: 100%;
+	        flex: 100%;
 
 }
 
@@ -49,16 +79,25 @@
 }
 
 .pagination {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 8px 12px;
 }
 
 .pagination > * {
-	flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 	text-align: center;
 }
 
 .title {
-	flex: 100%;
+	-webkit-box-flex: 100%;
+	-webkit-flex: 100%;
+	    -ms-flex: 100%;
+	        flex: 100%;
 	padding: .5em 0;
 }
