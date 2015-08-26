@@ -25,7 +25,7 @@
         "elgg/opensearch": "dev-master",
         "elgg/showcase": "dev-master",
         "ewinslow/elgg-google": "dev-master",
-        "jumbojett/vroom": "dev-patch-1",
+        "jumbojett/vroom": "dev-master",
         "thetruebumba/spam_login_filter": "dev-master",
         "bower-asset/require-css": "0.1.8",
         "components/highlightjs": "^8.7.0"
@@ -48,6 +48,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/brettp/bulk-user-admin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/jumbojett/vroom.git"
         },
         {
             "type": "vcs",
