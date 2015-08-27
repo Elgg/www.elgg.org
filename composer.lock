@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6445a91b126fe69002012e55aa806630",
+    "hash": "a714a3a87eb39c619e81ae1dd6eb3c59",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -12,24 +12,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arckinteractive/elgg_solr.git",
-                "reference": "13a7478867e52d45cf2e4dce30c850834c867eca"
+                "reference": "08b712371777f9aeebb270207fdf4f2a157966de"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/arckinteractive/elgg_solr/zipball/08b712371777f9aeebb270207fdf4f2a157966de",
-                "reference": "13a7478867e52d45cf2e4dce30c850834c867eca",
+                "reference": "08b712371777f9aeebb270207fdf4f2a157966de",
                 "shasum": ""
             },
             "require": {
                 "ezyang/htmlpurifier": "4.6.0",
-                "solarium/solarium": "3.3.0"
+                "solarium/solarium": "3.4.1"
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/arckinteractive/elgg_solr/tree/v1.9.6",
+                "source": "https://github.com/arckinteractive/elgg_solr/tree/master",
                 "issues": "https://github.com/arckinteractive/elgg_solr/issues"
             },
-            "time": "2015-08-10 21:51:33"
+            "time": "2015-08-13 11:05:26"
         },
         {
             "name": "beck24/image_proxy",
@@ -426,12 +426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/highlightjs.git",
-                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74"
+                "reference": "71636b69413d8deb32766091b969bc0a21085d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/highlightjs/zipball/3c0b4bc4a70ca3312437829c6d48ccd342467d74",
-                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74",
+                "url": "https://api.github.com/repos/components/highlightjs/zipball/71636b69413d8deb32766091b969bc0a21085d8a",
+                "reference": "71636b69413d8deb32766091b969bc0a21085d8a",
                 "shasum": ""
             },
             "type": "component",
@@ -460,7 +460,7 @@
                 }
             ],
             "description": "Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages.",
-            "time": "2015-08-05 04:32:44"
+            "time": "2015-08-17 10:33:22"
         },
         {
             "name": "composer/installers",
@@ -1313,12 +1313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "127a9c9e6396b61d84d6641677db935d76929b99"
+                "reference": "57f70094746304d8192dbf63fddf9dcb2b3dbd6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/127a9c9e6396b61d84d6641677db935d76929b99",
-                "reference": "127a9c9e6396b61d84d6641677db935d76929b99",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/57f70094746304d8192dbf63fddf9dcb2b3dbd6d",
+                "reference": "57f70094746304d8192dbf63fddf9dcb2b3dbd6d",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1366,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-08-15 04:17:21"
+            "time": "2015-08-23 19:52:04"
         },
         {
             "name": "elgg/login_as",
@@ -1561,23 +1561,24 @@
         },
         {
             "name": "jumbojett/vroom",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/vroom.git",
-                "reference": "6af3ba0ec904c4e4ecbe4178ff9fe8cb0b983ed6"
+                "url": "https://github.com/jumbojett/vroom.git",
+                "reference": "99d5432458b0660d13f13a2eb0df95c5e9941658"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/vroom/zipball/6af3ba0ec904c4e4ecbe4178ff9fe8cb0b983ed6",
-                "reference": "6af3ba0ec904c4e4ecbe4178ff9fe8cb0b983ed6",
+                "url": "https://api.github.com/repos/jumbojett/vroom/zipball/99d5432458b0660d13f13a2eb0df95c5e9941658",
+                "reference": "99d5432458b0660d13f13a2eb0df95c5e9941658",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/vroom/tree/patch-1"
+                "source": "https://github.com/jumbojett/vroom/tree/master",
+                "issues": "https://github.com/jumbojett/vroom/issues"
             },
-            "time": "2015-07-21 08:25:00"
+            "time": "2015-08-10 20:12:25"
         },
         {
             "name": "league/flysystem",
@@ -1811,12 +1812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5191be3ee57d5f890754c20802c7673b69fbd832"
+                "reference": "a33451757484bdc287a87a6a54b0eb0b3b4a58ce"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a33451757484bdc287a87a6a54b0eb0b3b4a58ce",
-                "reference": "5191be3ee57d5f890754c20802c7673b69fbd832",
+                "reference": "a33451757484bdc287a87a6a54b0eb0b3b4a58ce",
                 "shasum": ""
             },
             "conflict": {
@@ -1855,7 +1856,7 @@
                 "symfony/yaml": ">=2.0.0,<2.0.22|>=2.0.0,<2.0.22|>=2.1.0,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1.0,<2.1.2",
                 "thelia/thelia": ">=2.1.0,<2.1.2|>=2.1.0-beta1,<2.1.3",
-                "twig/twig": ">=1.0.0,<1.12.3",
+                "twig/twig": ">=1.0.0,<1.12.3|<1.20.0",
                 "typo3/cms": ">=6.2.0,<6.2.3|>=6.2.0,<6.2.6|>=6.2.0,<6.2.6|>=6.2.0,<6.2.9|>=7.0.0,<7.0.2|>=6.2.0,<6.2.9|>=7.0.0,<7.0.2|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3",
                 "typo3/flow": ">=1.0.0,<1.0.4|>=1.1.0,<1.1.1|>=2.0.0,<2.0.1",
                 "typo3/neos": ">=1.1.0,<1.1.3|>=1.2.0,<1.2.3",
@@ -1898,20 +1899,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2015-08-10 09:57:24"
+            "time": "2015-08-13 11:03:48"
         },
         {
             "name": "solarium/solarium",
-            "version": "3.3.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "a9d8a52ba9fd8add04b2294fad997a004c1f2fab"
+                "reference": "90d006c65efffcbcbfa8a31920e93c10d0657b96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/a9d8a52ba9fd8add04b2294fad997a004c1f2fab",
-                "reference": "a9d8a52ba9fd8add04b2294fad997a004c1f2fab",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/90d006c65efffcbcbfa8a31920e93c10d0657b96",
+                "reference": "90d006c65efffcbcbfa8a31920e93c10d0657b96",
                 "shasum": ""
             },
             "require": {
@@ -1952,7 +1953,7 @@
                 "search",
                 "solr"
             ],
-            "time": "2014-11-12 06:53:41"
+            "time": "2015-06-14 17:22:39"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2687,16 +2688,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.4.1",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373"
+                "reference": "4745ded9307786b730d7a60df5cb5a6c43cf95f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373",
-                "reference": "3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/4745ded9307786b730d7a60df5cb5a6c43cf95f7",
+                "reference": "4745ded9307786b730d7a60df5cb5a6c43cf95f7",
                 "shasum": ""
             },
             "require": {
@@ -2743,7 +2744,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-04-27 22:15:08"
+            "time": "2015-08-13 10:07:40"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2938,16 +2939,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.3",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9"
+                "reference": "3ab72c62e550370a6cd5dc873e1a04ab57562f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
-                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3ab72c62e550370a6cd5dc873e1a04ab57562f5b",
+                "reference": "3ab72c62e550370a6cd5dc873e1a04ab57562f5b",
                 "shasum": ""
             },
             "require": {
@@ -2983,20 +2984,20 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-06-19 03:43:16"
+            "time": "2015-08-16 08:51:00"
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.3",
+            "version": "4.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "fd3050e26e3105f416d74c4d33aea659b406c59d"
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fd3050e26e3105f416d74c4d33aea659b406c59d",
-                "reference": "fd3050e26e3105f416d74c4d33aea659b406c59d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2246830f4a1a551c67933e4171bf2126dc29d357",
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357",
                 "shasum": ""
             },
             "require": {
@@ -3055,24 +3056,24 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-10 09:16:56"
+            "time": "2015-08-24 04:09:38"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "18dfbcb81d05e2296c0bcddd4db96cade75e6f42"
+                "reference": "5e2645ad49d196e020b85598d7c97e482725786a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/18dfbcb81d05e2296c0bcddd4db96cade75e6f42",
-                "reference": "18dfbcb81d05e2296c0bcddd4db96cade75e6f42",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5e2645ad49d196e020b85598d7c97e482725786a",
+                "reference": "5e2645ad49d196e020b85598d7c97e482725786a",
                 "shasum": ""
             },
             "require": {
-                "doctrine/instantiator": "~1.0,>=1.0.2",
+                "doctrine/instantiator": "^1.0.2",
                 "php": ">=5.3.3",
                 "phpunit/php-text-template": "~1.2",
                 "sebastian/exporter": "~1.2"
@@ -3111,7 +3112,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-07-10 06:54:24"
+            "time": "2015-08-19 09:14:08"
         },
         {
             "name": "sebastian/comparator",
