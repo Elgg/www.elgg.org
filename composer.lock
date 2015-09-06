@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20724b24f1ba40984cb7110fd8a1e2e3",
+    "hash": "9061e8daa21288889b899e6c71766d6a",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -33,23 +33,24 @@
         },
         {
             "name": "beck24/image_proxy",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/image_proxy.git",
-                "reference": "70d0e1ef3e15e8c724318b101d8b54a08e868c71"
+                "url": "https://github.com/beck24/image_proxy.git",
+                "reference": "c01316c40aa48c432753e4bfd8b5dd3f475cc665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/image_proxy/zipball/70d0e1ef3e15e8c724318b101d8b54a08e868c71",
-                "reference": "70d0e1ef3e15e8c724318b101d8b54a08e868c71",
+                "url": "https://api.github.com/repos/beck24/image_proxy/zipball/c01316c40aa48c432753e4bfd8b5dd3f475cc665",
+                "reference": "c01316c40aa48c432753e4bfd8b5dd3f475cc665",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/image_proxy/tree/patch-1"
+                "source": "https://github.com/beck24/image_proxy/tree/master",
+                "issues": "https://github.com/beck24/image_proxy/issues"
             },
-            "time": "2015-07-21 05:19:42"
+            "time": "2015-08-29 09:40:56"
         },
         {
             "name": "beck24/spam_login_filter",
@@ -93,63 +94,66 @@
         },
         {
             "name": "beck24/spam_throttle",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/spam_throttle.git",
-                "reference": "b5418dec7fddd987c34aa808ebdfa97285bb59ba"
+                "url": "https://github.com/beck24/spam_throttle.git",
+                "reference": "51f93e8dbd9e7fef500bf3dd457a77a5bd06867f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/spam_throttle/zipball/b5418dec7fddd987c34aa808ebdfa97285bb59ba",
-                "reference": "b5418dec7fddd987c34aa808ebdfa97285bb59ba",
+                "url": "https://api.github.com/repos/beck24/spam_throttle/zipball/51f93e8dbd9e7fef500bf3dd457a77a5bd06867f",
+                "reference": "51f93e8dbd9e7fef500bf3dd457a77a5bd06867f",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/spam_throttle/tree/patch-1"
+                "source": "https://github.com/beck24/spam_throttle/tree/master",
+                "issues": "https://github.com/beck24/spam_throttle/issues"
             },
-            "time": "2015-07-21 05:16:55"
+            "time": "2015-08-29 09:42:00"
         },
         {
             "name": "beck24/trusted_user_spam_report",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/trusted_user_spam_report.git",
-                "reference": "4b2bd399cf25e6dc1c8f7e80532b92fe79f6d21d"
+                "url": "https://github.com/beck24/trusted_user_spam_report.git",
+                "reference": "efb1d4f3c5ecbb9e88f3285060ec492e6ac88ca9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/trusted_user_spam_report/zipball/4b2bd399cf25e6dc1c8f7e80532b92fe79f6d21d",
-                "reference": "4b2bd399cf25e6dc1c8f7e80532b92fe79f6d21d",
+                "url": "https://api.github.com/repos/beck24/trusted_user_spam_report/zipball/efb1d4f3c5ecbb9e88f3285060ec492e6ac88ca9",
+                "reference": "efb1d4f3c5ecbb9e88f3285060ec492e6ac88ca9",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/trusted_user_spam_report/tree/patch-1"
+                "source": "https://github.com/beck24/trusted_user_spam_report/tree/master",
+                "issues": "https://github.com/beck24/trusted_user_spam_report/issues"
             },
-            "time": "2015-07-21 05:54:45"
+            "time": "2015-08-29 09:43:29"
         },
         {
             "name": "beck24/trusted_users",
-            "version": "dev-patch-1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/trusted_users.git",
-                "reference": "4cdcdd854681201dc536f615feb05f81364cff86"
+                "url": "https://github.com/beck24/trusted_users.git",
+                "reference": "333449999f5a9e86e5183dd608abf3b6272dfdb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/trusted_users/zipball/4cdcdd854681201dc536f615feb05f81364cff86",
-                "reference": "4cdcdd854681201dc536f615feb05f81364cff86",
+                "url": "https://api.github.com/repos/beck24/trusted_users/zipball/333449999f5a9e86e5183dd608abf3b6272dfdb2",
+                "reference": "333449999f5a9e86e5183dd608abf3b6272dfdb2",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "support": {
-                "source": "https://github.com/ewinslow/trusted_users/tree/patch-1"
+                "source": "https://github.com/beck24/trusted_users/tree/master",
+                "issues": "https://github.com/beck24/trusted_users/issues"
             },
-            "time": "2015-07-21 05:24:52"
+            "time": "2015-08-29 09:42:37"
         },
         {
             "name": "bower-asset/jquery",
