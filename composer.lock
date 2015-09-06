@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a714a3a87eb39c619e81ae1dd6eb3c59",
+    "hash": "20724b24f1ba40984cb7110fd8a1e2e3",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -50,6 +50,46 @@
                 "source": "https://github.com/ewinslow/image_proxy/tree/patch-1"
             },
             "time": "2015-07-21 05:19:42"
+        },
+        {
+            "name": "beck24/spam_login_filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beck24/spam_login_filter.git",
+                "reference": "9c12f171f1d81dd2cfb7f8029d53cae051b8ee62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beck24/spam_login_filter/zipball/9c12f171f1d81dd2cfb7f8029d53cae051b8ee62",
+                "reference": "9c12f171f1d81dd2cfb7f8029d53cae051b8ee62",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Beckett"
+                }
+            ],
+            "description": "Elgg plugin that validates login against blacklist databases.",
+            "homepage": "https://github.com/beck24/spam_login_filter",
+            "keywords": [
+                "analyzer",
+                "elgg",
+                "plugin",
+                "spam"
+            ],
+            "support": {
+                "issues": "https://github.com/beck24/spam_login_filter/issues",
+                "source": "https://github.com/beck24/spam_login_filter/tree/master"
+            },
+            "time": "2015-09-04 03:42:34"
         },
         {
             "name": "beck24/spam_throttle",
@@ -426,12 +466,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/highlightjs.git",
-                "reference": "71636b69413d8deb32766091b969bc0a21085d8a"
+                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/highlightjs/zipball/71636b69413d8deb32766091b969bc0a21085d8a",
-                "reference": "71636b69413d8deb32766091b969bc0a21085d8a",
+                "reference": "3c0b4bc4a70ca3312437829c6d48ccd342467d74",
                 "shasum": ""
             },
             "type": "component",
@@ -460,7 +500,7 @@
                 }
             ],
             "description": "Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages.",
-            "time": "2015-08-17 10:33:22"
+            "time": "2015-08-05 04:32:44"
         },
         {
             "name": "composer/installers",
@@ -586,16 +626,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.6",
+            "version": "v1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4"
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f4a91702ca3cd2e568c3736aa031ed00c3752af4",
-                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
                 "shasum": ""
             },
             "require": {
@@ -650,20 +690,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-06-17 12:21:22"
+            "time": "2015-08-31 12:32:49"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
-                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +760,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-04-15 00:11:59"
+            "time": "2015-08-31 12:36:41"
         },
         {
             "name": "doctrine/collections",
@@ -790,16 +830,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "cd8daf2501e10c63dced7b8b9b905844316ae9d3"
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/cd8daf2501e10c63dced7b8b9b905844316ae9d3",
-                "reference": "cd8daf2501e10c63dced7b8b9b905844316ae9d3",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/0009b8f0d4a917aabc971fb089eba80e872f83f9",
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9",
                 "shasum": ""
             },
             "require": {
@@ -859,7 +899,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-04-02 19:55:44"
+            "time": "2015-08-31 13:00:22"
         },
         {
             "name": "doctrine/dbal",
@@ -1313,12 +1353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "57f70094746304d8192dbf63fddf9dcb2b3dbd6d"
+                "reference": "1ab2655d4a6f7e37326d5d608af45f76902b2280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/57f70094746304d8192dbf63fddf9dcb2b3dbd6d",
-                "reference": "57f70094746304d8192dbf63fddf9dcb2b3dbd6d",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/1ab2655d4a6f7e37326d5d608af45f76902b2280",
+                "reference": "1ab2655d4a6f7e37326d5d608af45f76902b2280",
                 "shasum": ""
             },
             "require": {
@@ -1366,20 +1406,20 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-08-23 19:52:04"
+            "time": "2015-09-03 23:06:02"
         },
         {
             "name": "elgg/login_as",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/login_as.git",
-                "reference": "2782cb958f4494a2b8aca286a03e087270bfcb36"
+                "reference": "6cade385000e726875aba74498c28e0121222a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/login_as/zipball/2782cb958f4494a2b8aca286a03e087270bfcb36",
-                "reference": "2782cb958f4494a2b8aca286a03e087270bfcb36",
+                "url": "https://api.github.com/repos/Elgg/login_as/zipball/6cade385000e726875aba74498c28e0121222a1c",
+                "reference": "6cade385000e726875aba74498c28e0121222a1c",
                 "shasum": ""
             },
             "require": {
@@ -1401,7 +1441,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-02-28 20:54:43"
+            "time": "2015-09-03 12:18:17"
         },
         {
             "name": "elgg/opensearch",
@@ -1582,16 +1622,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "c16222fdc02467eaa12cb6d6d0e65527741f6040"
+                "reference": "7323424a9d39c24e597ed3f2144419dfbb52e086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c16222fdc02467eaa12cb6d6d0e65527741f6040",
-                "reference": "c16222fdc02467eaa12cb6d6d0e65527741f6040",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/7323424a9d39c24e597ed3f2144419dfbb52e086",
+                "reference": "7323424a9d39c24e597ed3f2144419dfbb52e086",
                 "shasum": ""
             },
             "require": {
@@ -1659,7 +1699,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-07-28 20:41:58"
+            "time": "2015-09-05 12:06:41"
         },
         {
             "name": "league/flysystem-memory",
@@ -1812,62 +1852,68 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a33451757484bdc287a87a6a54b0eb0b3b4a58ce"
+                "reference": "d8e6b5c282ab844ad4423d3986d4d2ad297184ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a33451757484bdc287a87a6a54b0eb0b3b4a58ce",
-                "reference": "a33451757484bdc287a87a6a54b0eb0b3b4a58ce",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d8e6b5c282ab844ad4423d3986d4d2ad297184ec",
+                "reference": "d8e6b5c282ab844ad4423d3986d4d2ad297184ec",
                 "shasum": ""
             },
             "conflict": {
-                "cakephp/cakephp": ">=2.0.0,<2.4.8|>=1.3.0,<1.3.18|>=3.0.0,<3.0.4|>=3.0.0,<3.0.6|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.99|>=2.3.0,<2.3.99|>=2.4.0,<2.4.99|>=2.5.0,<2.5.90|>=2.6.0,<2.6.6|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.99|>=2.3.0,<2.3.99|>=2.4.0,<2.4.99|>=2.5.0,<2.5.9|>=2.6.0,<2.6.11|>=2.7.0,<2.7.2",
-                "contao/core": ">=2.11.0,<2.11.16|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.7|>=2.11.0,<2.11.17|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.9|>=2.11.0,<3.0.0|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.19|>=3.3.0,<3.4.0|>=3.4.0,<3.4.4",
+                "aws/aws-sdk-php": ">=3.0.0,<3.2.1",
+                "cakephp/cakephp": ">=2.0.0,<2.4.8|>=1.3.0,<1.3.18|>=3.0.0,<3.0.6|>=2.4.0,<2.4.99|>=2.5.0,<2.5.90|>=2.6.0,<2.6.11|>=2.7.0,<2.7.2",
+                "contao/core": ">=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=2.11.0,<3.0.0|>=3.2.0,<3.2.19|>=3.3.0,<3.4.0|>=3.4.0,<3.4.4",
+                "doctrine/annotations": ">=1.0.0,<1.2.7",
+                "doctrine/cache": ">=1.0.0,<1.3.2|>=1.4.0,<1.4.2",
+                "doctrine/common": ">=2.0.0,<2.4.3|>=2.5.0,<2.5.1",
                 "doctrine/dbal": ">=2.0.0,<2.0.8|>=2.1.0,<2.1.2",
-                "doctrine/doctrine-module": "<=0.7.1|<=0.7.1",
-                "doctrine/orm": ">=2.0.0,<2.0.3",
+                "doctrine/doctrine-module": "<=0.7.1",
+                "doctrine/mongodb-odm": ">=1.0.0,<1.0.2",
+                "doctrine/mongodb-odm-bundle": ">=2.0.0,<3.0.1",
+                "doctrine/orm": ">=2.0.0,<2.4.8|>=2.5.0,<2.5.1",
                 "dompdf/dompdf": ">=0.6.0,<0.6.1",
                 "firebase/php-jwt": "<2.0.0",
                 "friendsofsymfony/rest-bundle": ">=1.2.0,<1.2.2",
-                "friendsofsymfony/user-bundle": ">=1.2.0,<1.2.1|>=1.2.0,<1.2.4|>=1.2.0,<1.3.0|>=1.3.0,<1.3.5|>=1.2.0,<1.2.5|>=1.3.0,<1.3.3",
+                "friendsofsymfony/user-bundle": ">=1.2.0,<1.3.0|>=1.3.0,<1.3.5",
                 "illuminate/auth": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26",
                 "illuminate/database": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
-                "laravel/framework": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26|>=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
-                "laravel/socialite": ">=1.0.0,<1.0.99|>=2.0.0,<2.0.9|>=1.0.0,<1.0.99|>=2.0.0,<2.0.10",
+                "laravel/framework": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
+                "laravel/socialite": ">=1.0.0,<1.0.99|>=2.0.0,<2.0.10",
                 "monolog/monolog": ">=1.8.0,<1.12.0",
-                "namshi/jose": "<1.1.2|<2.0.3|<2.2.0",
+                "namshi/jose": "<2.2.0",
                 "oro/crm": ">=1.7.0,<1.7.4",
                 "oro/platform": ">=1.7.0,<1.7.4",
                 "pusher/pusher-php-server": "<2.2.1",
-                "sabre/dav": ">=1.6.0,<1.6.9|>=1.7.0,<1.7.7|>=1.8.0,<1.8.5|>=1.6.0,<1.6.99|>=1.7.0,<1.7.11|>=1.8.0,<1.8.9",
+                "sabre/dav": ">=1.6.0,<1.6.99|>=1.7.0,<1.7.11|>=1.8.0,<1.8.9",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "swiftmailer/swiftmailer": ">=4.0.0,<4.99.99|>=5.0.0,<5.2.1",
                 "symfony/dependency-injection": ">=2.0.0,<2.0.17",
                 "symfony/framework-bundle": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.18|>=2.4.0,<2.4.8|>=2.5.0,<2.5.2",
-                "symfony/http-foundation": ">=2.0.0,<2.0.19|>=2.1.0,<2.1.4|>=2.0.0,<2.0.19|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6",
-                "symfony/http-kernel": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6|>=2.3.19,<2.3.29|>=2.4.9,<2.5.0|>=2.5.4,<2.5.12|>=2.6.0,<2.6.8",
-                "symfony/routing": ">=2.0.0,<2.0.17|>=2.0.0,<2.0.19",
-                "symfony/security": ">=2.0.0,<2.0.19|>=2.0.0,<2.0.25|>=2.1.0,<2.1.13|>=2.2.0,<2.2.9|>=2.3.0,<2.3.6",
+                "symfony/http-foundation": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6",
+                "symfony/http-kernel": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.3.19,<2.3.29|>=2.5.4,<2.5.12|>=2.6.0,<2.6.8",
+                "symfony/routing": ">=2.0.0,<2.0.19",
+                "symfony/security": ">=2.0.0,<2.0.25|>=2.1.0,<2.1.13|>=2.2.0,<2.2.9|>=2.3.0,<2.3.6",
                 "symfony/serializer": ">=2.0.0,<2.0.11",
-                "symfony/symfony": ">=2.0.0,<2.0.6|>=2.0.0,<2.0.11|>=2.0.0,<2.0.17|>=2.0.0,<2.0.19|>=2.1.0,<2.1.4|>=2.0.0,<2.0.19|>=2.0.0,<2.0.20|>=2.1.0,<2.1.5|>=2.0.0,<2.0.22|>=2.0.0,<2.0.22|>=2.1.0,<2.1.7|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.0.25|>=2.1.0,<2.1.13|>=2.2.0,<2.2.9|>=2.3.0,<2.3.6|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6|>=2.3.19,<2.3.29|>=2.4.9,<2.5.0|>=2.5.4,<2.5.12|>=2.6.0,<2.6.8",
+                "symfony/symfony": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.3.19,<2.3.29|>=2.5.4,<2.5.12|>=2.6.0,<2.6.8",
                 "symfony/translation": ">=2.0.0,<2.0.17",
-                "symfony/validator": ">=2.0.0,<2.0.17|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3",
+                "symfony/validator": ">=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3",
                 "symfony/web-profiler-bundle": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4",
-                "symfony/yaml": ">=2.0.0,<2.0.22|>=2.0.0,<2.0.22|>=2.1.0,<2.1.7",
+                "symfony/yaml": ">=2.0.0,<2.0.22|>=2.1.0,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1.0,<2.1.2",
                 "thelia/thelia": ">=2.1.0,<2.1.2|>=2.1.0-beta1,<2.1.3",
-                "twig/twig": ">=1.0.0,<1.12.3|<1.20.0",
-                "typo3/cms": ">=6.2.0,<6.2.3|>=6.2.0,<6.2.6|>=6.2.0,<6.2.6|>=6.2.0,<6.2.9|>=7.0.0,<7.0.2|>=6.2.0,<6.2.9|>=7.0.0,<7.0.2|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3|>=6.2.0,<6.2.3",
+                "twig/twig": "<1.20.0",
+                "typo3/cms": ">=6.2.0,<6.2.14|>=7.0.0,<7.1.0|>=7.1.0,<7.2.0|>=7.2.0,<7.3.0|>=7.3.0,<7.3.1",
                 "typo3/flow": ">=1.0.0,<1.0.4|>=1.1.0,<1.1.1|>=2.0.0,<2.0.1",
                 "typo3/neos": ">=1.1.0,<1.1.3|>=1.2.0,<1.2.3",
                 "willdurand/js-translation-bundle": "<2.1.1",
                 "yiisoft/yii": ">=1.1.14,<1.1.15",
-                "yiisoft/yii2": "<2.0.4|<2.0.5",
+                "yiisoft/yii2": "<2.0.5",
                 "yiisoft/yii2-bootstrap": "<2.0.4",
                 "yiisoft/yii2-dev": "<2.0.4",
                 "yiisoft/yii2-gii": "<2.0.4",
                 "yiisoft/yii2-jui": "<2.0.4",
-                "zendframework/zend-db": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5",
+                "zendframework/zend-db": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5",
                 "zendframework/zend-diactoros": ">=1.0.0,<1.0.4",
                 "zendframework/zend-form": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
                 "zendframework/zend-http": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.1",
@@ -1879,8 +1925,8 @@
                 "zendframework/zend-validator": ">=2.3.0,<2.3.6",
                 "zendframework/zend-view": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1.0,<2.1.6|>=2.2.0,<2.2.6",
-                "zendframework/zendframework": ">=2.0.0,<2.0.1|>=2.0.0,<2.0.5|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.2.0,<2.2.5|>=2.1.0,<2.1.6|>=2.2.0,<2.2.6|>=2.0.0,<2.2.7|>=2.3.0,<2.3.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.9|>=2.3.0,<2.3.4|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5|>=2.3.0,<2.3.6|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.99|>=2.3.0,<2.3.8|>=2.4.0,<2.4.6|>=2.5.0,<2.5.1",
-                "zendframework/zendframework1": ">=1.7.0,<1.7.5|>=1.7.0,<1.7.6|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.9.0,<1.9.8|>=1.10.0,<1.10.3|>=1.0.0,<1.11.4|>=1.10.0,<1.10.9|>=1.11.0,<1.11.6|>=1.0.0,<1.11.13|>=1.0.0,<1.11.13|>=1.11.0,<1.11.15|>=1.12.0,<1.12.1|>=1.12.0,<1.12.4|>=1.12.0,<1.12.4|>=1.12.0,<1.12.7|>=1.12.0,<1.12.9|>=1.12.0,<1.12.9|>=1.12.0,<1.12.12|>=1.12.0,<1.12.14",
+                "zendframework/zendframework": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.8|>=2.2.0,<2.2.99|>=2.4.0,<2.4.6|>=2.5.0,<2.5.1",
+                "zendframework/zendframework1": ">=1.0.0,<1.11.13|>=1.11.0,<1.11.15|>=1.12.0,<1.12.14",
                 "zendframework/zendopenid": ">=2.0.0,<2.0.2",
                 "zendframework/zendxml": ">=1.0.0,<1.0.1",
                 "zf-commons/zfc-user": "<1.2.2",
@@ -1899,7 +1945,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2015-08-13 11:03:48"
+            "time": "2015-09-03 08:12:24"
         },
         {
             "name": "solarium/solarium",
@@ -2119,43 +2165,6 @@
                 "sessions"
             ],
             "time": "2015-08-02 06:31:49"
-        },
-        {
-            "name": "thetruebumba/spam_login_filter",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheTrueBumba/spam_login_filter.git",
-                "reference": "c45fdb0971ebba395a6007e818944f2d941129ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheTrueBumba/spam_login_filter/zipball/c45fdb0971ebba395a6007e818944f2d941129ed",
-                "reference": "c45fdb0971ebba395a6007e818944f2d941129ed",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ray J"
-                }
-            ],
-            "description": "Elgg plugin that validates login against blacklist databases. You need the tracker plugin to use the \"report as spammer\" feature.",
-            "homepage": "https://github.com/TheTrueBumba/spam_login_filter",
-            "keywords": [
-                "analyzer",
-                "elgg",
-                "plugin",
-                "spam"
-            ],
-            "time": "2014-09-20 21:21:52"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -2517,16 +2526,16 @@
         },
         {
             "name": "zendframework/zend-validator",
-            "version": "2.5.2",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-validator.git",
-                "reference": "6b1e4bb249a00603ebbf4023b4b42c867aa79336"
+                "reference": "53e567a58c8952a03da0b8edf0f075303a5ac5d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/6b1e4bb249a00603ebbf4023b4b42c867aa79336",
-                "reference": "6b1e4bb249a00603ebbf4023b4b42c867aa79336",
+                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/53e567a58c8952a03da0b8edf0f075303a5ac5d1",
+                "reference": "53e567a58c8952a03da0b8edf0f075303a5ac5d1",
                 "shasum": ""
             },
             "require": {
@@ -2579,7 +2588,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2015-07-16 19:29:35"
+            "time": "2015-09-03 19:06:11"
         }
     ],
     "packages-dev": [
@@ -3587,6 +3596,7 @@
     "stability-flags": {
         "arckinteractive/elgg_solr": 20,
         "beck24/image_proxy": 20,
+        "beck24/spam_login_filter": 20,
         "beck24/spam_throttle": 20,
         "beck24/trusted_users": 20,
         "beck24/trusted_user_spam_report": 20,
@@ -3606,8 +3616,7 @@
         "elgg/opensearch": 20,
         "elgg/showcase": 20,
         "ewinslow/elgg-google": 20,
-        "jumbojett/vroom": 20,
-        "thetruebumba/spam_login_filter": 20
+        "jumbojett/vroom": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
