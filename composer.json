@@ -4,11 +4,11 @@
     "minimum-stability": "dev",
     "require": {
         "arckinteractive/elgg_solr": "dev-master",
-        "beck24/image_proxy": "dev-patch-1",
+        "beck24/image_proxy": "dev-master",
         "beck24/spam_login_filter": "dev-master",
-        "beck24/spam_throttle": "dev-patch-1",
-        "beck24/trusted_users": "dev-patch-1",
-        "beck24/trusted_user_spam_report": "dev-patch-1",
+        "beck24/spam_throttle": "dev-master",
+        "beck24/trusted_users": "dev-master",
+        "beck24/trusted_user_spam_report": "dev-master",
         "brettp/admin_notes": "dev-master",
         "brettp/bulk_user_admin": "dev-master",
         "brettp/elgg-registration-randomizer": "dev-no-mysql-2.0",
@@ -63,19 +63,19 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ewinslow/image_proxy"
+            "url": "https://github.com/beck24/image_proxy"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ewinslow/spam_throttle"
+            "url": "https://github.com/beck24/spam_throttle"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ewinslow/trusted_users"
+            "url": "https://github.com/beck24/trusted_users"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ewinslow/trusted_user_spam_report"
+            "url": "https://github.com/beck24/trusted_user_spam_report"
         },
         {
             "type": "vcs",
