@@ -1353,12 +1353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "1ab2655d4a6f7e37326d5d608af45f76902b2280"
+                "reference": "20cebc7062b263ff84735951aa13dfaa7a4abcd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/1ab2655d4a6f7e37326d5d608af45f76902b2280",
-                "reference": "1ab2655d4a6f7e37326d5d608af45f76902b2280",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/20cebc7062b263ff84735951aa13dfaa7a4abcd5",
+                "reference": "20cebc7062b263ff84735951aa13dfaa7a4abcd5",
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1406,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-09-03 23:06:02"
+            "time": "2015-09-06 19:21:02"
         },
         {
             "name": "elgg/login_as",
