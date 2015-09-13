@@ -77,18 +77,6 @@ elgg_register_event_handler('init', 'system', function() {
 		}
 	});
 
-	// Remove the duplicate add button for dicussions
-	elgg_register_plugin_hook_handler('register', 'menu:title', function($hook, $type, $menu) {
-		if (elgg_get_context() == 'discussion') {
-			foreach ($menu as $index => $item) {
-				if ($item->getName() == 'add') {
-					unset($menu[$index]);
-				}
-			}
-		}
-		return $menu;
-	});
-	
 	// Support for some very old URLs
 	elgg_register_page_handler('requirements.php', function() {
 		http_response_code(301);
@@ -104,12 +92,12 @@ elgg_register_event_handler('init', 'system', function() {
 		http_response_code(301);
 		forward('http://learn.elgg.org/en/latest/intro/license.html');
 	});
-	
+
 	// TODO(ewinslow): Patch core to make this css registration boilerplate unnecessary
 	elgg_register_css('widgets/messageboard/content', elgg_get_simplecache_url('widgets/messageboard/content.css'));
 	elgg_register_css('cke', elgg_get_simplecache_url('cke.css'));
 	elgg_load_css('cke');
-	
+
 	if (function_exists("elgg_ws_unexpose_function")) {
 		elgg_ws_unexpose_function('auth.gettoken');
 	}
@@ -166,7 +154,7 @@ elgg_register_event_handler('init', 'system', function() {
 
 	// convert messageboard to private message interface
 	elgg_register_widget_type('messageboard', elgg_echo("customizations:widget:pm"), elgg_echo("customizations:widget:pm:desc"), array("profile"));
-	
+
 	// Forward to referrer if posting PM from a widget
 	elgg_register_plugin_hook_handler('forward', 'system', function() {
 		if (get_input('pm_widget') == true) {
