@@ -22,6 +22,10 @@ return array(
 	'customizations:comments:fix' => 'Fix comments',
 	'customizations:comments:fixed' => "Comments have been fixed",
 
+	'customizations:join_group:link_text' => "join this group",
+	'customizations:join_group:message' => "You must %s to post replies.",
+	'customizations:join_group:confirmation' => "Join this group?",
+
 	'dashboard' => 'Activity',
 	
 	'menu:footer-navigation:header:default' => 'Navigation',
