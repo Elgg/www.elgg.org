@@ -2,9 +2,9 @@
 !.gitignore
 !.travis.yml
 !.tx
-settings.php
-cache
-
+/settings.php
+/elgg-config/settings.php
+/cache
 /mod
 /vendor
 

@@ -22,7 +22,7 @@
         "elgg/community_web_services": "dev-master",
         "elgg/dbvalidator": "dev-master",
         "elgg/drop_unvalidated": "dev-master",
-        "elgg/elgg": "dev-master",
+        "elgg/elgg": "2.0.x-dev",
         "elgg/login_as": "~1.9",
         "elgg/opensearch": "dev-master",
         "elgg/showcase": "dev-master",
@@ -36,9 +36,9 @@
         "phpunit/phpunit": "^4.7"
     },
     "scripts": {
-        "post-install-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
-        "post-update-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
-        "test": "phpunit tests",
+        "post-install-cmd": "\\Elgg\\Composer\\PostInstall::execute",
+        "post-package-update": "\\Elgg\\Composer\\PostUpdate::execute",
+        "test": "phpunit",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
     "repositories": [
