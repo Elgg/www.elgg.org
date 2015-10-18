@@ -1265,12 +1265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "e4474a58ff2016439928ab4b5acfd763d230230e"
+                "reference": "1fa3744e70d0397476694e5c7807d0c7d81c2a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/e4474a58ff2016439928ab4b5acfd763d230230e",
-                "reference": "e4474a58ff2016439928ab4b5acfd763d230230e",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/1fa3744e70d0397476694e5c7807d0c7d81c2a31",
+                "reference": "1fa3744e70d0397476694e5c7807d0c7d81c2a31",
                 "shasum": ""
             },
             "require": {
@@ -1303,7 +1303,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-09-08 19:44:42"
+            "time": "2015-10-18 03:01:47"
         },
         {
             "name": "elgg/community_solr",
@@ -1459,12 +1459,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "5ad3e178ab704855146bc3d599fa72113e7c0d69"
+                "reference": "c2e73ca72fc86925ba7a5d8517a012581e37a3e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/5ad3e178ab704855146bc3d599fa72113e7c0d69",
-                "reference": "5ad3e178ab704855146bc3d599fa72113e7c0d69",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/c2e73ca72fc86925ba7a5d8517a012581e37a3e5",
+                "reference": "c2e73ca72fc86925ba7a5d8517a012581e37a3e5",
                 "shasum": ""
             },
             "require": {
@@ -1512,7 +1512,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-10-15 20:58:33"
+            "time": "2015-10-17 23:58:55"
         },
         {
             "name": "elgg/login_as",
