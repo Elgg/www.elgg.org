@@ -22,6 +22,13 @@ function community_theme_init() {
 	elgg_unregister_plugin_hook_handler('prepare', 'menu:site', '_elgg_site_menu_setup');
 
 	elgg_register_plugin_hook_handler('forward', 'all', 'community_theme_forward');
+
+	elgg_unregister_menu_item('site', 'blog');
+	elgg_register_menu_item('site', ElggMenuItem::factory([
+		'name' => 'blog',
+		'href' => 'blog',
+		'text' => elgg_echo('blog:title:all_blogs'),
+	]));
 }
 
 function community_theme_forward($h, $t, $v, $p) {
