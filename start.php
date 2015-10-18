@@ -20,6 +20,16 @@ function community_theme_init() {
 	elgg_unregister_menu_item('footer', 'powered');
 
 	elgg_unregister_plugin_hook_handler('prepare', 'menu:site', '_elgg_site_menu_setup');
+
+	elgg_register_plugin_hook_handler('forward', 'all', 'community_theme_forward');
+}
+
+function community_theme_forward($h, $t, $v, $p) {
+	// odds are we want the Community URL instead of the home page
+	$site = elgg_get_site_url();
+	if ($v === $site) {
+		return "{$site}activity";
+	}
 }
 
 /**
