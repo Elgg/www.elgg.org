@@ -30,28 +30,27 @@ if ($show_add_form) {
 	echo elgg_view_form('discussion/reply/save', $form_vars, $vars);
 } elseif ($topic->status != 'closed') {
 	$group = $topic->getContainerEntity();
+	/* @var ElggGroup $group */
 
 	// if not a member
 	if (!elgg_is_logged_in()) {
-		$log_in = elgg_view('output/url', array(
+		echo elgg_view('output/url', array(
 			'href' => '/login',
-			'text' => 'log in'
+			'text' => 'You must log in to post replies.',
+			'class' => 'elgg-box elgg-state-notice elgg-login-to-post',
+			'style' => 'display:block',
 		));
+		elgg_require_js('elgg/login-to-reply');
 
-		echo "<div class=\"elgg-box elgg-state-notice\">";
-			echo "You must $log_in to post replies.";
-		echo "</div>";
 	} elseif (!$group->isMember()) {
 		// @todo override action to redirect back to thread.
-		$url = current_page_url();
-		$join_group = elgg_view('output/url', array(
+		echo elgg_view('output/confirmlink', array(
 			'href' => '/action/groups/join?group_guid=' . $group->getGUID(),
 			'text' => elgg_echo('customizations:join_group:link_text'),
-			'confirm' => elgg_echo('customizations:join_group:confirmation')
+			'confirm' => elgg_echo('customizations:join_group:confirmation'),
+			'class' => 'elgg-box elgg-state-notice',
+			'style' => 'display:block',
 		));
-		echo "<div class=\"elgg-box elgg-state-notice\">";
-			echo elgg_echo('customizations:join_group:message', array($join_group));
-		echo "</div>";
 	}
 }
 
