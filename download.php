@@ -108,7 +108,7 @@ $dev_date = 'Nov 29, 2015';
 		<div id="mid_right">
 			<h1>Developer Access</h1>
 				<p>If you're a developer and want the latest code you can grab the latest work in progress through GitHub:</p>
-				<p><a href="https://github.com/elgg/elgg">https://github.com/elgg/elgg</a></p>
+				<p><a href="https://github.com/Elgg/Elgg">https://github.com/Elgg/Elgg</a></p>
 		</div>
 		<div style="clear:both;"></div>
 	</div>
