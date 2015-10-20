@@ -9,4 +9,4 @@ before_install: composer global require fxp/composer-asset-plugin -vvv
 
 install: composer install -vvv
 
-script: composer test
+#script: composer test

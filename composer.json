@@ -38,7 +38,7 @@
     "scripts": {
         "post-install-cmd": "\\Elgg\\Composer\\PostInstall::execute",
         "post-package-update": "\\Elgg\\Composer\\PostUpdate::execute",
-        "test": "phpunit",
+        "test": "vendor/phpunit/phpunit/phpunit",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
     "autoload": {
