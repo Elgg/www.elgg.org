@@ -1,3 +1,13 @@
+<?php
+
+use Elgg\Releases;
+
+$stables = Releases::getReleases(Releases::$stable_branch);
+
+reset($stables);
+list($stable_version, $stable_date) = each($stables);
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
 <head>
@@ -29,7 +39,7 @@
 					  href="download.php" class="download">Get Elgg 2.0.0-rc.2</a></p>
 
 				<p><a style="background:#E74815;color:#fff;padding:.5em .3em;font-size:170%;border-radius:5px;display:inline-block"
-					  href="download.php" class="download">Get Elgg 1.12.5</a></p>
+					  href="download.php" class="download">Get Elgg <?= $stable_version ?></a></p>
 
 				<p style="margin-top:5px"><a style="color:#E74815" href="https://github.com/Elgg/Elgg">Elgg on GitHub</a></p>
 			</div>

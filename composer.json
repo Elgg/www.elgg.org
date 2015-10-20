@@ -41,6 +41,11 @@
         "test": "phpunit",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
+    "autoload": {
+        "psr-0": {
+            "Elgg\\Releases": "src/"
+        }
+    },
     "repositories": [
         {
             "type": "vcs",
