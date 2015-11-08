@@ -44,13 +44,13 @@ if ($show_add_form) {
 	} elseif (!$group->isMember()) {
 		// @todo override action to redirect back to thread.
 		$url = current_page_url();
-		$join_group = elgg_view('output/confirmlink', array(
+		$join_group = elgg_view('output/url', array(
 			'href' => '/action/groups/join?group_guid=' . $group->getGUID(),
-			'text' => 'join this group',
-			'confirm' => 'Join this group?'
+			'text' => elgg_echo('customizations:join_group:link_text'),
+			'confirm' => elgg_echo('customizations:join_group:confirmation')
 		));
 		echo "<div class=\"elgg-box elgg-state-notice\">";
-			echo "You must $join_group to post replies.";
+			echo elgg_echo('customizations:join_group:message', array($join_group));
 		echo "</div>";
 	}
 }
