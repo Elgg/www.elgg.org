@@ -180,4 +180,11 @@ elgg_register_event_handler('init', 'system', function() {
 
 	$actions = __DIR__ . "/actions";
 	elgg_register_action('admin/flush_apc', "$actions/admin/flush_apc.php", 'admin');
+	
+	elgg_register_plugin_hook_handler('route', 'discussion', function($hook, $type, $result, $params) {
+		if (!isset($params['segments'][0])) {
+			echo elgg_view_resource('discussion/index');
+			return false;
+		}
+	});
 });

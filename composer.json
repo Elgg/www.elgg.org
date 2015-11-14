@@ -38,6 +38,10 @@
     "scripts": {
         "post-install-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
         "post-update-cmd": "\\Elgg\\Composer\\PostUpdate::execute",
+        "fix": [
+            "npm install",
+            "./fix.sh"
+        ],
         "test": "phpunit tests",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
