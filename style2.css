@@ -50,31 +50,43 @@ small {font-size:90%;color:#999999;}
 /*-----------------------------
 	GLOBAL HEADER #00acf7
 -----------------------------*/
-#globalheader_wrapper {background-color:#00acf7; width: 100%;height: 30px;margin-left: auto;margin-right: auto;}
-#globalheader {position:relative;width: 970px;margin-left: auto;margin-right: auto;}
-#globalheader ul  {float:right;font-size: 0.9em; margin: 4px 0 0 0px;}
-#globalheader li  {
-	display:inline;list-style-type:none;
-	padding: 0 0 0 15px;
-
+#globalheader_wrapper {
+	background-color: #00acf7;
+	width: 100%;
+	height: 34px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.header {color: white;}
+#globalheader {
+	position: relative;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#globalheader ul {
+	float: right;
+	margin: 0;
+}
+#globalheader li {
+	display: inline-block;
+	padding: 0;
+}
+.header {
+	color: white;
+}
 #globalheader li a {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	padding:2px 9px;
+	display: inline-block;
+	padding: 8px 13px;
 }
 #globalheader li a:hover {
 	background-color: #027bb3;
-	color:white;
+	color: white;
 }
 .header.selected {
 	color: #333333;
 	font-weight: normal;
 	background-color: white;
-
 }
-
 
 /*-----------------------------
 	HEADER

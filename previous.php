@@ -1,3 +1,12 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Elgg\Releases;
+
+// TODO do we want to show -rc/beta/alpha releases?
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
 <head>
@@ -37,90 +46,38 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
-			<p><b>1.12.4</b> - released September 20, 2015 <a href="getelgg.php?forward=elgg-1.12.4.zip">Download</a></p>
-			<p><b>1.12.3</b> - released September 6, 2015 <a href="getelgg.php?forward=elgg-1.12.3.zip">Download</a></p>
-			<p><b>1.12.2</b> - released August 23, 2015 <a href="getelgg.php?forward=elgg-1.12.2.zip">Download</a></p>
-			<p><b>1.12.1</b> - released August 5, 2015 <a href="getelgg.php?forward=elgg-1.12.1.zip">Download</a></p>
-			<p><b>1.12.0</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.12.0.zip">Download</a></p>
+			<?php
+			$releases = Releases::getReleases(Releases::$stable_branch);
+			array_shift($releases);
+			foreach ($releases as $version => $date) {
+				echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+			}
+			?>
 
 			<h1 class="header_color">Security releases</h1>
-			<p><b>Elgg 1.9, 1.10, and 1.11 are receiving only security updates.</b></p>
-			<p><b>1.11.4</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.11.4.zip">Download</a></p>
-			<p><b>1.11.3</b> - released June 14, 2015 <a href="getelgg.php?forward=elgg-1.11.3.zip">Download</a></p>
-			<p><b>1.11.2</b> - released May 25, 2015 <a href="getelgg.php?forward=elgg-1.11.2.zip">Download</a></p>
-			<p><b>1.11.1</b> - released April 26, 2015 <a href="getelgg.php?forward=elgg-1.11.1.zip">Download</a></p>
-			<p><b>1.11.0</b> - released April 13, 2015 <a href="getelgg.php?forward=elgg-1.11.0.zip">Download</a></p>
-			<p><b>1.10.4</b> - released March 22, 2015 <a href="getelgg.php?forward=elgg-1.10.4.zip">Download</a></p>
-			<p><b>1.10.3</b> - released March 8, 2015 <a href="getelgg.php?forward=elgg-1.10.3.zip">Download</a></p>
-			<p><b>1.10.2</b> - released February 21, 2015 <a href="getelgg.php?forward=elgg-1.10.2.zip">Download</a></p>
-			<p><b>1.10.1</b> - released January 25, 2015 <a href="getelgg.php?forward=elgg-1.10.1.zip">Download</a></p>
-			<p><b>1.10.0</b> - released January 12, 2015 <a href="getelgg.php?forward=elgg-1.10.0.zip">Download</a></p>
-			<p><b>1.9.7</b> - released December 14, 2014 <a href="getelgg.php?forward=elgg-1.9.7.zip">Download</a></p>
-			<p><b>1.9.6</b> - released November 30, 2014 <a href="getelgg.php?forward=elgg-1.9.6.zip">Download</a></p>
-			<p><b>1.9.5</b> - released November 17, 2014 <a href="getelgg.php?forward=elgg-1.9.5.zip">Download</a></p>
-			<p><b>1.9.4</b> - released October 19, 2014 <a href="getelgg.php?forward=elgg-1.9.4.zip">Download</a></p>
-			<p><b>1.9.3</b> - released October 6, 2014 <a href="getelgg.php?forward=elgg-1.9.3.zip">Download</a></p>
-			<p><b>1.9.2</b> - released September 21, 2014 <a href="getelgg.php?forward=elgg-1.9.2.zip">Download</a></p>
-			<p><b>1.9.1</b> - released September 12, 2014 <a href="getelgg.php?forward=elgg-1.9.1.zip">Download</a></p>
+			<?php
+			$branches = Releases::$security_branches;
+			$last_branch = array_pop($branches);
+			echo "<p><b>Elgg " . implode(', ', $branches) . ", and $last_branch are receiving only security updates.</b></p>";
+			foreach (Releases::$security_branches as $branch) {
+				$releases = Releases::getReleases($branch);
+				foreach ($releases as $version => $date) {
+					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+				}
+			}
+			?>
 
 			<h1 class="header_color">Unsupported releases</h1>
 			<p><b>These versions of Elgg are no longer supported:</b></p>
-			<p><b>1.8.20</b> - released September 4, 2014 <a href="getelgg.php?forward=elgg-1.8.20.zip">Download</a></p>
-			<p><b>1.8.19</b> - released March 12, 2014 <a href="getelgg.php?forward=elgg-1.8.19.zip">Download</a></p>
-			<p><b>1.8.18</b> - released January 11, 2014 <a href="getelgg.php?forward=elgg-1.8.18.zip">Download</a></p>
-			<p><b>1.8.17</b> - released January 1, 2014 <a href="getelgg.php?forward=elgg-1.8.17.zip">Download</a></p>
-			<p><b>1.8.16</b> - released June 25, 2013 <a href="getelgg.php?forward=elgg-1.8.16.zip">Download</a></p>
-			<p><b>1.8.15</b> - released April 23, 2013 <a href="getelgg.php?forward=elgg-1.8.15.zip">Download</a></p>
-			<p><b>1.8.14</b> - released March 12, 2013 <a href="getelgg.php?forward=elgg-1.8.14.zip">Download</a></p>
-			<p><b>1.8.13</b> - released January 29, 2013 <a href="getelgg.php?forward=elgg-1.8.13.zip">Download</a></p>
-			<p><b>1.8.12</b> - released January 4, 2013 <a href="getelgg.php?forward=elgg-1.8.12.zip">Download</a></p>
-			<p><b>1.8.11</b> - released December 5, 2012 <a href="getelgg.php?forward=elgg-1.8.11.zip">Download</a></p>
-			<p><b>1.8.10</b> - released December 4, 2012 <a href="getelgg.php?forward=elgg-1.8.10.zip">Download</a></p>
-			<p><b>1.8.9</b> - released November 11, 2012 <a href="getelgg.php?forward=elgg-1.8.9.zip">Download</a></p>
-			<p><b>1.8.8</b> - released July 11, 2012 <a href="getelgg.php?forward=elgg-1.8.8.zip">Download</a></p>
-			<p><b>1.8.7</b> - released July 10, 2012 <a href="getelgg.php?forward=elgg-1.8.7.zip">Download</a></p>
-			<p><b>1.8.6</b> - released June 18, 2012 <a href="getelgg.php?forward=elgg-1.8.6.zip">Download</a></p>
-			<p><b>1.8.5</b> - released May 17, 2012 <a href="getelgg.php?forward=elgg-1.8.5.zip">Download</a></p>
-			<p><b>1.8.4</b> - released April 24, 2012 <a href="getelgg.php?forward=elgg-1.8.4.zip">Download</a></p>
-			<p><b>1.8.3</b> - released January 12, 2012 <a href="getelgg.php?forward=elgg-1.8.3.zip">Download</a></p>
-			<p><b>1.8.1</b> - released November 16, 2011 <a href="getelgg.php?forward=elgg-1.8.1.zip">Download</a></p>
-			<p><b>1.8.0.1</b> - released September 5, 2011 <a href="getelgg.php?forward=elgg-1.8.0.1.zip">Download</a></p>
-			<p><b>1.7.23</b> - released March 18, 2015 <a href="getelgg.php?forward=elgg-1.7.23.zip">Download</a></p>
-			<p><b>1.7.22</b> - released March 12, 2014 <a href="getelgg.php?forward=elgg-1.7.22.zip">Download</a></p>
-			<p><b>1.7.21</b> - released January 3, 2014 <a href="getelgg.php?forward=elgg-1.7.21.zip">Download</a></p>
-			<p><b>1.7.20</b> - released January 1, 2014 <a href="getelgg.php?forward=elgg-1.7.20.zip">Download</a></p>
-			<p><b>1.7.19</b> - released March 14, 2013 <a href="getelgg.php?forward=elgg-1.7.19.zip">Download</a></p>
-			<p><b>1.7.18</b> - released March 12, 2013 <a href="getelgg.php?forward=elgg-1.7.18.zip">Download</a></p>
-			<p><b>1.7.17</b> - released January 29, 2013 <a href="getelgg.php?forward=elgg-1.7.17.zip">Download</a></p>
-			<p><b>1.7.16</b> - released November 11, 2012 <a href="getelgg.php?forward=elgg-1.7.16.zip">Download</a></p>
-			<p><b>1.7.15</b> - released January 20, 2012 <a href="getelgg.php?forward=elgg-1.7.15.zip">Download</a></p>
-			<p><b>1.7.14</b> - released October 20, 2011 <a href="getelgg.php?forward=elgg-1.7.14.zip">Download</a></p>
-			<p><b>1.7.13</b> - released October 8, 2011 <a href="getelgg.php?forward=elgg-1.7.13.zip">Download</a></p>
-			<p><b>1.7.12</b> - released September 29, 2011 <a href="getelgg.php?forward=elgg-1.7.12.zip">Download</a></p>
-			<p><b>1.7.11</b> - released August 15, 2011 <a href="getelgg.php?forward=elgg-1.7.11.zip">Download</a></p>
-			<p><b>1.7.10</b> - released June 15, 2011 <a href="getelgg.php?forward=elgg-1.7.10.zip">Download</a></p>
-			<p><b>1.7.9</b> - released June 1, 2011 <a href="getelgg.php?forward=elgg-1.7.9.zip">Download</a></p>
-			<p><b>1.7.8</b> - released April 4, 2011 <a href="getelgg.php?forward=elgg-1.7.8.zip">Download</a></p>
-			<p><b>1.7.7</b> - released February 1, 2011 <a href="getelgg.php?forward=elgg-1.7.7.zip">Download</a></p>
-			<p><b>1.7.6</b> - released December 23, 2010 <a href="getelgg.php?forward=elgg-1.7.6.zip">Download</a></p>
-			<p><b>1.7.5</b> - released November 26, 2010 <a href="getelgg.php?forward=elgg-1.7.5.zip">Download</a></p>
-			<p><b>1.7.4</b> - released October 14, 2010 <a href="getelgg.php?forward=elgg-1.7.4.zip">Download</a></p>
-			<p><b>1.7.3</b> - released September 2, 2010 <a href="getelgg.php?forward=elgg-1.7.3.zip">Download</a></p>
-			<p><b>1.7.2</b> - released August 25, 2010 <a href="getelgg.php?forward=elgg-1.7.2.zip">Download</a></p>
-			<p><b>1.7.1</b> - released April 21, 2010 <a href="getelgg.php?forward=elgg-1.7.1.zip">Download</a></p>
-			<p><b>1.7.0</b> - released March 2010 <a href="getelgg.php?forward=elgg-1.7.zip">Download</a></p>
-			<p><b>1.6.4 - Security Update</b> - released November 26, 2010 <a href="getelgg.php?forward=elgg-1.6.4.zip">Download</a></p>
-			<p><b>1.6.3 - Security Update</b> - released September 2 2010 <a href="getelgg.php?forward=elgg-1.6.3.zip">Download</a></p>
-			<p><b>1.6.2 - Security Update</b> - released April 2010 <a href="getelgg.php?forward=elgg-1.6.2.zip">Download</a></p>
-			<p><b>1.6.1</b> - released September 2009 <a href="getelgg.php?forward=elgg1.6.1.zip">Download</a></p>
-			<p><b>1.6</b> - released August 2009 <a href="getelgg.php?forward=elgg1.6.zip">Download</a></p>
-			<p><b>1.5.1 - Security Update</b> - released April 2010 <a href="getelgg.php?forward=elgg-1.5.1.zip">Download</a></p>
-			<p><b>1.5</b> - released March 2009 <a href="getelgg.php?forward=elgg1.5.zip">Download</a></p>
-			<p><b>1.2</b> - released December 2008 <a href="getelgg.php?forward=elgg1.2.zip">Download</a></p>
-			<p><b>1.1</b> - released October 2008 <a href="getelgg.php?forward=elgg1.1.zip">Download</a></p>
-			<p><b>1.0</b> - released August 2008 <a href="getelgg.php?forward=elgg1.0.zip">Download</a></p>
-
-
+			<?php
+			foreach (Releases::getUnsupportedReleases() as $version => $date) {
+				if (in_array($version, Releases::$untagged_releases)) {
+					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>) - released $date </p>";
+				} else {
+					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-$version.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+				}
+			}
+			?>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->

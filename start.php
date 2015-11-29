@@ -20,6 +20,51 @@ function community_theme_init() {
 	elgg_unregister_menu_item('footer', 'powered');
 
 	elgg_unregister_plugin_hook_handler('prepare', 'menu:site', '_elgg_site_menu_setup');
+
+	elgg_register_plugin_hook_handler('forward', 'all', 'community_theme_forward');
+
+	elgg_unregister_menu_item('site', 'blog');
+	elgg_register_menu_item('site', ElggMenuItem::factory([
+		'name' => 'blog',
+		'href' => 'blog',
+		'text' => elgg_echo('blog:title:all_blogs'),
+	]));
+
+	community_theme_combine_js();
+}
+
+function community_theme_combine_js() {
+	elgg_unregister_js('jquery');
+	elgg_extend_view('elgg.js', 'jquery.js', 1);
+	elgg_extend_view('elgg.js', 'separator.js', 1);
+
+	elgg_unregister_js('jquery-ui');
+	elgg_extend_view('elgg.js', 'jquery-ui.js', 1);
+	elgg_extend_view('elgg.js', 'separator.js', 1);
+
+	elgg_unregister_js('elgg.require_config');
+	elgg_extend_view('elgg.js', 'elgg/require_config.js', 1);
+	elgg_extend_view('elgg.js', 'separator.js', 1);
+
+	elgg_unregister_js('require');
+	elgg_extend_view('elgg.js', 'require.js', 1);
+	elgg_extend_view('elgg.js', 'separator.js', 1);
+
+	elgg_extend_view('elgg.js', 'separator.js');
+	elgg_unregister_js('lightbox');
+	elgg_extend_view('elgg.js', 'lightbox.js');
+
+	elgg_extend_view('elgg.js', 'separator.js');
+	elgg_unregister_js('elgg.ui.river');
+	elgg_extend_view('elgg.js', 'elgg/ui.river.js');
+}
+
+function community_theme_forward($h, $t, $v, $p) {
+	// odds are we want the Community URL instead of the home page
+	$site = elgg_get_site_url();
+	if ($v === $site) {
+		return "{$site}activity";
+	}
 }
 
 /**
@@ -95,8 +140,8 @@ elgg_register_event_handler('init', 'system', function() {
 
 	// TODO(ewinslow): Patch core to make this css registration boilerplate unnecessary
 	elgg_register_css('widgets/messageboard/content', elgg_get_simplecache_url('widgets/messageboard/content.css'));
-	elgg_register_css('cke', elgg_get_simplecache_url('cke.css'));
-	elgg_load_css('cke');
+
+	elgg_extend_view('elgg.css', 'cke.css');
 
 	if (function_exists("elgg_ws_unexpose_function")) {
 		elgg_ws_unexpose_function('auth.gettoken');

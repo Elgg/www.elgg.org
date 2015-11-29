@@ -2,6 +2,7 @@
 
 // Must use longer array format for Transifex to work
 return array(
+	'blog:title:all_blogs' => 'Elgg Blog',
 	'menus:site:items:home:label' => "Home",
 
 	'customizations:widget:pm' => 'Send private message',

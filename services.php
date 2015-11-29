@@ -15,14 +15,6 @@ $services = array(
 		'blurb' => 'We are a Portland-based web development agency focused on developing custom social networks, intranets and other applications using Elgg.',
 		'icon_filename' => 'arck.jpg'
 	),
-
-	array(
-		'name' => 'Condiminds',
-		'url' => 'http://condiminds.com/elgg.html',
-		'profile_url' => 'https://community.elgg.org/profile/tulicipriota',
-		'blurb' => 'We are Elgg specialists! We specialize on Elgg themes, plugins and sites from the scratch. We are ready to provide flexible and scalable solutions for organizations, groups and individuals.',
-		'icon_filename' => 'condi-minds.jpg'
-	),
 );
 
 shuffle($services);
@@ -74,8 +66,8 @@ shuffle($services);
 				<h1 class="header_color">Elgg services</h1>
 				<div class="partners"> 
 					<h2 class="subhead">Thematic Networks</h2> 
-				<p style="margin-top:10px;"><img src="images/tn_logo.png" alt="Thematic Networks" align="left" style="margin:0 10px 10px 0;"/> 
-<a href="http://thematic.net">Thematic Networks</a> creates socially-enabled web platforms with enterprise tools that help businesses to engage with their communities and generate revenue from published digital content. Our solutions power all sorts of applications, ranging from Software-as-a-Service networks at <a href="http://elgg.com">www.Elgg.com</a> through to customized enterprise social networks, corporate e-learning platforms and social marketplaces with App Stores.
+				<p style="margin-top:10px;"><img src="images/tn_logo.png" alt="Thematic Networks" align="left" style="margin:0 10px 10px 0;border-right:15px solid #fff"/>
+<a href="http://thematic.net">Thematic Networks</a> creates socially-enabled web platforms with enterprise tools that help businesses to engage with their communities and generate revenue from published digital content. Our solutions power all sorts of applications, ranging from Software-as-a-Service networks to customized enterprise social networks, corporate e-learning platforms and social marketplaces with App Stores.
 <br />
 Thematic Networks is a founding member and proud supporter of the Elgg Foundation.
 <br /><br />

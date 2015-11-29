@@ -1,3 +1,18 @@
+<?php
+
+use Elgg\Releases;
+
+$devs = Releases::getReleases(Releases::$dev_branch);
+if ($devs) {
+	reset($devs);
+	list($dev_version, $dev_date) = each($devs);
+}
+
+$stables = Releases::getReleases(Releases::$stable_branch);
+reset($stables);
+list($stable_version, $stable_date) = each($stables);
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
 <head>
@@ -25,12 +40,16 @@
 					<p class="strap">Providing you with the core components you need<br />to build out socially aware applications</p>
 				</div>
 
-				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 2.0.0-rc.2</a></p>
-				</div>
-				<div id="download_btn" style="width:250px;">
-					<p><a href="download.php" class="download">Download Elgg 1.12.5</a></p>
-				</div>
+				<p>
+					<a style="background:#E74815;color:#fff;padding:.5em .3em;font-size:170%;border-radius:5px;display:inline-block"
+					  href="download.php" class="download">Get Elgg <?= $stable_version ?>
+						<?php if ($devs): ?>
+								(or <?= $dev_version ?>)
+						<?php endif; ?>
+					</a>
+				</p>
+
+				<p style="margin-top:5px"><a style="color:#E74815" href="https://github.com/Elgg/Elgg">Elgg on GitHub</a></p>
 			</div>
 		</div>
 		<div style="clear:both;"></div>
@@ -46,8 +65,8 @@
 		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
 	</div>
 	<div class="twocolbox right">
-		<h1 class="header_color">Official Book</h1>
-		<h2>Core developer Cash Costello has published an Elgg Book that can be purchased through <a href="http://www.packtpub.com/elgg-18-social-networking/book">Packt Publishing</a> or <a href="http://www.amazon.com/Elgg-Social-Networking-Cash-Costello/dp/1849511306/">Amazon</a>.</h2>
+		<h1 class="header_color">Contributing</h1>
+		<h2>Want to improve Elgg? Check out our <a href="http://learn.elgg.org/en/1.12/contribute/index.html">contributor's guide</a>, then <a href="https://github.com/Elgg/Elgg">fork us on GitHub</a>, or <a href="https://www.transifex.com/elgg/elgg-core-2/">add some translations</a>.</h2>
 	</div>
 
 <div style="clear:both;"></div>

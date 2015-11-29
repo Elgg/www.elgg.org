@@ -5,8 +5,10 @@ php: 5.5
 
 sudo: false
 
-before_install: composer global require fxp/composer-asset-plugin -vvv
+before_install:
+  - composer self-update
+  - composer global require fxp/composer-asset-plugin -vvv
 
 install: composer install -vvv
 
-script: composer test
+#script: composer test
