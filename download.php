@@ -42,8 +42,8 @@
 		</div>
 
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - Sep 20, 2015</h1>
-			<?php $elgg_stable = '1.12.4'; ?>
+			<h1 class="header_color" style="margin-top:40px;">Latest stable release - Nov 29, 2015</h1>
+			<?php $elgg_stable = '1.12.5'; ?>
 			<p class="leader">
 				Elgg <?php echo $elgg_stable; ?> is the latest and recommended version of Elgg.<br />
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">github</a>.
@@ -52,20 +52,20 @@
 				<p><a href="getelgg.php?forward=elgg-<?php echo $elgg_stable; ?>.zip" class="download">Download <?php echo $elgg_stable; ?></a></p>
 			</div>
 
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - July 7, 2015</h1>
-			<?php $elgg_legacy = '1.11.4'; ?>
+			<h1 class="header_color" style="margin-top:40px;">Latest dev release - Nov 29, 2015</h1>
+			<?php $elgg_dev = '2.0.0-rc.2'; ?>
 			<p class="leader">
-				Elgg <?php echo $elgg_legacy; ?> is the recommended release if using Elgg 1.11.<br />
+				Elgg <?php echo $elgg_dev; ?> is the development version available for early testers.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="getelgg.php?forward=elgg-<?php echo $elgg_legacy; ?>.zip" class="download">Download <?php echo $elgg_legacy; ?></a></p>
+				<p><a href="getelgg.php?forward=elgg-<?php echo $elgg_dev; ?>.zip" class="download">Download <?php echo $elgg_dev; ?></a></p>
 			</div>
 
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 			<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 			The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
 			<h3>Download: <a href="getelgg.php?forward=elgg-<?php echo $elgg_stable; ?>-mit.zip" class="download"><?php echo $elgg_stable; ?> MIT version</a></h3>
-			<h3>Download: <a href="getelgg.php?forward=elgg-<?php echo $elgg_legacy; ?>-mit.zip" class="download"><?php echo $elgg_legacy; ?> MIT version</a></h3>
+			<h3>Download: <a href="getelgg.php?forward=elgg-<?php echo $elgg_dev; ?>-mit.zip" class="download"><?php echo $elgg_dev; ?> MIT version</a></h3>
 			</div>
 
 		<div id="mid_left">
