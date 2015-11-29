@@ -37,13 +37,14 @@
 		</div>
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
+			<p><b>1.12.4</b> - released September 20, 2015 <a href="getelgg.php?forward=elgg-1.12.4.zip">Download</a></p>
 			<p><b>1.12.3</b> - released September 6, 2015 <a href="getelgg.php?forward=elgg-1.12.3.zip">Download</a></p>
 			<p><b>1.12.2</b> - released August 23, 2015 <a href="getelgg.php?forward=elgg-1.12.2.zip">Download</a></p>
 			<p><b>1.12.1</b> - released August 5, 2015 <a href="getelgg.php?forward=elgg-1.12.1.zip">Download</a></p>
 			<p><b>1.12.0</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.12.0.zip">Download</a></p>
 
 			<h1 class="header_color">Security releases</h1>
-			<p><b>Elgg 1.8, 1.9, 1.10, and 1.11 are receiving only security updates.</b></p>
+			<p><b>Elgg 1.9, 1.10, and 1.11 are receiving only security updates.</b></p>
 			<p><b>1.11.4</b> - released July 7, 2015 <a href="getelgg.php?forward=elgg-1.11.4.zip">Download</a></p>
 			<p><b>1.11.3</b> - released June 14, 2015 <a href="getelgg.php?forward=elgg-1.11.3.zip">Download</a></p>
 			<p><b>1.11.2</b> - released May 25, 2015 <a href="getelgg.php?forward=elgg-1.11.2.zip">Download</a></p>
@@ -61,6 +62,9 @@
 			<p><b>1.9.3</b> - released October 6, 2014 <a href="getelgg.php?forward=elgg-1.9.3.zip">Download</a></p>
 			<p><b>1.9.2</b> - released September 21, 2014 <a href="getelgg.php?forward=elgg-1.9.2.zip">Download</a></p>
 			<p><b>1.9.1</b> - released September 12, 2014 <a href="getelgg.php?forward=elgg-1.9.1.zip">Download</a></p>
+
+			<h1 class="header_color">Unsupported releases</h1>
+			<p><b>These versions of Elgg are no longer supported:</b></p>
 			<p><b>1.8.20</b> - released September 4, 2014 <a href="getelgg.php?forward=elgg-1.8.20.zip">Download</a></p>
 			<p><b>1.8.19</b> - released March 12, 2014 <a href="getelgg.php?forward=elgg-1.8.19.zip">Download</a></p>
 			<p><b>1.8.18</b> - released January 11, 2014 <a href="getelgg.php?forward=elgg-1.8.18.zip">Download</a></p>
@@ -81,9 +85,6 @@
 			<p><b>1.8.3</b> - released January 12, 2012 <a href="getelgg.php?forward=elgg-1.8.3.zip">Download</a></p>
 			<p><b>1.8.1</b> - released November 16, 2011 <a href="getelgg.php?forward=elgg-1.8.1.zip">Download</a></p>
 			<p><b>1.8.0.1</b> - released September 5, 2011 <a href="getelgg.php?forward=elgg-1.8.0.1.zip">Download</a></p>
-
-			<h1 class="header_color">Unsupported releases</h1>
-			<p><b>These versions of Elgg are no longer supported:</b></p>
 			<p><b>1.7.23</b> - released March 18, 2015 <a href="getelgg.php?forward=elgg-1.7.23.zip">Download</a></p>
 			<p><b>1.7.22</b> - released March 12, 2014 <a href="getelgg.php?forward=elgg-1.7.22.zip">Download</a></p>
 			<p><b>1.7.21</b> - released January 3, 2014 <a href="getelgg.php?forward=elgg-1.7.21.zip">Download</a></p>

@@ -56,23 +56,23 @@ small {font-size:90%;color:#999999;}
 #globalheader li  {
 	display:inline;list-style-type:none;
 	padding: 0 0 0 15px;
-	
+
 }
 .header {color: white;}
 #globalheader li a {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	padding:2px 9px;	
+	padding:2px 9px;
 }
 #globalheader li a:hover {
 	background-color: #027bb3;
-	color:white;	
+	color:white;
 }
 .header.selected {
-	color: #333333; 
+	color: #333333;
 	font-weight: normal;
 	background-color: white;
-	
+
 }
 
 
@@ -90,19 +90,19 @@ small {font-size:90%;color:#999999;}
 #logo {float:left;text-align:left;margin-left:-5px;margin-top:10px;}
 #logo_internal {float:left;text-align:left;margin-top:10px;}
 #logos span {display:block;font-size:1.4em;padding:10px 0 0 10px;}
-	
+
 #tag {margin-top:10px;margin-bottom:15px;background:#000;opacity:0.8;padding:5px;}
 #tag p {line-height:270%;color:white;}
 #header2 #tag .strapline {font-size:1.6em;}
 #header2 #tag {margin-top:33px;}
 
-#download_btn {width:352px;text-align:center;float:right;} 
+#download_btn {width:352px;text-align:center;float:right;}
 #header #download_btn { }
 #download_btn p {line-height:420%;}
 #download_btn p a.download:link, a.download:visited {display:block; width:252px; height:57px; background-image: url('images/btn_download.png'); background-position:top left;}
 #download_btn p a.download:hover, a.download:focus {background-position:left 116px;}
 #download_btn p a.download:active {background-position:left 116px;}
-#download_btn p a {outline:none;font-size:1.7em;font-weight:normal;color:white;} 
+#download_btn p a {outline:none;font-size:1.5em;font-weight:normal;color:white;}
 
 
 /*-----------------------------
@@ -213,7 +213,7 @@ h2.latest_tweet {
 	margin-top:5px;
 	padding:5px 10px;
 	-webkit-border-radius: 9px;
-	-moz-border-radius: 9px;	
+	-moz-border-radius: 9px;
 }
 .latest_tweet_tail {
 	background-image: url(images/latest_tweet_tail.gif);
@@ -363,7 +363,7 @@ ul.list_style ul.list_style li {padding-left:20px;list-style:circle;list-style-p
 #page_contents .hosting_company p {margin:4px 0 0 0;}
 #page_contents .continent {font-weight: bold; margin:10px 0 0 0;}
 .sidebar_box {margin-top:30px;
-	-webkit-border-radius: 4px; 
+	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border:1px solid #cccccc;
 	padding:6px;
@@ -383,8 +383,8 @@ ul.list_style ul.list_style li {padding-left:20px;list-style:circle;list-style-p
 -----------------------------*/
 #sidebar_menu {float:left;width:200px;margin-bottom:40px;}
 #sidebar_menu ul li {padding:2px 0 3px 0;}
-#sidebar_menu a.aboutmenu:link, a.aboutmenu:visited {display:block; width:180px; height:22px; font-weight:bold;background:#dedede; color: #777777;-moz-border-radius:8px;-webkit-border-radius:8px;}	
+#sidebar_menu a.aboutmenu:link, a.aboutmenu:visited {display:block; width:180px; height:22px; font-weight:bold;background:#dedede; color: #777777;-moz-border-radius:8px;-webkit-border-radius:8px;}
 #sidebar_menu a.aboutmenu:hover, a.aboutmenu:focus {background:#00acf7;color: #FFFFFF;}
 #sidebar_menu a.aboutmenu:active {background-position:bottom;color: #FFFFFF;}
-#sidebar_menu a {outline:none;font-size:1em;font-weight:bold;text-decoration:none;text-decoration: none;padding:5px 0 0 10px;} 
+#sidebar_menu a {outline:none;font-size:1em;font-weight:bold;text-decoration:none;text-decoration: none;padding:5px 0 0 10px;}
 #sidebar_menu .selected {background:#00acf7;color: #FFFFFF;}
