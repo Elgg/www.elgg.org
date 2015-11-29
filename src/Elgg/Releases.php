@@ -3,14 +3,30 @@
 namespace Elgg;
 
 class Releases {
+	/**
+	 * @var string If there are no releases with this branch, it will not appear on the home page,
+	 *             or the releases pages.
+	 */
+	static $dev_branch = '2.0';
+
 	static $stable_branch = '1.12';
+
 	static $legacy_branch = '1.11';
+
 	static $security_branches = [
 		'1.11',
 		'1.10',
 		'1.9',
 	];
 	static $releases = [
+		'2.0.0-rc.2' => 'November 29, 2015',
+		'2.0.0-rc.1' => 'November 8, 2015',
+		'2.0.0-beta.3' => 'October 5, 2015',
+		'2.0.0-beta.2' => 'September 24, 2015',
+		'2.0.0-beta.1' => 'September 6, 2015',
+		'2.0.0-alpha.3' => 'August 24, 2015',
+		'2.0.0-alpha.2' => 'August 6, 2015',
+		'2.0.0-alpha.1' => 'July 10, 2015',
 		'1.12.5' => 'November 29, 2015',
 		'1.12.4' => 'September 20, 2015',
 		'1.12.3' => 'September 6, 2015',
@@ -137,7 +153,7 @@ class Releases {
 		foreach (self::$releases as $version => $date) {
 			$pieces = explode('.', $version);
 			$branch = "{$pieces[0]}.{$pieces[1]}";
-			if (!in_array($branch, $supported)) {
+			if (!in_array($branch, $supported) && false == strpos($version, '-')) {
 				$ret[$version] = $date;
 			}
 		}

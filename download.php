@@ -4,17 +4,19 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Elgg\Releases;
 
-$stables = Releases::getReleases(Releases::$stable_branch);
-$legacies = Releases::getReleases(Releases::$legacy_branch);
+$devs = Releases::getReleases(Releases::$dev_branch);
+if ($devs) {
+	reset($devs);
+	list($dev_version, $dev_date) = each($devs);
+}
 
+$stables = Releases::getReleases(Releases::$stable_branch);
 reset($stables);
 list($stable_version, $stable_date) = each($stables);
 
+$legacies = Releases::getReleases(Releases::$legacy_branch);
 reset($legacies);
 list($legacy_version, $legacy_date) = each($legacies);
-
-$dev_version = '2.0.0-rc.2';
-$dev_date = 'Nov 29, 2015';
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -61,16 +63,18 @@ $dev_date = 'Nov 29, 2015';
 		</div>
 
 		<div id="page_contents">
-			<h1 class="header_color" style="margin-top:40px;">Latest dev release - <?= $dev_date ?></h1>
+		<?php if ($devs): ?>
+			<h1 class="header_color" style="margin-top:40px;">Development release - <?= $dev_date ?></h1>
 			<p class="leader">
-				Elgg <?= $dev_version; ?> is the development version available for early testers.<br />
+				Elgg <?= $dev_version; ?> is available for early testers. <strong style="font-weight:600">Do not use this version in production.</strong><br />
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">GitHub</a>.
 			</p>
 			<div id="download_btn">
 				<p><a href="getelgg.php?forward=elgg-<?= $dev_version; ?>.zip" class="download">Download <?= $dev_version; ?></a></p>
 			</div>
+		<?php endif; ?>
 
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - <?= $stable_date ?></h1>
+			<h1 class="header_color" style="margin-top:40px;">Stable Release - <?= $stable_date ?></h1>
 			<p class="leader">
 				Elgg <?= $stable_version ?> is the latest and recommended version of Elgg.<br />
 				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">GitHub</a>.
@@ -79,7 +83,7 @@ $dev_date = 'Nov 29, 2015';
 				<p><a href="getelgg.php?forward=elgg-<?= $stable_version ?>.zip" class="download">Download <?= $stable_version ?></a></p>
 			</div>
 
-			<h1 class="header_color" style="margin-top:40px;">Latest Release - <?= $legacy_date ?></h1>
+			<h1 class="header_color" style="margin-top:40px;">Legacy Release - <?= $legacy_date ?></h1>
 			<p class="leader">
 				Elgg <?= $legacy_version ?> is the recommended release if using Elgg <?= Releases::$legacy_branch ?>.<br />
 			</p>
@@ -90,7 +94,9 @@ $dev_date = 'Nov 29, 2015';
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
 				<p style="font-size:small;">Elgg is available under a dual license, GPL Version 2 and the MIT license.
 				The plugins are only available in the GPL release and so have been removed from the MIT release.</p>
+			<?php if ($devs): ?>
 				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $dev_version ?>-mit.zip" class="download"><?= $dev_version ?> MIT version</a></h3>
+			<?php endif; ?>
 				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $stable_version ?>-mit.zip" class="download"><?= $stable_version ?> MIT version</a></h3>
 				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $legacy_version ?>-mit.zip" class="download"><?= $legacy_version ?> MIT version</a></h3>
 			</div>
