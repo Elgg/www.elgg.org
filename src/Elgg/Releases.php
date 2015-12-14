@@ -7,18 +7,18 @@ class Releases {
 	 * @var string If there are no releases with this branch, it will not appear on the home page,
 	 *             or the releases pages.
 	 */
-	static $dev_branch = '2.0';
+	static $dev_branch = '3.0';
 
-	static $stable_branch = '1.12';
+	static $stable_branch = '2.0';
 
-	static $legacy_branch = '1.11';
+	static $legacy_branch = '1.12';
 
 	static $security_branches = [
 		'1.11',
 		'1.10',
-		'1.9',
 	];
 	static $releases = [
+		'2.0.0' => 'December 14, 2015',
 		'2.0.0-rc.2' => 'November 29, 2015',
 		'2.0.0-rc.1' => 'November 8, 2015',
 		'2.0.0-beta.3' => 'October 5, 2015',
@@ -27,6 +27,7 @@ class Releases {
 		'2.0.0-alpha.3' => 'August 24, 2015',
 		'2.0.0-alpha.2' => 'August 6, 2015',
 		'2.0.0-alpha.1' => 'July 10, 2015',
+		'1.12.6' => 'December 14, 2015',
 		'1.12.5' => 'November 29, 2015',
 		'1.12.4' => 'September 20, 2015',
 		'1.12.3' => 'September 6, 2015',
@@ -125,12 +126,16 @@ class Releases {
 
 	/**
 	 * @param string $branch
+	 * @param bool   $allow_previews
 	 * @return string[] version => date
 	 */
-	static function getReleases($branch) {
+	static function getReleases($branch, $allow_previews = true) {
 		$ret = [];
 		foreach (self::$releases as $version => $date) {
 			if (0 === strpos($version, "{$branch}.")) {
+				if (false !== strpos($version, '-') && !$allow_previews) {
+					continue;
+				}
 				$ret[$version] = $date;
 			}
 		}
@@ -156,7 +161,7 @@ class Releases {
 		foreach (self::$releases as $version => $date) {
 			$pieces = explode('.', $version);
 			$branch = "{$pieces[0]}.{$pieces[1]}";
-			if (!in_array($branch, $supported) && false == strpos($version, '-')) {
+			if (!in_array($branch, $supported) || false !== strpos($version, '-')) {
 				$ret[$version] = $date;
 			}
 		}

@@ -47,7 +47,13 @@ use Elgg\Releases;
 		<div id="page_contents">
 			<h1 class="header_color">Previous releases and security updates</h1>
 			<?php
-			$releases = Releases::getReleases(Releases::$stable_branch);
+			$releases = Releases::getReleases(Releases::$stable_branch, false);
+			array_shift($releases);
+			foreach ($releases as $version => $date) {
+				echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+			}
+
+			$releases = Releases::getReleases(Releases::$legacy_branch, false);
 			array_shift($releases);
 			foreach ($releases as $version => $date) {
 				echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
