@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aea63242016f022d4a2b525ebe0b1f4b",
-    "content-hash": "cc7f4757ad82d1946646dca15a17f43f",
+    "hash": "db39748e2b853db52a49a9c5cba71774",
+    "content-hash": "7f1bbbb7418d99b011e632e48f667a1d",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -142,18 +142,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beck24/spam_login_filter.git",
-                "reference": "8b5ec5b3e523a19883c3df4fc577f8090e8bc772"
+                "reference": "db32622db17a70fe9ea39f93fc42616a49111007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beck24/spam_login_filter/zipball/8b5ec5b3e523a19883c3df4fc577f8090e8bc772",
-                "reference": "8b5ec5b3e523a19883c3df4fc577f8090e8bc772",
+                "url": "https://api.github.com/repos/beck24/spam_login_filter/zipball/db32622db17a70fe9ea39f93fc42616a49111007",
+                "reference": "db32622db17a70fe9ea39f93fc42616a49111007",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -170,11 +171,7 @@
                 "plugin",
                 "spam"
             ],
-            "support": {
-                "issues": "https://github.com/beck24/spam_login_filter/issues",
-                "source": "https://github.com/beck24/spam_login_filter/tree/2.1.0"
-            },
-            "time": "2015-09-07 02:58:16"
+            "time": "2015-12-18 09:45:11"
         },
         {
             "name": "beck24/spam_throttle",
@@ -498,18 +495,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brettp/Bulk-User-Admin.git",
-                "reference": "ad31d66d9de5d759dfa303699fec0a0044aee29b"
+                "reference": "a0973027eb1ed7be2977cc888e66379ba5929591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brettp/Bulk-User-Admin/zipball/ad31d66d9de5d759dfa303699fec0a0044aee29b",
-                "reference": "ad31d66d9de5d759dfa303699fec0a0044aee29b",
+                "url": "https://api.github.com/repos/brettp/Bulk-User-Admin/zipball/a0973027eb1ed7be2977cc888e66379ba5929591",
+                "reference": "a0973027eb1ed7be2977cc888e66379ba5929591",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL2"
             ],
@@ -520,11 +518,7 @@
                 }
             ],
             "description": "Elgg plugin to delete users in bulk and by email domain.",
-            "support": {
-                "source": "https://github.com/brettp/Bulk-User-Admin/tree/master",
-                "issues": "https://github.com/brettp/Bulk-User-Admin/issues"
-            },
-            "time": "2015-03-24 03:45:00"
+            "time": "2015-12-31 14:29:21"
         },
         {
             "name": "brettp/elgg-registration-randomizer",
@@ -804,33 +798,33 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.2",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "47c7128262da274f590ae6f86eb137a7a64e82af"
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/47c7128262da274f590ae6f86eb137a7a64e82af",
-                "reference": "47c7128262da274f590ae6f86eb137a7a64e82af",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/f8af318d14bdb0eff0336795b428b547bd39ccb6",
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "~5.5|~7.0"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=3.7",
+                "phpunit/phpunit": "~4.8|~5.0",
                 "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -870,7 +864,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-03 10:50:37"
+            "time": "2015-12-31 16:37:02"
         },
         {
             "name": "doctrine/collections",
@@ -940,16 +934,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.5.2",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "311001fd9865a4d0d59efff4eac6d7dcb3f5270c"
+                "reference": "a579557bc689580c19fee4e27487a67fe60defc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/311001fd9865a4d0d59efff4eac6d7dcb3f5270c",
-                "reference": "311001fd9865a4d0d59efff4eac6d7dcb3f5270c",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/a579557bc689580c19fee4e27487a67fe60defc0",
+                "reference": "a579557bc689580c19fee4e27487a67fe60defc0",
                 "shasum": ""
             },
             "require": {
@@ -958,20 +952,20 @@
                 "doctrine/collections": "1.*",
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
-                "php": ">=5.3.2"
+                "php": "~5.5|~7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "~4.8|~5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5.x-dev"
+                    "dev-master": "2.7.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\": "lib/Doctrine/Common"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1009,24 +1003,24 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-04 12:49:42"
+            "time": "2015-12-25 13:18:31"
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c"
+                "reference": "2fbcea96eae34a53183377cdbb0b9bec33974648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/01dbcbc5cd0a913d751418e635434a18a2f2a75c",
-                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2fbcea96eae34a53183377cdbb0b9bec33974648",
+                "reference": "2fbcea96eae34a53183377cdbb0b9bec33974648",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": ">=2.4,<2.6-dev",
+                "doctrine/common": ">=2.4,<2.7-dev",
                 "php": ">=5.3.2"
             },
             "require-dev": {
@@ -1080,7 +1074,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-09-16 16:29:33"
+            "time": "2015-12-25 16:28:24"
         },
         {
             "name": "doctrine/inflector",
@@ -1427,17 +1421,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/dbvalidator.git",
-                "reference": "e122a8ed122ddf9cab1c721e0b848d4e5fa6fd99"
+                "reference": "60dfa1c396ed3b23ecabb695305ad5d2308ea8de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/dbvalidator/zipball/e122a8ed122ddf9cab1c721e0b848d4e5fa6fd99",
-                "reference": "e122a8ed122ddf9cab1c721e0b848d4e5fa6fd99",
+                "url": "https://api.github.com/repos/Elgg/dbvalidator/zipball/60dfa1c396ed3b23ecabb695305ad5d2308ea8de",
+                "reference": "60dfa1c396ed3b23ecabb695305ad5d2308ea8de",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21 07:14:49"
+            "time": "2015-12-19 20:13:57"
         },
         {
             "name": "elgg/drop_unvalidated",
@@ -1463,12 +1457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "ea4c7fe699745f23a2ee512c5f544405435c009c"
+                "reference": "9757d2ecbf3183c42197a40a7b55f435f1ae104c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/ea4c7fe699745f23a2ee512c5f544405435c009c",
-                "reference": "ea4c7fe699745f23a2ee512c5f544405435c009c",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/9757d2ecbf3183c42197a40a7b55f435f1ae104c",
+                "reference": "9757d2ecbf3183c42197a40a7b55f435f1ae104c",
                 "shasum": ""
             },
             "require": {
@@ -1516,7 +1510,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2015-12-14 10:54:12"
+            "time": "2016-01-01 15:17:08"
         },
         {
             "name": "elgg/login_as",
@@ -1667,12 +1661,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968"
+                "reference": "dbc8d1b9b67daaab357bcc41dbf549c3684cf5f1"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/fddd2c240452e6c8990c4ef75e0265b455aa7968",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968",
+                "reference": "dbc8d1b9b67daaab357bcc41dbf549c3684cf5f1",
                 "shasum": ""
             },
             "require-dev": {
@@ -1707,7 +1701,7 @@
                 "font",
                 "icon"
             ],
-            "time": "2015-11-30 17:28:02"
+            "time": "2015-11-23 14:42:32"
         },
         {
             "name": "google/recaptcha",
@@ -1777,16 +1771,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.15",
+            "version": "1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4"
+                "reference": "183e1a610664baf6dcd6fceda415baf43cbdc031"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/31525caf9e8772683672fefd8a1ca0c0736020f4",
-                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/183e1a610664baf6dcd6fceda415baf43cbdc031",
+                "reference": "183e1a610664baf6dcd6fceda415baf43cbdc031",
                 "shasum": ""
             },
             "require": {
@@ -1800,7 +1794,7 @@
                 "mockery/mockery": "~0.9",
                 "phpspec/phpspec": "^2.2",
                 "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.1"
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -1857,7 +1851,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-09-30 22:26:59"
+            "time": "2015-12-19 20:16:43"
         },
         {
             "name": "league/flysystem-memory",
@@ -1910,16 +1904,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/156e56ee036505ec637d761ee62dc425d807183c",
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c",
                 "shasum": ""
             },
             "require": {
@@ -1942,14 +1936,14 @@
             ],
             "authors": [
                 {
-                    "name": "John Gruber",
-                    "homepage": "http://daringfireball.net/"
-                },
-                {
                     "name": "Michel Fortin",
                     "email": "michel.fortin@michelf.ca",
                     "homepage": "https://michelf.ca/",
                     "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
                 }
             ],
             "description": "PHP Markdown",
@@ -1957,7 +1951,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2015-03-01 12:03:08"
+            "time": "2015-12-24 01:37:31"
         },
         {
             "name": "mrclay/minify",
@@ -2010,12 +2004,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "d0582cd0c099f11f3939cae5abd21eeb788f54c3"
+                "reference": "8ea5840ad835444627de70a706aabd8c9aa41df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d0582cd0c099f11f3939cae5abd21eeb788f54c3",
-                "reference": "d0582cd0c099f11f3939cae5abd21eeb788f54c3",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8ea5840ad835444627de70a706aabd8c9aa41df8",
+                "reference": "8ea5840ad835444627de70a706aabd8c9aa41df8",
                 "shasum": ""
             },
             "conflict": {
@@ -2038,6 +2032,7 @@
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3|>=1.3,<1.3.5",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<4.1.26",
                 "illuminate/database": ">=4,<4.0.99|>=4.1,<4.1.29",
+                "joomla/session": "<1.3.1",
                 "laravel/framework": ">=4,<4.0.99|>=4.1,<4.1.29",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
                 "monolog/monolog": ">=1.8,<1.12",
@@ -2115,7 +2110,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2015-12-12 23:55:26"
+            "time": "2015-12-16 07:10:16"
         },
         {
             "name": "solarium/solarium",
@@ -2173,7 +2168,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -2233,16 +2228,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5ed0ec39ef684bec84d1fd9f2a55104e403b7e49"
+                "reference": "dc5172ce2d01965f50b6c51bccc5ae243709b3c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5ed0ec39ef684bec84d1fd9f2a55104e403b7e49",
-                "reference": "5ed0ec39ef684bec84d1fd9f2a55104e403b7e49",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/dc5172ce2d01965f50b6c51bccc5ae243709b3c2",
+                "reference": "dc5172ce2d01965f50b6c51bccc5ae243709b3c2",
                 "shasum": ""
             },
             "require": {
@@ -2282,11 +2277,11 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-27 11:03:19"
+            "time": "2015-12-18 15:38:35"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
@@ -2344,25 +2339,25 @@
         },
         {
             "name": "tedivm/stash",
-            "version": "v0.13.1",
+            "version": "v0.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/Stash.git",
-                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1"
+                "reference": "3489b13bad93c81a898fcb1054ae954575e1a7b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/Stash/zipball/e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
-                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
+                "url": "https://api.github.com/repos/tedious/Stash/zipball/3489b13bad93c81a898fcb1054ae954575e1a7b6",
+                "reference": "3489b13bad93c81a898fcb1054ae954575e1a7b6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": "^5.4|^7.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "^1.9",
                 "phpunit/phpunit": "4.7.*",
-                "satooshi/php-coveralls": "dev-master"
+                "satooshi/php-coveralls": "1.0.*"
             },
             "type": "library",
             "autoload": {
@@ -2394,7 +2389,7 @@
                 "redis",
                 "sessions"
             ],
-            "time": "2015-08-02 06:31:49"
+            "time": "2015-12-29 00:07:05"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -2604,20 +2599,20 @@
         },
         {
             "name": "zendframework/zend-math",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-math.git",
-                "reference": "9f02a1ac4d3374d3332c80f9215deec9c71558fc"
+                "reference": "2648ee3cce39aa3876788c837e3b58f198dc8a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-math/zipball/9f02a1ac4d3374d3332c80f9215deec9c71558fc",
-                "reference": "9f02a1ac4d3374d3332c80f9215deec9c71558fc",
+                "url": "https://api.github.com/repos/zendframework/zend-math/zipball/2648ee3cce39aa3876788c837e3b58f198dc8a78",
+                "reference": "2648ee3cce39aa3876788c837e3b58f198dc8a78",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23"
+                "php": ">=5.5"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "1.7.*",
@@ -2652,7 +2647,7 @@
                 "math",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:02"
+            "time": "2015-12-17 15:31:58"
         },
         {
             "name": "zendframework/zend-mime",
@@ -3831,16 +3826,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002"
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002",
-                "reference": "177a015cb0e19ff4a49e0e2e2c5fc1c1bee07002",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3df409958a646dad2bc5046c3fb671ee24a1a691",
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691",
                 "shasum": ""
             },
             "require": {
@@ -3876,7 +3871,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 12:36:17"
+            "time": "2015-12-26 13:39:53"
         }
     ],
     "aliases": [],
