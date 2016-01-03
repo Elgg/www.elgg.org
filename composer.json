@@ -49,31 +49,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/brettp/admin-notes"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/brettp/bulk-user-admin"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/jumbojett/vroom.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ewinslow/elgg-registration-randomizer"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/arckinteractive/elgg_solr"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/beck24/image_proxy"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/beck24/spam_throttle"
         },
         {
             "type": "vcs",
@@ -82,10 +58,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/beck24/trusted_user_spam_report"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/beck24/spam_login_filter"
         }
     ]
 }
