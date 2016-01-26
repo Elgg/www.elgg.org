@@ -61,8 +61,8 @@ list($stable_version, $stable_date) = each($stables);
 <div class="clearfloat bottom2">
 	<div class="twocolbox left">
 		<h1 class="header_color">Upcoming Events</h1>
-		<br />
-		<h2>Hosting an upcoming Elgg event? <a href="mailto:info@elgg.org">Let us know</a> and we'll add you to the list!</h2>
+		<h2>Elgg Camp Italy 2016</h2>
+		<p>May 19th - 22nd: Elgg Camp Italy 2016 @ Small Business World in Montelabbate PU, Italia. <a href="https://socialbusinessworld.org/events/event/view/606289/elgg-camp-italy-2016-sbw-extended-version#.VqeN_FMrLMV">More details.</a></p>
 	</div>
 	<div class="twocolbox right">
 		<h1 class="header_color">Contributing</h1>
