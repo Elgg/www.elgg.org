@@ -62,7 +62,7 @@ list($stable_version, $stable_date) = each($stables);
 	<div class="twocolbox left">
 		<h1 class="header_color">Upcoming Events</h1>
 		<h2>Elgg Camp Italy 2016</h2>
-		<p>May 19th - 22nd: Elgg Camp Italy 2016 @ Small Business World in Montelabbate PU, Italia. <a href="https://socialbusinessworld.org/events/event/view/606289/elgg-camp-italy-2016-sbw-extended-version#.VqeN_FMrLMV">More details.</a></p>
+		<p>May 20th - 22nd: Elgg Camp Italy 2016 @ Small Business World in Montelabbate PU, Italia. <a href="https://socialbusinessworld.org/events/event/view/606289/elgg-camp-italy-2016-sbw-extended-version#.VqeN_FMrLMV">More details.</a></p>
 	</div>
 	<div class="twocolbox right">
 		<h1 class="header_color">Contributing</h1>
