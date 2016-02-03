@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db39748e2b853db52a49a9c5cba71774",
-    "content-hash": "7f1bbbb7418d99b011e632e48f667a1d",
+    "hash": "68668d4e00dfd8517332cd63f6b83bb9",
+    "content-hash": "1b83b6777e3900fc108ac70f4ac9ce1e",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -33,6 +33,7 @@
                     "": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -50,10 +51,6 @@
                 "search",
                 "solr"
             ],
-            "support": {
-                "source": "https://github.com/arckinteractive/elgg_solr/tree/master",
-                "issues": "https://github.com/arckinteractive/elgg_solr/issues"
-            },
             "time": "2015-09-16 17:51:30"
         },
         {
@@ -114,6 +111,7 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -130,10 +128,6 @@
                 "image proxy",
                 "plugin"
             ],
-            "support": {
-                "issues": "https://github.com/beck24/image_proxy/issues",
-                "source": "https://github.com/beck24/image_proxy/tree/1.2.0"
-            },
             "time": "2015-09-24 07:30:12"
         },
         {
@@ -191,6 +185,7 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -207,10 +202,6 @@
                 "plugin",
                 "spam"
             ],
-            "support": {
-                "issues": "https://github.com/beck24/spam_throttle/issues",
-                "source": "https://github.com/beck24/spam_throttle/tree/2.1.0"
-            },
             "time": "2015-11-02 20:48:52"
         },
         {
@@ -470,10 +461,7 @@
                 "shasum": ""
             },
             "type": "elgg-plugin",
-            "support": {
-                "source": "https://github.com/brettp/Admin-Notes/tree/master",
-                "issues": "https://github.com/brettp/Admin-Notes/issues"
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "time": "2015-07-21 13:39:15"
         },
         {
@@ -509,26 +497,24 @@
         },
         {
             "name": "brettp/elgg-registration-randomizer",
-            "version": "dev-no-mysql-2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ewinslow/elgg-registration-randomizer.git",
-                "reference": "7618ede9e728cbfa13febb87d3b1e052d7dc3797"
+                "url": "https://github.com/brettp/elgg-registration-randomizer.git",
+                "reference": "27c606d03490bb45dfac1496c6677bad0edabd01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ewinslow/elgg-registration-randomizer/zipball/7618ede9e728cbfa13febb87d3b1e052d7dc3797",
-                "reference": "7618ede9e728cbfa13febb87d3b1e052d7dc3797",
+                "url": "https://api.github.com/repos/brettp/elgg-registration-randomizer/zipball/27c606d03490bb45dfac1496c6677bad0edabd01",
+                "reference": "27c606d03490bb45dfac1496c6677bad0edabd01",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "extra": {
                 "installer-name": "registration_randomizer"
             },
-            "support": {
-                "source": "https://github.com/ewinslow/elgg-registration-randomizer/tree/no-mysql-2.0"
-            },
-            "time": "2015-08-04 20:51:34"
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2016-02-03 21:03:51"
         },
         {
             "name": "brettp/stale_users",
@@ -1408,17 +1394,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/dbvalidator.git",
-                "reference": "60dfa1c396ed3b23ecabb695305ad5d2308ea8de"
+                "reference": "80fbf7263e46df108a17e3627ef3d67a3b363bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/dbvalidator/zipball/60dfa1c396ed3b23ecabb695305ad5d2308ea8de",
-                "reference": "60dfa1c396ed3b23ecabb695305ad5d2308ea8de",
+                "url": "https://api.github.com/repos/Elgg/dbvalidator/zipball/80fbf7263e46df108a17e3627ef3d67a3b363bce",
+                "reference": "80fbf7263e46df108a17e3627ef3d67a3b363bce",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-12-19 20:13:57"
+            "time": "2016-01-25 13:33:18"
         },
         {
             "name": "elgg/drop_unvalidated",
@@ -1444,12 +1430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "fdde908215715c3b4dbbf7cdb6c3d31fe84a47b3"
+                "reference": "83a56e7201288ccbfb036d8251df992f8446da3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/fdde908215715c3b4dbbf7cdb6c3d31fe84a47b3",
-                "reference": "fdde908215715c3b4dbbf7cdb6c3d31fe84a47b3",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/83a56e7201288ccbfb036d8251df992f8446da3e",
+                "reference": "83a56e7201288ccbfb036d8251df992f8446da3e",
                 "shasum": ""
             },
             "require": {
@@ -1497,7 +1483,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-01-28 15:17:45"
+            "time": "2016-02-03 17:07:12"
         },
         {
             "name": "elgg/login_as",
@@ -2686,38 +2672,36 @@
         },
         {
             "name": "zendframework/zend-math",
-            "version": "2.5.2",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-math.git",
-                "reference": "2648ee3cce39aa3876788c837e3b58f198dc8a78"
+                "reference": "395ebb981e01f2fc708ba07d8ee0d86f6e3e9ed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-math/zipball/2648ee3cce39aa3876788c837e3b58f198dc8a78",
-                "reference": "2648ee3cce39aa3876788c837e3b58f198dc8a78",
+                "url": "https://api.github.com/repos/zendframework/zend-math/zipball/395ebb981e01f2fc708ba07d8ee0d86f6e3e9ed6",
+                "reference": "395ebb981e01f2fc708ba07d8ee0d86f6e3e9ed6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "1.7.*",
                 "ircmaxell/random-lib": "~1.1",
-                "phpunit/phpunit": "~4.0",
-                "zendframework/zend-servicemanager": "~2.5"
+                "phpunit/phpunit": "~4.0"
             },
             "suggest": {
                 "ext-bcmath": "If using the bcmath functionality",
                 "ext-gmp": "If using the gmp functionality",
-                "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
-                "zendframework/zend-servicemanager": ">= current version, if using the BigInteger::factory functionality"
+                "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -2734,7 +2718,7 @@
                 "math",
                 "zf2"
             ],
-            "time": "2015-12-17 15:31:58"
+            "time": "2016-02-02 23:15:14"
         },
         {
             "name": "zendframework/zend-mime",
@@ -2787,16 +2771,16 @@
         },
         {
             "name": "zendframework/zend-servicemanager",
-            "version": "2.7.4",
+            "version": "2.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-servicemanager.git",
-                "reference": "846f8a4f9c2e438e45d2de5cec11509cb7e08d79"
+                "reference": "fb5b54db5ead533b38e311f14e9c01a79218bf2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/846f8a4f9c2e438e45d2de5cec11509cb7e08d79",
-                "reference": "846f8a4f9c2e438e45d2de5cec11509cb7e08d79",
+                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/fb5b54db5ead533b38e311f14e9c01a79218bf2b",
+                "reference": "fb5b54db5ead533b38e311f14e9c01a79218bf2b",
                 "shasum": ""
             },
             "require": {
@@ -2835,7 +2819,7 @@
                 "servicemanager",
                 "zf2"
             ],
-            "time": "2016-01-19 21:01:21"
+            "time": "2016-02-02 14:11:46"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -3368,16 +3352,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.21",
+            "version": "4.8.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ea76b17bced0500a28098626b84eda12dbcf119c"
+                "reference": "dfb11aa5236376b4fc63853cf746af39fe780e72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ea76b17bced0500a28098626b84eda12dbcf119c",
-                "reference": "ea76b17bced0500a28098626b84eda12dbcf119c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/dfb11aa5236376b4fc63853cf746af39fe780e72",
+                "reference": "dfb11aa5236376b4fc63853cf746af39fe780e72",
                 "shasum": ""
             },
             "require": {
@@ -3436,7 +3420,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-12-12 07:45:58"
+            "time": "2016-02-02 09:01:21"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3914,16 +3898,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691"
+                "reference": "3cf0709d7fe936e97bee9e954382e449003f1d9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3df409958a646dad2bc5046c3fb671ee24a1a691",
-                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3cf0709d7fe936e97bee9e954382e449003f1d9a",
+                "reference": "3cf0709d7fe936e97bee9e954382e449003f1d9a",
                 "shasum": ""
             },
             "require": {
@@ -3959,7 +3943,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-26 13:39:53"
+            "time": "2016-02-02 13:44:19"
         }
     ],
     "aliases": [],

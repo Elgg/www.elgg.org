@@ -12,7 +12,7 @@
         "beck24/elgg_recaptcha": "~1.0",
         "brettp/admin_notes": "dev-master",
         "brettp/bulk_user_admin": "dev-master",
-        "brettp/elgg-registration-randomizer": "dev-no-mysql-2.0",
+        "brettp/elgg-registration-randomizer": "dev-master",
         "brettp/stale_users": "dev-master",
         "elgg/ban": "dev-master",
         "elgg/community_groups": "dev-master",
