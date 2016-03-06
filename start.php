@@ -11,6 +11,7 @@ function community_theme_init() {
 	elgg_register_event_handler('pagesetup', 'system', 'community_theme_pagesetup', 1000);
 
 	elgg_extend_view('css/elgg', 'community_theme/css');
+	elgg_extend_view('forms/login', 'community_theme/new_account_msg');
 
 	elgg_unregister_menu_item('site', 'bookmarks');
 	elgg_unregister_menu_item('site', 'members');
