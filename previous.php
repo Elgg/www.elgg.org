@@ -6,6 +6,14 @@ use Elgg\Releases;
 
 // TODO do we want to show -rc/beta/alpha releases?
 
+function release_li($version, $date, $in_git = true) {
+	$git_link = '';
+	if ($in_git) {
+		$git_link = ", <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>";
+	}
+	return "<li><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>$git_link) - released $date </li>";
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
@@ -45,45 +53,50 @@ use Elgg\Releases;
 			</ul>
 		</div>
 		<div id="page_contents">
-			<h1 class="header_color">Previous releases and security updates</h1>
+			<h1 class="header_color">Previous releases</h1>
+			<ul class="elgg-releases">
 			<?php
+
 			$releases = Releases::getReleases(Releases::$stable_branch, false);
 			array_shift($releases);
 			foreach ($releases as $version => $date) {
-				echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+				echo release_li($version, $date);
 			}
 
-			$releases = Releases::getReleases(Releases::$legacy_branch, false);
+			$releases = Releases::getReleases(Releases::$lts_branch, false);
 			array_shift($releases);
 			foreach ($releases as $version => $date) {
-				echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+				echo release_li($version, $date);
 			}
 			?>
+			</ul>
 
 			<h1 class="header_color">Security releases</h1>
 			<?php
 			$branches = Releases::$security_branches;
 			$last_branch = array_pop($branches);
-			echo "<p><b>Elgg " . implode(', ', $branches) . ", and $last_branch are receiving only security updates.</b></p>";
+			?>
+			<p><b>Elgg <?= implode(', ', $branches) ?>, and <?= $last_branch ?> are receiving only security updates.</b></p>
+			<ul class="elgg-releases">
+			<?php
 			foreach (Releases::$security_branches as $branch) {
 				$releases = Releases::getReleases($branch);
 				foreach ($releases as $version => $date) {
-					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
+					echo release_li($version, $date);
 				}
 			}
 			?>
+			</ul>
 
 			<h1 class="header_color">Unsupported releases</h1>
 			<p><b>These versions of Elgg are no longer supported:</b></p>
+			<ul class="elgg-releases">
 			<?php
 			foreach (Releases::getUnsupportedReleases() as $version => $date) {
-				if (in_array($version, Releases::$untagged_releases)) {
-					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-{$version}.zip'>zip</a>) - released $date </p>";
-				} else {
-					echo "<p><b>$version</b> (<a href='getelgg.php?forward=elgg-$version.zip'>zip</a>, <a href='https://github.com/Elgg/Elgg/tree/$version'>source</a>) - released $date </p>";
-				}
+				echo release_li($version, $date, !in_array($version, Releases::$untagged_releases));
 			}
 			?>
+			</ul>
 		</div>
 		<div style="clear:both;"></div>
 	</div><!-- // content -->

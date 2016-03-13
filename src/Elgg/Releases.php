@@ -9,15 +9,17 @@ class Releases {
 	 */
 	static $dev_branch = '3.0';
 
-	static $stable_branch = '2.0';
+	static $stable_branch = '2.1';
 
-	static $legacy_branch = '1.12';
+	static $lts_branch = '1.12';
 
 	static $security_branches = [
+		'2.0',
 		'1.11',
 		'1.10',
 	];
 	static $releases = [
+		'2.1.0' => 'March 13, 2016',
 		'2.0.3' => 'March 6, 2016',
 		'2.0.2' => 'February 3, 2016',
 		'2.0.1' => 'January 3, 2016',
@@ -154,7 +156,7 @@ class Releases {
 	static function getSupportedBranches() {
 		$supported = self::$security_branches;
 		$supported[] = self::$stable_branch;
-		$supported[] = self::$legacy_branch;
+		$supported[] = self::$lts_branch;
 		return array_unique($supported);
 	}
 
