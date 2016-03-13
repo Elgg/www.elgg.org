@@ -76,16 +76,17 @@ list($lts_version, $lts_date) = each($lts_releases);
 
 			<h1 class="header_color" style="margin-top:40px;">Stable Release - <?= $stable_date ?></h1>
 			<p class="leader">
-				Elgg <?= $stable_version ?> is the latest and recommended version of Elgg.<br />
-				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">GitHub</a>.
+				Elgg <?= $stable_version ?> (<a href="https://github.com/Elgg/Elgg/blob/<?= $stable_version ?>/CHANGELOG.md">changelog</a>)
+				is the latest and recommended version of Elgg.
 			</p>
 			<div id="download_btn">
 				<p><a href="getelgg.php?forward=elgg-<?= $stable_version ?>.zip" class="download">Download <?= $stable_version ?></a></p>
 			</div>
+			<p>You can alternately clone our <a href="https://github.com/Elgg/starter-project">starter project repo</a> and install with composer.</p>
 
 			<h1 class="header_color" style="margin-top:40px;">LTS Release - <?= $lts_date ?></h1>
 			<p class="leader">
-				Elgg <?= $lts_version ?> is the recommended release if using Elgg <?= Releases::$lts_branch ?>.<br />
+				Elgg <?= $lts_version ?> (<a href="https://github.com/Elgg/Elgg/blob/<?= $lts_version ?>/CHANGELOG.md">changelog</a>) is the recommended release if using Elgg <?= Releases::$lts_branch ?>.<br />
 			</p>
 			<div id="download_btn">
 				<p><a href="getelgg.php?forward=elgg-<?= $lts_version ?>.zip" class="download">Download <?= $lts_version ?></a></p>
