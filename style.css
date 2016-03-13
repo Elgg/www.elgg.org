@@ -314,7 +314,7 @@ div#top_right ul.features_bottom li {list-style-type:none;display:list-item;marg
 #page_contents p {margin-bottom:9px;}
 #mid_left {float:left;width:350px;margin-top:20px;}
 #mid_right {float:right;width:350px;margin-top:20px;}
-
+.elgg-releases li {margin:.5em 0}
 
 /*-----------------------------
 	ABOUT

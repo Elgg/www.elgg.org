@@ -14,9 +14,9 @@ $stables = Releases::getReleases(Releases::$stable_branch);
 reset($stables);
 list($stable_version, $stable_date) = each($stables);
 
-$legacies = Releases::getReleases(Releases::$legacy_branch);
-reset($legacies);
-list($legacy_version, $legacy_date) = each($legacies);
+$lts_releases = Releases::getReleases(Releases::$lts_branch);
+reset($lts_releases);
+list($lts_version, $lts_date) = each($lts_releases);
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -76,19 +76,20 @@ list($legacy_version, $legacy_date) = each($legacies);
 
 			<h1 class="header_color" style="margin-top:40px;">Stable Release - <?= $stable_date ?></h1>
 			<p class="leader">
-				Elgg <?= $stable_version ?> is the latest and recommended version of Elgg.<br />
-				Please report all bugs to <a href="https://github.com/Elgg/Elgg/issues">GitHub</a>.
+				Elgg <?= $stable_version ?> (<a href="https://github.com/Elgg/Elgg/blob/<?= $stable_version ?>/CHANGELOG.md">changelog</a>)
+				is the latest and recommended version of Elgg.
 			</p>
 			<div id="download_btn">
 				<p><a href="getelgg.php?forward=elgg-<?= $stable_version ?>.zip" class="download">Download <?= $stable_version ?></a></p>
 			</div>
+			<p>You can alternately clone our <a href="https://github.com/Elgg/starter-project">starter project repo</a> and install with composer.</p>
 
-			<h1 class="header_color" style="margin-top:40px;">Legacy Release - <?= $legacy_date ?></h1>
+			<h1 class="header_color" style="margin-top:40px;">LTS Release - <?= $lts_date ?></h1>
 			<p class="leader">
-				Elgg <?= $legacy_version ?> is the recommended release if using Elgg <?= Releases::$legacy_branch ?>.<br />
+				Elgg <?= $lts_version ?> (<a href="https://github.com/Elgg/Elgg/blob/<?= $lts_version ?>/CHANGELOG.md">changelog</a>) is the recommended release if using Elgg <?= Releases::$lts_branch ?>.<br />
 			</p>
 			<div id="download_btn">
-				<p><a href="getelgg.php?forward=elgg-<?= $legacy_version ?>.zip" class="download">Download <?= $legacy_version ?></a></p>
+				<p><a href="getelgg.php?forward=elgg-<?= $lts_version ?>.zip" class="download">Download <?= $lts_version ?></a></p>
 			</div>
 
 			<div style="float:right;width:300px;border:1px solid #ddd;padding:4px;">
@@ -98,7 +99,7 @@ list($legacy_version, $legacy_date) = each($legacies);
 				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $dev_version ?>-mit.zip" class="download"><?= $dev_version ?> MIT version</a></h3>
 			<?php endif; ?>
 				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $stable_version ?>-mit.zip" class="download"><?= $stable_version ?> MIT version</a></h3>
-				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $legacy_version ?>-mit.zip" class="download"><?= $legacy_version ?> MIT version</a></h3>
+				<h3>Download: <a href="getelgg.php?forward=elgg-<?= $lts_version ?>-mit.zip" class="download"><?= $lts_version ?> MIT version</a></h3>
 			</div>
 
 		<div id="mid_left">
