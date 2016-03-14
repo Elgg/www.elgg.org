@@ -6,7 +6,7 @@
 require "credentials.php";
 
 // Where are the downloads stored?
-$download_base = "http://www.elgg.org/download/";
+$download_base = "https://elgg.org/download/";
 
 // Connect to db
 mysql_connect('localhost', $db_user, $db_password);
@@ -15,7 +15,7 @@ mysql_select_db('www_elgg_org');
 // Sanitise plugin URL
 $url = trim(mysql_real_escape_string($_GET['forward']));
 if (empty($url)) {
-	header("Location: http://www.elgg.org/downloads.php"); exit;
+	header("Location: https://elgg.org/downloads.php"); exit;
 }
 
 // Get existing counter, if any
