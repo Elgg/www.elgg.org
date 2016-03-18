@@ -158,22 +158,10 @@
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
-						<td>Nicolas CHAGNY</td>
-						<td><a href="http://www.les-argonautes.fr">http://www.les-argonautes.fr</a></td>
-						<td><a href="http://www.les-argonautes.fr/">LES ARGONAUTES</a></td>
-						<td><a href="https://community.elgg.org/profile/nicochagny">Visit</a></td>
-					</tr>
-					<tr>
 						<td>HRDNZ (Moodle Partner)</td>
 						<td><a href="http://www.hrdnz.com">http://www.hrdnz.com</a></td>
 						<td><a href="http://www.hrdnz.com">Human Resource Development International Ltd</a></td>
 						<td><a href="https://community.elgg.org/profile/stuartrmealor">Visit</a></td>
-					</tr>
-					<tr>
-						<td>Chris McCoy</td>
-						<td><a href="http://yoursports.com">http://yoursports.com</a></td>
-						<td><a href="http://yoursports.com">YourSports</a></td>
-						<td>&nbsp;</td>
 					</tr>
 					<tr>
 						<td>christophe lamm</td>
