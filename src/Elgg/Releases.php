@@ -19,6 +19,7 @@ class Releases {
 		'1.10',
 	];
 	static $releases = [
+		'2.1.1' => 'March 20, 2016',
 		'2.1.0' => 'March 13, 2016',
 		'2.0.3' => 'March 6, 2016',
 		'2.0.2' => 'February 3, 2016',
