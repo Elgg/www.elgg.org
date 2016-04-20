@@ -234,6 +234,11 @@
 						<td><a href="https://community.elgg.org/profile/codelust">Visit</a></td>
 					</tr>
 					<tr>
+						<td>John L. Spears</td>
+						<td><a rel="nofollow" href="http://www.clothingric.com">http://www.clothingric.com</a></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
 						<td>Xavier Vaucois</td>
 						<td><a href="http://www.fairbusinessdeal.com/fbd">http://www.fairbusinessdeal.com/fbd</a></td>
 						<td>&nbsp;</td>
