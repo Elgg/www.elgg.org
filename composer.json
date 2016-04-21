@@ -22,7 +22,7 @@
         "elgg/community_web_services": "dev-master",
         "elgg/dbvalidator": "dev-master",
         "elgg/drop_unvalidated": "dev-master",
-        "elgg/elgg": "~2.1",
+        "elgg/elgg": "2.0.x-dev",
         "elgg/login_as": "~1.9",
         "elgg/opensearch": "dev-master",
         "elgg/showcase": "dev-master",
