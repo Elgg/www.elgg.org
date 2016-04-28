@@ -177,8 +177,8 @@
 					</tr>
 					<tr>
 						<td>Christian Bernert</td>
-						<td><a href="http://sogin.com" rel="nofollow">http://sogin.com</a></td>
-						<td><a href="http://sogin.com" rel="nofollow">SogIn Ltd.</a></td>
+						<td><a href="http://www.sogln.com">http://www.sogln.com</a></td>
+						<td><a href="http://www.sogln.com">Sogln Ltd.</a></td>
 						<td><a href="https://elgg.org/profile/sogln">visit</a></td>
 					</tr>
 
