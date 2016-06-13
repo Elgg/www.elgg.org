@@ -4,6 +4,9 @@
  * Elgg Community Theme
  */
 
+// tech support discussion
+define('ELGG_COMMUNITY_THEME_SUPPORT_URL', 'discussion/group/179063');
+
 elgg_register_event_handler('init', 'system', 'community_theme_init');
 
 function community_theme_init() {
@@ -31,7 +34,18 @@ function community_theme_init() {
 		'text' => elgg_echo('blog:title:all_blogs'),
 	]));
 
+	elgg_register_plugin_hook_handler('action', 'login', 'community_theme_login_action');
+
 	community_theme_combine_js();
+}
+
+function community_theme_login_action() {
+	if (empty($_SERVER['HTTP_REFERER'])) {
+		return;
+	}
+	if ($_SERVER['HTTP_REFERER'] === elgg_get_site_url()) {
+		elgg_get_session()->set('last_forward_from', ELGG_COMMUNITY_THEME_SUPPORT_URL);
+	}
 }
 
 function community_theme_combine_js() {
