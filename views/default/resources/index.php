@@ -89,6 +89,5 @@ list($stable_version, $stable_date) = each($stables);
 
 <?php include("globalfooter.php"); ?>
 </div><!-- // content wrapper -->
-<?php include 'urchin.php'; ?>
 </body>
 </html>

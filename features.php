@@ -70,6 +70,5 @@
 	</div><!-- // content -->
 <?php include("globalfooter.php"); ?>
 </div>
-<?php include 'urchin.php'; ?>
 </body>
 </html>

@@ -51,6 +51,5 @@ Nivel Siete was founded in 2002 in Colombia, South America, and has delivered e-
 	</div>
 <?php include("globalfooter.php"); ?>
 </div>
-<?php include 'urchin.php'; ?>
 </body>
 </html>	
