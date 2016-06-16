@@ -7,7 +7,10 @@ class Releases {
 	 * @var string If there are no releases with this branch, it will not appear on the home page,
 	 *             or the releases pages.
 	 */
-	static $dev_branch = '3.0';
+	// Temporarily setting this to 2.2 so that Elgg 2.2.0-rc.1 shows up in the downloads list
+	// @todo Set back to 3.0 once Elgg 2.2.0 is released
+	static $dev_branch = '2.2';
+	//static $dev_branch = '3.0';
 
 	static $stable_branch = '2.1';
 
@@ -19,6 +22,7 @@ class Releases {
 		'1.10',
 	];
 	static $releases = [
+		'2.2.0-rc.1' => 'June 16, 2016',
 		'2.1.2' => 'June 13, 2016',
 		'2.1.1' => 'March 20, 2016',
 		'2.1.0' => 'March 13, 2016',
