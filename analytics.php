@@ -3,7 +3,6 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20121988-2']);
   _gaq.push(['_setDomainName', '.elgg.org']);
-  _gaq.push(['_setLocalRemoteServerMode']);
   _gaq.push(['_trackPageview']);
 
   (function() {

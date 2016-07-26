@@ -31,14 +31,14 @@ list($stable_version, $stable_date) = each($stables);
 <div id="content_wrapper">
 	<div class="content"><!-- open content -->
 		<div id="box_wrapper" class="clearfloat">
-			<div id="logo">
+			<h1 id="logo">
 				<a href="index.php" target="_top"><img src="images/spacer.gif" width="290px" height="160px" alt="Elgg.org" border="0" /></a>
-			</div>
+			</h1>
 			<div id="container_strapline">
-				<div id="tag">
+				<h2 id="tag">
 					<p><span class="strapline accent_color">Introducing a powerful open source<br />social networking engine</span></p>
 					<p class="strap">Providing you with the core components you need<br />to build out socially aware applications</p>
-				</div>
+				</h2>
 
 				<p>
 					<a style="background:#E74815;color:#fff;padding:.5em .3em;font-size:170%;border-radius:5px;display:inline-block"
@@ -53,6 +53,12 @@ list($stable_version, $stable_date) = each($stables);
 			</div>
 		</div>
 		<div style="clear:both;"></div>
+			<div class="community_login">
+				<a href="<?= elgg_normalize_url(ELGG_COMMUNITY_THEME_SUPPORT_URL) ?>">Support Community</a>
+				<?php if (!elgg_is_logged_in()): ?>
+				<?= elgg_view_form('login'); ?>
+				<?php endif; ?>
+			</div>
 		<div id="bottom"><!-- open bottom -->
 		<h2>Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications. Organizations with networks <a href="powering.php">powered by Elgg</a> include:</h2>
 <img style="margin: 8px auto 0 auto; display: block;" src="images/customer_logos.gif" />
@@ -89,6 +95,7 @@ list($stable_version, $stable_date) = each($stables);
 
 <?php include("globalfooter.php"); ?>
 </div><!-- // content wrapper -->
-<?php include 'urchin.php'; ?>
+<script src="<?= elgg_get_simplecache_url('jquery.js') ?>"></script>
+<script src="<?= elgg_get_simplecache_url('resources/index.js') ?>"></script>
 </body>
 </html>

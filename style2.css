@@ -175,6 +175,52 @@ p.leader {font-size:1.2em;}
 	color:#333333;
 	margin-bottom:10px;
 }
+#homepage #box_wrapper {
+	height:240px;
+}
+#container_strapline h2 {
+	font-size: inherit;
+	line-height: inherit;
+}
+.community_login {
+	position: relative;
+}
+.community_login > form {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-top: 0;
+	background: #fff;
+}
+.community_login > a {
+	position: absolute;
+	bottom: 100%;
+	left: 20px;
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	border-bottom: 0;
+	opacity: .8;
+}
+.community_login fieldset > div,
+.community_login .elgg-menu li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.community_login .elgg-menu {
+	float: right;
+	margin-left: 15px;
+}
+.community_login .elgg-button-submit {
+	margin-left: 15px;
+}
+.community_login form h3,
+.community_login p {
+	display: none;
+}
+.community_login p {
+	margin-top: 10px;
+}
+
 .threecolbox {
 	width:274px;
 	height:274px;
@@ -300,8 +346,8 @@ div#top_right ul.features_bottom li {list-style-type:none;display:list-item;marg
 
 .display {margin-bottom:20px;}
 #bottom {
-	margin-top:36px;
-	padding-bottom:35px;
+	margin-top:25px;
+	padding-bottom:20px;
 	margin-bottom:20px;
 	border-bottom:1px solid #dddddd;
 }
