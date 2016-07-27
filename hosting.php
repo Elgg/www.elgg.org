@@ -61,6 +61,11 @@
 					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
+				<div class="hosting_company"> 
+					<a href="https://www.rosehosting.com/elgg-hosting.html" target="_blank"><img border="0" src="https://media.rosehosting.com/uploads/2016/07/managed-elgg-hosting.png" width="468" height="60" alt="RoseHosting.com" /></a> 
+					<p>RoseHosting.com offers fully-managed Elgg hosting with free 24/7 support and free migrations. They will install and configure Elgg for you for free.</p> 
+				</div> 
+				
 		</div>
 		<div style="clear:both;"></div>
 	</div>
