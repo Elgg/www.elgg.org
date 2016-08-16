@@ -23,6 +23,7 @@
         "elgg/dbvalidator": "dev-master",
         "elgg/drop_unvalidated": "dev-master",
         "elgg/elgg": "~2.1",
+        "elgg/elgg_ajax_register": "^1.0",
         "elgg/login_as": "~1.9",
         "elgg/opensearch": "dev-master",
         "elgg/showcase": "dev-master",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e1673580cf9c7682d88398a5ceaac84",
-    "content-hash": "f899af10be8df020cd3af647e703da66",
+    "hash": "8c80549ee96aca84496e32b0f7ddab79",
+    "content-hash": "3f9dd49004c1925d5c42622547096d3d",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -111,6 +111,7 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -127,10 +128,6 @@
                 "image proxy",
                 "plugin"
             ],
-            "support": {
-                "issues": "https://github.com/beck24/image_proxy/issues",
-                "source": "https://github.com/beck24/image_proxy/tree/1.2.0"
-            },
             "time": "2015-09-24 07:30:12"
         },
         {
@@ -188,6 +185,7 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -204,10 +202,6 @@
                 "plugin",
                 "spam"
             ],
-            "support": {
-                "issues": "https://github.com/beck24/spam_throttle/issues",
-                "source": "https://github.com/beck24/spam_throttle/tree/2.1.0"
-            },
             "time": "2015-11-02 20:48:52"
         },
         {
@@ -469,10 +463,7 @@
                 "shasum": ""
             },
             "type": "elgg-plugin",
-            "support": {
-                "source": "https://github.com/brettp/Admin-Notes/tree/master",
-                "issues": "https://github.com/brettp/Admin-Notes/issues"
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "time": "2015-07-21 13:39:15"
         },
         {
@@ -1527,6 +1518,44 @@
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
             "time": "2016-06-14 02:45:03"
+        },
+        {
+            "name": "elgg/elgg_ajax_register",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Elgg/elgg_ajax_register.git",
+                "reference": "d5059e725b9877b2b87e05a3924d011e04d27dcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Elgg/elgg_ajax_register/zipball/d5059e725b9877b2b87e05a3924d011e04d27dcb",
+                "reference": "d5059e725b9877b2b87e05a3924d011e04d27dcb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Core developers",
+                    "homepage": "http://elgg.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Loads the registration form via Ajax request to reduce spam",
+            "homepage": "http://elgg.org/",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "security"
+            ],
+            "time": "2016-08-16 17:35:42"
         },
         {
             "name": "elgg/login_as",
