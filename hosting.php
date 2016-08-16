@@ -58,7 +58,7 @@
 					<p>High performance, single-click deploy, Elgg hosting from the expert Elgg development team at Arck Interactive. Individual and enterprise plans, CDN, support, development and code optimizations, All data storage is on our blazing fast CEPH SSD cluster and 10x.</p>
 				</div> 
 				<div class="hosting_company"> 
-					<a href="http://www.arvixe.com/161-9-1-510.html" target="_blank"><img border="0" src="images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
+					<a href="http://arvixe.evyy.net/c/303140/196991/3370" target="_blank"><img border="0" src="images/arvixe.elgg.gif" width="468" height="60" alt="Arvixe" /></a> 
 					<p>For fast, secure and reliable Elgg Hosting, look no further than Arvixe for all your web hosting related needs.</p> 
 				</div> 
 		</div>

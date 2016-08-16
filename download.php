@@ -109,7 +109,7 @@ list($lts_version, $lts_date) = each($lts_releases);
 			<img src="images/a2hosting_mini_banner.gif" border="0" alt="A2 graphic" /></a></p>
 			<p><a href="http://www.arckcloud.com/elgg-hosting/">
 			<img src="images/arckcloud-small-banner.png" border="0" alt="Arckcloud Hosting" /></a></p>
-			<p><a href="http://www.arvixe.com/161-9-1-21.html" target="_blank">
+			<p><a href="http://arvixe.evyy.net/c/303140/196991/3370" target="_blank">
 			<img border="0" src="https://affiliates.arvixe.com/banners/266x46.Elgg.gif" width="266" height="46" alt="Arvixe Hosting"></a></p>
 				</div>
 		<div id="mid_right">
