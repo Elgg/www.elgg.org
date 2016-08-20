@@ -13,7 +13,7 @@ if (function_exists('elgg_get_site_url')) {
 	<?php include __DIR__ . '/globalfooter.php'; ?>
 
 	</div><!-- .content -->
-	<script src="<?= $home ?>common.js?v1"></script>
+	<script src="<?= $home ?>common.js?v2"></script>
 
 	<?php if (!empty($is_home) && function_exists('elgg_get_simplecache_url')): ?>
 	<script src="<?= elgg_get_simplecache_url('jquery.js') ?>"></script>
