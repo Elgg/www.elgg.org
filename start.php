@@ -13,8 +13,17 @@ function community_theme_init() {
 
 	elgg_register_event_handler('pagesetup', 'system', 'community_theme_pagesetup', 1000);
 
+	$url = elgg_normalize_url('/common.css');
+	elgg_register_css($url, $url);
+	elgg_load_css($url);
+
+	$url = elgg_normalize_url('/common.js');
+	elgg_register_js($url, $url);
+	elgg_load_js($url);
+
 	elgg_extend_view('css/elgg', 'community_theme/css');
 	elgg_extend_view('forms/login', 'community_theme/new_account_msg');
+	elgg_extend_view('page/elements/topbar_wrapper', 'community_theme/globalheader', 0);
 
 	elgg_unregister_menu_item('site', 'bookmarks');
 	elgg_unregister_menu_item('site', 'members');

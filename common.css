@@ -1,0 +1,60 @@
+/* after editing, update ?v in _includes/head.php */
+
+/*-----------------------------
+	GLOBAL HEADER #00acf7
+-----------------------------*/
+
+#globalheader_wrapper {
+	background-color: #00acf7;
+	border-bottom: 2px solid #fff;
+	overflow: hidden; /* clear contents */
+}
+#globalheader {
+	max-width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#globalheader ul {
+	float: left;
+	margin: 0;
+}
+#globalheader li {
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 1.0;
+	padding: 0;
+}
+#globalheader .header {
+	color: white;
+}
+#globalheader li a {
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 8px 13px;
+	text-decoration: none;
+}
+#globalheader li a:hover {
+	background-color: #027bb3;
+	color: white;
+}
+#globalheader a.selected {
+	color: #333333;
+	font-weight: normal;
+	background-color: white;
+}
+
+#globalheader .home-link img {
+	height: 2em;
+	display: block;
+}
+
+.elgg-page-topbar {
+	clear: both;
+	max-width: 990px;
+	margin: 0 auto;
+	background: none;
+}
+
+.elgg-page-default .elgg-page-header {
+	display: none;
+}
