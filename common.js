@@ -7,8 +7,13 @@
 		found = 0,
 		links = d.querySelectorAll('#globalheader li > a');
 
+	function matches_path(link) {
+		var attr = link.getAttribute('data-path');
+		return attr && (new RegExp(attr)).test(location.pathname);
+	}
+
 	for (i = 0; i < links.length; i++) {
-		if (location.href === links[i].href) {
+		if (location.href === links[i].href || matches_path(links[i])) {
 			found = 1;
 			links[i].className += ' selected';
 		}

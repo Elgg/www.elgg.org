@@ -34,8 +34,8 @@ if (empty($is_home)) {
 	<meta name="keywords" content="open source social networking, social intranet, collaboration software, social networking software, community software, social media, social publishing, social media platform">
 	<meta name="robots" content="index, follow">
 	<link rel="shortcut icon" href="<?= $home ?>favicon.ico">
-	<link href="<?= $home ?>non-community.css?v1" rel="stylesheet" type="text/css">
-	<link href="<?= $home ?>common.css?v1" rel="stylesheet" type="text/css">
+	<link href="<?= $home ?>non-community.css?v2" rel="stylesheet" type="text/css">
+	<link href="<?= $home ?>common.css?v2" rel="stylesheet" type="text/css">
 	<?php include __DIR__ . '/analytics.php'; ?>
 	<?php if (!empty($append_head)) { echo $append_head; } ?>
 </head>

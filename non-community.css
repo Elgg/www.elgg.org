@@ -140,7 +140,7 @@ p.leader {font-size:1.2em;}
 	-moz-border-radius: 12px;
 }
 #homepage #box_wrapper {
-	padding:12px 26px 26px;
+	padding:12px 26px 20px;
 	background: #06141c url(images/homepage_banner.jpg) no-repeat;
 	margin-top:27px;
 	position:relative;
@@ -160,7 +160,8 @@ p.leader {font-size:1.2em;}
 	position: relative;
 }
 .community_login > form {
-	padding: 15px;
+	line-height: 2;
+	padding: 11px 15px;
 	border: 1px solid #ccc;
 	border-top: 0;
 	background: #fff;
@@ -193,6 +194,10 @@ p.leader {font-size:1.2em;}
 }
 .community_login p {
 	margin-top: 10px;
+}
+
+.login_with_twitter {
+	float: right;
 }
 
 #threecolbox, .threecolbox {
