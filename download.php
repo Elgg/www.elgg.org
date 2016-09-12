@@ -54,7 +54,7 @@ list($lts_version, $lts_date) = each($lts_releases);
 	</div>
 
 	<div style="float:right;width:345px;border:1px solid #ddd;padding:4px;">
-		<p>Elgg is available under a dual license, GPL Version 2 and the MIT license.
+		<p>Elgg is available under GPL Version 2, with a portion of the code alternately available under MIT.
 			<a href="http://learn.elgg.org/en/latest/intro/license.html">More info</a>.</p>
 		<p>You may
 			<a href="mailto:info@elgg.org">request an MIT release</a> (please specify version) or create one easily: After executing
