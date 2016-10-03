@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d898acd77dc4ac6cfb1a7f98ccc56ed1",
-    "content-hash": "1726a40db5c2f32e336093314078c426",
+    "hash": "b35a7779a33521f5c14d018556769bb6",
+    "content-hash": "0534008145fd836b5dea20318740bba4",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -2040,6 +2040,45 @@
                 "markdown"
             ],
             "time": "2015-12-24 01:37:31"
+        },
+        {
+            "name": "mrclay/elgg-http-combiner",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/Elgg-mrclay_combiner.git",
+                "reference": "8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/Elgg-mrclay_combiner/zipball/8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47",
+                "reference": "8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/installers": "1.*"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Clay",
+                    "email": "steve@mrclay.org"
+                }
+            ],
+            "description": "Reduces HTTP requests by merging files and AMD modules",
+            "homepage": "http://www.mrclay.org/",
+            "keywords": [
+                "amd",
+                "elgg",
+                "http",
+                "plugin",
+                "webperf"
+            ],
+            "time": "2016-07-12 23:36:37"
         },
         {
             "name": "mrclay/minify",

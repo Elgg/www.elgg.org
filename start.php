@@ -44,8 +44,6 @@ function community_theme_init() {
 	]));
 
 	elgg_register_plugin_hook_handler('action', 'login', 'community_theme_login_action');
-
-	community_theme_combine_js();
 }
 
 function community_theme_login_action() {
@@ -55,32 +53,6 @@ function community_theme_login_action() {
 	if ($_SERVER['HTTP_REFERER'] === elgg_get_site_url()) {
 		elgg_get_session()->set('last_forward_from', ELGG_COMMUNITY_THEME_SUPPORT_URL);
 	}
-}
-
-function community_theme_combine_js() {
-	elgg_unregister_js('jquery');
-	elgg_extend_view('elgg.js', 'jquery.js', 1);
-	elgg_extend_view('elgg.js', 'separator.js', 1);
-
-	elgg_unregister_js('jquery-ui');
-	elgg_extend_view('elgg.js', 'jquery-ui.js', 1);
-	elgg_extend_view('elgg.js', 'separator.js', 1);
-
-	elgg_unregister_js('elgg.require_config');
-	elgg_extend_view('elgg.js', 'elgg/require_config.js', 1);
-	elgg_extend_view('elgg.js', 'separator.js', 1);
-
-	elgg_unregister_js('require');
-	elgg_extend_view('elgg.js', 'require.js', 1);
-	elgg_extend_view('elgg.js', 'separator.js', 1);
-
-	elgg_extend_view('elgg.js', 'separator.js');
-	elgg_unregister_js('lightbox');
-	elgg_extend_view('elgg.js', 'lightbox.js');
-
-	elgg_extend_view('elgg.js', 'separator.js');
-	elgg_unregister_js('elgg.ui.river');
-	elgg_extend_view('elgg.js', 'elgg/ui.river.js');
 }
 
 function community_theme_forward($h, $t, $v, $p) {
