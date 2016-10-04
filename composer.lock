@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b35a7779a33521f5c14d018556769bb6",
-    "content-hash": "0534008145fd836b5dea20318740bba4",
+    "hash": "d6975a67a3c9a6f3da7ad0aaf3a2e3f7",
+    "content-hash": "5308675d8919848db5a7bf2fbf42a273",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -2043,22 +2043,25 @@
         },
         {
             "name": "mrclay/elgg-http-combiner",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrclay/Elgg-mrclay_combiner.git",
-                "reference": "8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47"
+                "reference": "b3a2fc4da664212b4d7a5c2dd679e1144350ef4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrclay/Elgg-mrclay_combiner/zipball/8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47",
-                "reference": "8c0fecd09ac27c8e0ef0501f90aea205c2eeaa47",
+                "url": "https://api.github.com/repos/mrclay/Elgg-mrclay_combiner/zipball/b3a2fc4da664212b4d7a5c2dd679e1144350ef4a",
+                "reference": "b3a2fc4da664212b4d7a5c2dd679e1144350ef4a",
                 "shasum": ""
             },
             "require-dev": {
                 "composer/installers": "1.*"
             },
             "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "mrclay_combiner"
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2078,7 +2081,7 @@
                 "plugin",
                 "webperf"
             ],
-            "time": "2016-07-12 23:36:37"
+            "time": "2016-10-04 00:01:03"
         },
         {
             "name": "mrclay/minify",
