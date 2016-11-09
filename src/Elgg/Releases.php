@@ -7,7 +7,10 @@ class Releases {
 	 * @var string If there are no releases with this branch, it will not appear on the home page,
 	 *             or the releases pages.
 	 */
-	static $dev_branch = '3.0';
+
+	// Temporarily setting this to RC, change back to 3.0, when 2.3.0 is released
+	//static $dev_branch = '3.0';
+	static $dev_branch = '2.3';
 
 	static $stable_branch = '2.2';
 
@@ -20,6 +23,7 @@ class Releases {
 		'1.10',
 	];
 	static $releases = [
+		'2.3.0-rc.1' => 'November 9, 2016',
 		'2.2.3' => 'November 8, 2016',
 		'2.2.2' => 'October 2, 2016',
 		'2.2.1' => 'September 21, 2016',
