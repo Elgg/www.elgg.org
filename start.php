@@ -44,6 +44,11 @@ function community_theme_init() {
 	]));
 
 	elgg_register_plugin_hook_handler('action', 'login', 'community_theme_login_action');
+
+	elgg_register_page_handler('blog-feed.js', function () {
+		echo elgg_view_resource('blog-feed.js');
+		return true;
+	});
 }
 
 function community_theme_login_action() {
