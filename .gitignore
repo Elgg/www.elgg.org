@@ -1,12 +1,12 @@
 .*
 !.gitignore
 !.travis.yml
-!.tx
 /settings.php
 /elgg-config/settings.php
 /cache
 /mod
 /vendor
+/system_cache
 
 download
 credentials.php

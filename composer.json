@@ -25,6 +25,7 @@
         "elgg/elgg": "~2.3",
         "elgg/elgg_ajax_register": "^1.0",
         "elgg/login_as": "~1.9",
+		"elgg/community": "dev-master",
         "elgg/opensearch": "dev-master",
         "elgg/showcase": "dev-master",
         "ewinslow/elgg-google": "dev-master",
@@ -43,11 +44,6 @@
         "test": "vendor/phpunit/phpunit/phpunit",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
-    "autoload": {
-        "psr-0": {
-            "Elgg\\Releases": "src/"
-        }
-    },
     "repositories": [
         {
             "type": "vcs",
@@ -60,6 +56,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/beck24/trusted_user_spam_report"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/elgg/community"
         }
     ]
 }
