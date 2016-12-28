@@ -1207,12 +1207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "763875eb20c57336e7cd43e81626fa59372d6ebc"
+                "reference": "2bb74f01070a6506f82c1fc8d7d10cde4a18bb57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/763875eb20c57336e7cd43e81626fa59372d6ebc",
-                "reference": "763875eb20c57336e7cd43e81626fa59372d6ebc",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/2bb74f01070a6506f82c1fc8d7d10cde4a18bb57",
+                "reference": "2bb74f01070a6506f82c1fc8d7d10cde4a18bb57",
                 "shasum": ""
             },
             "require": {
@@ -1240,7 +1240,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2016-12-27T15:56:15+00:00"
+            "time": "2016-12-28 14:24:12"
         },
         {
             "name": "elgg/community_groups",
@@ -1664,17 +1664,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/showcase.git",
-                "reference": "d9918c3fb4bedb69acb7b93fe91ca95cb75e3438"
+                "reference": "474590319b43bc4221c6b237fa612f283dba705e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/showcase/zipball/d9918c3fb4bedb69acb7b93fe91ca95cb75e3438",
-                "reference": "d9918c3fb4bedb69acb7b93fe91ca95cb75e3438",
+                "url": "https://api.github.com/repos/Elgg/showcase/zipball/474590319b43bc4221c6b237fa612f283dba705e",
+                "reference": "474590319b43bc4221c6b237fa612f283dba705e",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21T05:41:28+00:00"
+            "time": "2016-12-28 14:23:38"
         },
         {
             "name": "ewinslow/elgg-google",
