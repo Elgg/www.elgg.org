@@ -30,8 +30,6 @@
         "elgg/showcase": "dev-master",
         "ewinslow/elgg-google": "dev-master",
         "jumbojett/vroom": "dev-master",
-        "bower-asset/require-css": "0.1.8",
-        "components/highlightjs": "^8.7.0",
         "mrclay/elgg-http-combiner": "^1.0.1"
     },
     "require-dev": {
