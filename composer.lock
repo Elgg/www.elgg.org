@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b435c70abde6c59751d331b3f72b198",
+    "content-hash": "8bf4b6805cbe98d88961bdd7deeba147",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -250,6 +250,62 @@
                 "issues": "https://github.com/beck24/trusted_users/issues"
             },
             "time": "2015-08-29T09:42:37+00:00"
+        },
+        {
+            "name": "bower-asset/chosen",
+            "version": "v1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harvesthq/chosen-package.git",
+                "reference": "4bbafbc6125eb1f0f148af11d6ce9e50bfd993dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harvesthq/chosen-package/zipball/4bbafbc6125eb1f0f148af11d6ce9e50bfd993dd",
+                "reference": "4bbafbc6125eb1f0f148af11d6ce9e50bfd993dd",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.4.4"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "chosen.jquery.js",
+                    "chosen.css",
+                    "chosen-sprite@2x.png",
+                    "chosen-sprite.png"
+                ],
+                "bower-asset-ignore": []
+            },
+            "license": [
+                "https://github.com/harvesthq/chosen/blob/master/LICENSE.md"
+            ],
+            "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
+            "keywords": [
+                "dropdown",
+                "form",
+                "input",
+                "multiselect",
+                "select",
+                "ui"
+            ]
+        },
+        {
+            "name": "bower-asset/flot",
+            "version": "v0.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flot/flot.git",
+                "reference": "453b017cc5acfd75e252b93e8635f57f4196d45d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flot/flot/zipball/453b017cc5acfd75e252b93e8635f57f4196d45d",
+                "reference": "453b017cc5acfd75e252b93e8635f57f4196d45d",
+                "shasum": ""
+            },
+            "type": "bower-asset-library"
         },
         {
             "name": "bower-asset/jquery",
@@ -1207,15 +1263,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "2bb74f01070a6506f82c1fc8d7d10cde4a18bb57"
+                "reference": "70c2dc782c54cf9262b7f701e9db5d6ad601a0e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/2bb74f01070a6506f82c1fc8d7d10cde4a18bb57",
-                "reference": "2bb74f01070a6506f82c1fc8d7d10cde4a18bb57",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/70c2dc782c54cf9262b7f701e9db5d6ad601a0e7",
+                "reference": "70c2dc782c54cf9262b7f701e9db5d6ad601a0e7",
                 "shasum": ""
             },
             "require": {
+                "bower-asset/require-css": "0.1.8",
+                "components/highlightjs": "^8.7.0",
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
@@ -1240,7 +1298,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2016-12-28 14:24:12"
+            "time": "2016-12-29 13:42:12"
         },
         {
             "name": "elgg/community_groups",
@@ -1286,19 +1344,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "92d036e0e8a4bd21f17ada4fa8681787995422dc"
+                "reference": "d59542e2cc9d40d051ef824bd0b174e978a1afbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/92d036e0e8a4bd21f17ada4fa8681787995422dc",
-                "reference": "92d036e0e8a4bd21f17ada4fa8681787995422dc",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/d59542e2cc9d40d051ef824bd0b174e978a1afbd",
+                "reference": "d59542e2cc9d40d051ef824bd0b174e978a1afbd",
                 "shasum": ""
             },
             "require": {
+                "bower-asset/chosen": "~1.6",
+                "bower-asset/flot": "~0.8",
                 "composer/installers": ">=1.0.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.3"
+                "phpunit/phpunit": "^4.7"
             },
             "type": "elgg-plugin",
             "autoload": {
@@ -1324,7 +1384,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-11-09T11:58:51+00:00"
+            "time": "2016-12-29 13:39:21"
         },
         {
             "name": "elgg/community_solr",
@@ -1664,17 +1724,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/showcase.git",
-                "reference": "474590319b43bc4221c6b237fa612f283dba705e"
+                "reference": "ffdbdf6110eb8ba9fa6750d99db4220eeaf89152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/showcase/zipball/474590319b43bc4221c6b237fa612f283dba705e",
-                "reference": "474590319b43bc4221c6b237fa612f283dba705e",
+                "url": "https://api.github.com/repos/Elgg/showcase/zipball/ffdbdf6110eb8ba9fa6750d99db4220eeaf89152",
+                "reference": "ffdbdf6110eb8ba9fa6750d99db4220eeaf89152",
                 "shasum": ""
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-12-28 14:23:38"
+            "time": "2016-12-29 10:06:14"
         },
         {
             "name": "ewinslow/elgg-google",
@@ -2336,12 +2396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "c798e4083112679dfe36394ca681153a7a6f83ed"
+                "reference": "b809da53b92844354dda4423ed1d393e279b64ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c798e4083112679dfe36394ca681153a7a6f83ed",
-                "reference": "c798e4083112679dfe36394ca681153a7a6f83ed",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/b809da53b92844354dda4423ed1d393e279b64ca",
+                "reference": "b809da53b92844354dda4423ed1d393e279b64ca",
                 "shasum": ""
             },
             "conflict": {
@@ -2382,7 +2442,7 @@
                 "namshi/jose": "<2.2",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
-                "phpmailer/phpmailer": ">=5,<5.2.18",
+                "phpmailer/phpmailer": ">=5,<5.2.20",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "shopware/shopware": "<4.3.7|>=5,<5.1.5",
@@ -2394,7 +2454,7 @@
                 "simplesamlphp/simplesamlphp": "<1.14.11",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "socalnick/scn-social-auth": "<1.15.2",
-                "swiftmailer/swiftmailer": ">=4,<4.99.99|>=5,<5.2.1",
+                "swiftmailer/swiftmailer": ">=4,<5.4.5",
                 "symfony/dependency-injection": ">=2,<2.0.17",
                 "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.7",
                 "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2",
@@ -2459,7 +2519,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-12-27T15:21:16+00:00"
+            "time": "2016-12-29T12:33:36+00:00"
         },
         {
             "name": "solarium/solarium",
