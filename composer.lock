@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bf4b6805cbe98d88961bdd7deeba147",
+    "content-hash": "8a58f956cf0149eb9d4b8d960a7d678f",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -768,16 +768,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5"
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +832,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2016-10-24T11:45:47+00:00"
+            "time": "2016-12-30T15:59:45+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1263,12 +1263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "70c2dc782c54cf9262b7f701e9db5d6ad601a0e7"
+                "reference": "8e7e324c2cd869dc21a69ad9e3034eaa51bb68b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/70c2dc782c54cf9262b7f701e9db5d6ad601a0e7",
-                "reference": "70c2dc782c54cf9262b7f701e9db5d6ad601a0e7",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/8e7e324c2cd869dc21a69ad9e3034eaa51bb68b7",
+                "reference": "8e7e324c2cd869dc21a69ad9e3034eaa51bb68b7",
                 "shasum": ""
             },
             "require": {
@@ -1298,7 +1298,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2016-12-29 13:42:12"
+            "time": "2017-01-10 14:09:41"
         },
         {
             "name": "elgg/community_groups",
@@ -1699,6 +1699,38 @@
                 "plugin"
             ],
             "time": "2015-09-03T12:18:17+00:00"
+        },
+        {
+            "name": "elgg/mentions",
+            "version": "2.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Elgg/mentions.git",
+                "reference": "aff897f22d3566320652cf027a13e168affb39ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Elgg/mentions/zipball/aff897f22d3566320652cf027a13e168affb39ee",
+                "reference": "aff897f22d3566320652cf027a13e168affb39ee",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2017-01-10 14:18:14"
         },
         {
             "name": "elgg/opensearch",
@@ -2396,12 +2428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "b809da53b92844354dda4423ed1d393e279b64ca"
+                "reference": "8b674956ac0ca9b4c90a98197f244cf81079e084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/b809da53b92844354dda4423ed1d393e279b64ca",
-                "reference": "b809da53b92844354dda4423ed1d393e279b64ca",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8b674956ac0ca9b4c90a98197f244cf81079e084",
+                "reference": "8b674956ac0ca9b4c90a98197f244cf81079e084",
                 "shasum": ""
             },
             "conflict": {
@@ -2442,7 +2474,7 @@
                 "namshi/jose": "<2.2",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
-                "phpmailer/phpmailer": ">=5,<5.2.20",
+                "phpmailer/phpmailer": ">=5,<5.2.22",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "shopware/shopware": "<4.3.7|>=5,<5.1.5",
@@ -2519,7 +2551,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-12-29T12:33:36+00:00"
+            "time": "2017-01-09T15:59:17+00:00"
         },
         {
             "name": "solarium/solarium",
@@ -4377,7 +4409,8 @@
         "elgg/opensearch": 20,
         "elgg/showcase": 20,
         "ewinslow/elgg-google": 20,
-        "jumbojett/vroom": 20
+        "jumbojett/vroom": 20,
+        "elgg/mentions": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

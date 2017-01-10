@@ -30,7 +30,8 @@
         "elgg/showcase": "dev-master",
         "ewinslow/elgg-google": "dev-master",
         "jumbojett/vroom": "dev-master",
-        "mrclay/elgg-http-combiner": "^1.0.1"
+        "mrclay/elgg-http-combiner": "^1.0.1",
+		"elgg/mentions": "2.3.x-dev"
     },
     "require-dev": {
         "srokap/code_review": "^1.0.5",
