@@ -1264,12 +1264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "3c1848b02b42e41b6c18de72983078ad81b4951a"
+                "reference": "60cf9f2f0a51150de48882c3c26366d035be6c69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/3c1848b02b42e41b6c18de72983078ad81b4951a",
-                "reference": "3c1848b02b42e41b6c18de72983078ad81b4951a",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/60cf9f2f0a51150de48882c3c26366d035be6c69",
+                "reference": "60cf9f2f0a51150de48882c3c26366d035be6c69",
                 "shasum": ""
             },
             "require": {
@@ -1299,7 +1299,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2017-02-14 16:02:32"
+            "time": "2017-03-16 11:18:39"
         },
         {
             "name": "elgg/community_groups",
@@ -1566,16 +1566,16 @@
         },
         {
             "name": "elgg/elgg",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "0ace2785979c74150818db683aed846b2cb485a4"
+                "reference": "d7bad2a0db083a9a831e81e70425e9b810bea757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/0ace2785979c74150818db683aed846b2cb485a4",
-                "reference": "0ace2785979c74150818db683aed846b2cb485a4",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/d7bad2a0db083a9a831e81e70425e9b810bea757",
+                "reference": "d7bad2a0db083a9a831e81e70425e9b810bea757",
                 "shasum": ""
             },
             "require": {
@@ -1626,7 +1626,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2017-02-14T15:25:50+00:00"
+            "time": "2017-03-16T11:03:03+00:00"
         },
         {
             "name": "elgg/elgg_ajax_register",
