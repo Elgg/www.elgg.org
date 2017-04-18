@@ -384,12 +384,12 @@
             "version": "3.51",
             "source": {
                 "type": "git",
-                "url": "https://github.com/malsup/form.git",
+                "url": "https://github.com/jquery-form/form.git",
                 "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/malsup/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
+                "url": "https://api.github.com/repos/jquery-form/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
                 "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd",
                 "shasum": ""
             },
@@ -1264,12 +1264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "60cf9f2f0a51150de48882c3c26366d035be6c69"
+                "reference": "3209c3e136e4eb59b7e761ebcca85226f6cf5bb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/60cf9f2f0a51150de48882c3c26366d035be6c69",
-                "reference": "60cf9f2f0a51150de48882c3c26366d035be6c69",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/3209c3e136e4eb59b7e761ebcca85226f6cf5bb2",
+                "reference": "3209c3e136e4eb59b7e761ebcca85226f6cf5bb2",
                 "shasum": ""
             },
             "require": {
@@ -1299,7 +1299,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2017-03-16 11:18:39"
+            "time": "2017-04-18 01:51:02"
         },
         {
             "name": "elgg/community_groups",
