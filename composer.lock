@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a58f956cf0149eb9d4b8d960a7d678f",
+    "content-hash": "0d41503a7000a59deb6d203ba846c0da",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -133,7 +133,7 @@
                 "image proxy",
                 "plugin"
             ],
-            "time": "2015-09-24 07:30:12"
+            "time": "2015-09-24T07:30:12+00:00"
         },
         {
             "name": "beck24/spam_login_filter",
@@ -170,7 +170,7 @@
                 "plugin",
                 "spam"
             ],
-            "time": "2015-12-18 09:45:11"
+            "time": "2015-12-18T09:45:11+00:00"
         },
         {
             "name": "beck24/spam_throttle",
@@ -207,7 +207,7 @@
                 "plugin",
                 "spam"
             ],
-            "time": "2015-11-02 20:48:52"
+            "time": "2015-11-02T20:48:52+00:00"
         },
         {
             "name": "beck24/trusted_user_spam_report",
@@ -228,7 +228,7 @@
                 "source": "https://github.com/beck24/trusted_user_spam_report/tree/master",
                 "issues": "https://github.com/beck24/trusted_user_spam_report/issues"
             },
-            "time": "2015-08-29 09:43:29"
+            "time": "2015-08-29T09:43:29+00:00"
         },
         {
             "name": "beck24/trusted_users",
@@ -249,7 +249,7 @@
                 "source": "https://github.com/beck24/trusted_users/tree/master",
                 "issues": "https://github.com/beck24/trusted_users/issues"
             },
-            "time": "2015-08-29 09:42:37"
+            "time": "2015-08-29T09:42:37+00:00"
         },
         {
             "name": "bower-asset/chosen",
@@ -525,7 +525,7 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21 13:39:15"
+            "time": "2015-07-21T13:39:15+00:00"
         },
         {
             "name": "brettp/bulk_user_admin",
@@ -556,7 +556,7 @@
                 }
             ],
             "description": "Elgg plugin to delete users in bulk and by email domain.",
-            "time": "2015-12-31 14:29:21"
+            "time": "2015-12-31T14:29:21+00:00"
         },
         {
             "name": "brettp/elgg-registration-randomizer",
@@ -577,7 +577,7 @@
                 "installer-name": "registration_randomizer"
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-02-03 21:14:20"
+            "time": "2016-02-03T21:14:20+00:00"
         },
         {
             "name": "brettp/stale_users",
@@ -595,7 +595,7 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21 13:39:32"
+            "time": "2015-07-21T13:39:32+00:00"
         },
         {
             "name": "components/highlightjs",
@@ -1256,7 +1256,7 @@
                 "MIT"
             ],
             "description": "Elgg plugin for managing banned users",
-            "time": "2016-01-28 11:22:59"
+            "time": "2016-01-28T11:22:59+00:00"
         },
         {
             "name": "elgg/community",
@@ -1264,12 +1264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "e5b703b21ee84036b89a36a308ec81fadd337fa7"
+                "reference": "264a4ed54b75269a927e761a24cf85575b12a8bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/e5b703b21ee84036b89a36a308ec81fadd337fa7",
-                "reference": "e5b703b21ee84036b89a36a308ec81fadd337fa7",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/264a4ed54b75269a927e761a24cf85575b12a8bc",
+                "reference": "264a4ed54b75269a927e761a24cf85575b12a8bc",
                 "shasum": ""
             },
             "require": {
@@ -1299,7 +1299,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2017-05-16 08:17:42"
+            "time": "2017-09-22T08:09:37+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -1337,7 +1337,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-09-18 05:23:39"
+            "time": "2015-09-18T05:23:39+00:00"
         },
         {
             "name": "elgg/community_plugins",
@@ -1385,7 +1385,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-12-29 13:39:21"
+            "time": "2016-12-29T13:39:21+00:00"
         },
         {
             "name": "elgg/community_solr",
@@ -1422,7 +1422,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-03-15 01:18:39"
+            "time": "2015-03-15T01:18:39+00:00"
         },
         {
             "name": "elgg/community_spam_tools",
@@ -1460,7 +1460,7 @@
                 "plugin",
                 "security"
             ],
-            "time": "2016-01-28 14:17:15"
+            "time": "2016-01-28T14:17:15+00:00"
         },
         {
             "name": "elgg/community_web_services",
@@ -1497,7 +1497,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-09-23 18:31:34"
+            "time": "2015-09-23T18:31:34+00:00"
         },
         {
             "name": "elgg/data_views",
@@ -1544,7 +1544,7 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-01-25 13:33:18"
+            "time": "2016-01-25T13:33:18+00:00"
         },
         {
             "name": "elgg/drop_unvalidated",
@@ -1562,20 +1562,20 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21 06:11:58"
+            "time": "2015-07-21T06:11:58+00:00"
         },
         {
             "name": "elgg/elgg",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "8bf96fe6a58248cfc2994360dd9695f839cd254f"
+                "reference": "fbfff3e6d5b5f0331763374e58afcc2639701447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/8bf96fe6a58248cfc2994360dd9695f839cd254f",
-                "reference": "8bf96fe6a58248cfc2994360dd9695f839cd254f",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/fbfff3e6d5b5f0331763374e58afcc2639701447",
+                "reference": "fbfff3e6d5b5f0331763374e58afcc2639701447",
                 "shasum": ""
             },
             "require": {
@@ -1607,6 +1607,7 @@
             },
             "require-dev": {
                 "elgg/sniffs": "2.x-dev",
+                "fzaninotto/faker": "^1.6",
                 "phpdocumentor/reflection-docblock": "~2.0",
                 "phpunit/phpunit": "~4.1",
                 "simpletest/simpletest": "~1.1",
@@ -1626,7 +1627,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2017-05-16T08:01:50+00:00"
+            "time": "2017-09-21T15:29:36+00:00"
         },
         {
             "name": "elgg/elgg_ajax_register",
@@ -1731,7 +1732,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2017-01-10 14:18:14"
+            "time": "2017-01-10T14:18:14+00:00"
         },
         {
             "name": "elgg/opensearch",
@@ -1749,7 +1750,7 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-07-21 05:59:42"
+            "time": "2015-07-21T05:59:42+00:00"
         },
         {
             "name": "elgg/showcase",
@@ -1767,7 +1768,7 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-12-29 10:06:14"
+            "time": "2016-12-29T10:06:14+00:00"
         },
         {
             "name": "ewinslow/elgg-google",
@@ -1795,7 +1796,7 @@
                 "MIT"
             ],
             "description": "Provides Elgg support for various Google products like Analytics, Webmaster Tools, etc.",
-            "time": "2015-07-21 05:32:00"
+            "time": "2015-07-21T05:32:00+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -2052,7 +2053,7 @@
                 "source": "https://github.com/jumbojett/vroom/tree/master",
                 "issues": "https://github.com/jumbojett/vroom/issues"
             },
-            "time": "2015-08-10 20:12:25"
+            "time": "2015-08-10T20:12:25+00:00"
         },
         {
             "name": "league/flysystem",
@@ -4419,5 +4420,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6"
+    }
 }
