@@ -43,6 +43,11 @@
         "test": "vendor/phpunit/phpunit/phpunit",
         "translations:update": "tx pull -a --mode=reviewed --minimum-perc=100"
     },
+    "config": {
+    	"platform": {
+    		"php": "5.6"
+    	}
+    },
     "repositories": [
         {
             "type": "vcs",
