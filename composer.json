@@ -35,7 +35,7 @@
     },
     "require-dev": {
         "srokap/code_review": "^1.0.5",
-        "phpunit/phpunit": "^4.7"
+        "phpunit/phpunit": "~6.5"
     },
     "scripts": {
         "post-install-cmd": "\\Elgg\\Composer\\PostInstall::execute",
@@ -45,7 +45,7 @@
     },
     "config": {
     	"platform": {
-    		"php": "5.6"
+    		"php": "7.0"
     	}
     },
     "repositories": [
