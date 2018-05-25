@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "4e6f21a574396fa42dc2291a51da8310",
@@ -1285,12 +1285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "b4a1a995ef3ed7aa71f818964f557b7023ffbc58"
+                "reference": "e5db2edd926b003f2f6e5786e8965a7c68539b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/b4a1a995ef3ed7aa71f818964f557b7023ffbc58",
-                "reference": "b4a1a995ef3ed7aa71f818964f557b7023ffbc58",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/e5db2edd926b003f2f6e5786e8965a7c68539b62",
+                "reference": "e5db2edd926b003f2f6e5786e8965a7c68539b62",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2018-04-16T09:07:10+00:00"
+            "time": "2018-05-25T07:45:32+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -1590,16 +1590,16 @@
         },
         {
             "name": "elgg/elgg",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "18a51022fcc36f0ebf535239731b17307bd967ce"
+                "reference": "d7fd4afb1bc57b2e4535d1ba1ea778920aa9a532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/18a51022fcc36f0ebf535239731b17307bd967ce",
-                "reference": "18a51022fcc36f0ebf535239731b17307bd967ce",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/d7fd4afb1bc57b2e4535d1ba1ea778920aa9a532",
+                "reference": "d7fd4afb1bc57b2e4535d1ba1ea778920aa9a532",
                 "shasum": ""
             },
             "require": {
@@ -1651,7 +1651,7 @@
                 "GPL-2.0-only"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2018-03-27T14:59:45+00:00"
+            "time": "2018-05-25T07:01:58+00:00"
         },
         {
             "name": "elgg/elgg_ajax_register",
