@@ -7,8 +7,8 @@
         "beck24/image_proxy": "~1.2.0",
         "beck24/spam_login_filter": "~2.1.0",
         "beck24/spam_throttle": "~2.1.0",
-        "beck24/trusted_users": "dev-master",
-        "beck24/trusted_user_spam_report": "dev-master",
+        "beck24/trusted_users": "~1.0.0",
+        "beck24/trusted_user_spam_report": "~1.0.0",
         "beck24/elgg_recaptcha": "~1.0",
         "brettp/admin_notes": "dev-master",
         "brettp/bulk_user_admin": "dev-master",
@@ -46,7 +46,9 @@
     "config": {
     	"platform": {
     		"php": "7.0"
-    	}
+    	},
+    	"optimize-autoloader": true,
+	    "apcu-autoloader": true
     },
     "repositories": [
         {
