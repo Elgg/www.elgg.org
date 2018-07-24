@@ -1285,12 +1285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "912ab7817a932bb2f8878fb6dae1148df8d0c85e"
+                "reference": "30ee4791f4ae47656ec5dce63dc25dc990d37f77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/912ab7817a932bb2f8878fb6dae1148df8d0c85e",
-                "reference": "912ab7817a932bb2f8878fb6dae1148df8d0c85e",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/30ee4791f4ae47656ec5dce63dc25dc990d37f77",
+                "reference": "30ee4791f4ae47656ec5dce63dc25dc990d37f77",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2018-07-20T11:20:56+00:00"
+            "time": "2018-07-24T09:32:48+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -2776,16 +2776,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.42",
+            "version": "v2.8.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f0332229bfecb3c3d3c983f2139f39dd73d2723a"
+                "reference": "0850b48a45927d52df59c1b684133c5489070868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f0332229bfecb3c3d3c983f2139f39dd73d2723a",
-                "reference": "f0332229bfecb3c3d3c983f2139f39dd73d2723a",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/0850b48a45927d52df59c1b684133c5489070868",
+                "reference": "0850b48a45927d52df59c1b684133c5489070868",
                 "shasum": ""
             },
             "require": {
@@ -2827,7 +2827,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-06-19T14:38:49+00:00"
+            "time": "2018-07-13T11:22:37+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
