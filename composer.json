@@ -11,7 +11,7 @@
         "beck24/trusted_user_spam_report": "~1.0.0",
         "beck24/elgg_recaptcha": "~1.0",
         "brettp/admin_notes": "dev-master",
-        "brettp/bulk_user_admin": "dev-master",
+        "brettp/bulk_user_admin": "dev-23-improvements",
         "brettp/elgg-registration-randomizer": "dev-master",
         "brettp/stale_users": "dev-master",
         "elgg/ban": "dev-master",
@@ -47,15 +47,14 @@
     	"platform": {
     		"php": "7.0"
     	},
+    	"fxp-asset": {
+            "enabled": false
+		},
     	"optimize-autoloader": true,
 	    "apcu-autoloader": true
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jumbojett/vroom.git"
-        },
-        {
+       {
             "type": "vcs",
             "url": "https://github.com/beck24/trusted_users"
         },
@@ -63,9 +62,21 @@
             "type": "vcs",
             "url": "https://github.com/beck24/trusted_user_spam_report"
         },
+        {
+            "type": "vcs",
+            "url": "git@github.com:ColdTrick/Bulk-User-Admin.git"
+        },
 		{
             "type": "vcs",
             "url": "https://github.com/elgg/community"
-        }
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/jumbojett/vroom.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+		}
     ]
 }
