@@ -1363,12 +1363,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "4358e91153ec36643c4d11e9a3cfe370c296ecd0"
+                "reference": "8238cd0e35394a0e52a68ed17248ffb176206d67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/4358e91153ec36643c4d11e9a3cfe370c296ecd0",
-                "reference": "4358e91153ec36643c4d11e9a3cfe370c296ecd0",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/8238cd0e35394a0e52a68ed17248ffb176206d67",
+                "reference": "8238cd0e35394a0e52a68ed17248ffb176206d67",
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1406,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2019-10-23T14:34:34+00:00"
+            "time": "2020-01-24T08:17:51+00:00"
         },
         {
             "name": "elgg/community_solr",
