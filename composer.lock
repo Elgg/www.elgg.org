@@ -291,7 +291,7 @@
             "version": "v0.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flot/flot.git",
+                "url": "git@github.com:flot/flot.git",
                 "reference": "453b017cc5acfd75e252b93e8635f57f4196d45d"
             },
             "dist": {
@@ -306,7 +306,7 @@
             "version": "2.2.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
@@ -454,12 +454,12 @@
             "version": "2.3.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/requirejs/requirejs-bower.git",
+                "url": "git@github.com:jrburke/requirejs-bower.git",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
+                "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "type": "bower-asset",
@@ -1306,12 +1306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "30e1acf5de476eaed9062107f3d40fab4ab53ec0"
+                "reference": "d4a3ed33413199e5a9fe9d96f828527a83eb782b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/30e1acf5de476eaed9062107f3d40fab4ab53ec0",
-                "reference": "30e1acf5de476eaed9062107f3d40fab4ab53ec0",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/d4a3ed33413199e5a9fe9d96f828527a83eb782b",
+                "reference": "d4a3ed33413199e5a9fe9d96f828527a83eb782b",
                 "shasum": ""
             },
             "require": {
@@ -1341,7 +1341,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2021-08-06T13:25:37+00:00"
+            "time": "2021-09-10T13:06:13+00:00"
         },
         {
             "name": "elgg/community_groups",
