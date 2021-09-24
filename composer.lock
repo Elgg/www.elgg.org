@@ -291,7 +291,7 @@
             "version": "v0.8.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:flot/flot.git",
+                "url": "https://github.com/flot/flot.git",
                 "reference": "453b017cc5acfd75e252b93e8635f57f4196d45d"
             },
             "dist": {
@@ -336,7 +336,7 @@
             "version": "1.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jackmoore/colorbox.git",
+                "url": "https://github.com/jackmoore/colorbox.git",
                 "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "dist": {
@@ -1306,12 +1306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "d4a3ed33413199e5a9fe9d96f828527a83eb782b"
+                "reference": "c305896941a5d0a4b353eed1abe75ec4fcbf000f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/d4a3ed33413199e5a9fe9d96f828527a83eb782b",
-                "reference": "d4a3ed33413199e5a9fe9d96f828527a83eb782b",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/c305896941a5d0a4b353eed1abe75ec4fcbf000f",
+                "reference": "c305896941a5d0a4b353eed1abe75ec4fcbf000f",
                 "shasum": ""
             },
             "require": {
@@ -1341,7 +1341,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2021-09-10T13:06:13+00:00"
+            "time": "2021-09-24T12:39:39+00:00"
         },
         {
             "name": "elgg/community_groups",
