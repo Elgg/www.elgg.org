@@ -72,6 +72,10 @@
         },
 		{
             "type": "vcs",
+            "url": "https://github.com/elgg/community_plugins"
+        },
+		{
+            "type": "vcs",
             "url": "https://github.com/jumbojett/vroom.git"
         },
         {
