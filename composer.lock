@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35d47498fef1c183d7a56d5c34fad74d",
+    "content-hash": "a06506477e0efc274e5685eadb4526d6",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -57,46 +57,6 @@
                 "solr"
             ],
             "time": "2018-04-05T18:48:56+00:00"
-        },
-        {
-            "name": "beck24/elgg_recaptcha",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/beck24/elgg_recaptcha.git",
-                "reference": "5830ce8536ac58666e81866285d10b7cb5d05acb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/beck24/elgg_recaptcha/zipball/5830ce8536ac58666e81866285d10b7cb5d05acb",
-                "reference": "5830ce8536ac58666e81866285d10b7cb5d05acb",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": ">=1.0.8",
-                "google/recaptcha": "~1.1",
-                "php": ">=5.4"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Beckett"
-                }
-            ],
-            "description": "Provides recaptcha protection for forms",
-            "homepage": "https://github.com/beck24/elgg_recaptcha",
-            "keywords": [
-                "captcha",
-                "elgg",
-                "plugin",
-                "recaptcha",
-                "spam"
-            ],
-            "time": "2016-01-14T23:06:39+00:00"
         },
         {
             "name": "beck24/image_proxy",
@@ -1280,7 +1240,7 @@
         },
         {
             "name": "elgg/ban",
-            "version": "dev-master",
+            "version": "1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/ban.git",
@@ -1298,6 +1258,10 @@
                 "MIT"
             ],
             "description": "Elgg plugin for managing banned users",
+            "support": {
+                "issues": "https://github.com/Elgg/ban/issues",
+                "source": "https://github.com/Elgg/ban/tree/master"
+            },
             "time": "2016-01-28T11:22:59+00:00"
         },
         {
@@ -1345,7 +1309,7 @@
         },
         {
             "name": "elgg/community_groups",
-            "version": "dev-master",
+            "version": "1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_groups.git",
@@ -1379,11 +1343,15 @@
                 "elgg",
                 "plugin"
             ],
+            "support": {
+                "issues": "https://github.com/Elgg/community_groups/issues",
+                "source": "https://github.com/Elgg/community_groups/tree/master"
+            },
             "time": "2015-09-18T05:23:39+00:00"
         },
         {
             "name": "elgg/community_plugins",
-            "version": "dev-master",
+            "version": "2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
@@ -1430,14 +1398,14 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/Elgg/community_plugins/tree/master",
+                "source": "https://github.com/Elgg/community_plugins/tree/2.3",
                 "issues": "https://github.com/Elgg/community_plugins/issues"
             },
             "time": "2021-09-24T12:40:09+00:00"
         },
         {
             "name": "elgg/community_solr",
-            "version": "dev-master",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_solr.git",
@@ -1470,11 +1438,15 @@
                 "elgg",
                 "plugin"
             ],
+            "support": {
+                "issues": "https://github.com/Elgg/community_solr/issues",
+                "source": "https://github.com/Elgg/community_solr/tree/master"
+            },
             "time": "2015-03-15T01:18:39+00:00"
         },
         {
             "name": "elgg/community_spam_tools",
-            "version": "dev-master",
+            "version": "1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_spam_tools.git",
@@ -1508,11 +1480,15 @@
                 "plugin",
                 "security"
             ],
+            "support": {
+                "issues": "https://github.com/Elgg/community_spam_tools/issues",
+                "source": "https://github.com/Elgg/community_spam_tools/tree/master"
+            },
             "time": "2016-01-28T14:17:15+00:00"
         },
         {
             "name": "elgg/community_web_services",
-            "version": "dev-master",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_web_services.git",
@@ -1545,6 +1521,10 @@
                 "elgg",
                 "plugin"
             ],
+            "support": {
+                "issues": "https://github.com/Elgg/community_web_services/issues",
+                "source": "https://github.com/Elgg/community_web_services/tree/master"
+            },
             "time": "2015-09-23T18:31:34+00:00"
         },
         {
@@ -1577,26 +1557,8 @@
             "time": "2016-02-22T15:52:06+00:00"
         },
         {
-            "name": "elgg/dbvalidator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Elgg/dbvalidator.git",
-                "reference": "80fbf7263e46df108a17e3627ef3d67a3b363bce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/dbvalidator/zipball/80fbf7263e46df108a17e3627ef3d67a3b363bce",
-                "reference": "80fbf7263e46df108a17e3627ef3d67a3b363bce",
-                "shasum": ""
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-01-25T13:33:18+00:00"
-        },
-        {
             "name": "elgg/drop_unvalidated",
-            "version": "dev-master",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/drop_unvalidated.git",
@@ -1610,6 +1572,10 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/Elgg/drop_unvalidated/issues",
+                "source": "https://github.com/Elgg/drop_unvalidated/tree/1.1"
+            },
             "time": "2015-07-21T06:11:58+00:00"
         },
         {
@@ -1751,40 +1717,8 @@
             "time": "2015-09-03T12:18:17+00:00"
         },
         {
-            "name": "elgg/mentions",
-            "version": "2.3.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Elgg/mentions.git",
-                "reference": "d05d119cc26096ce2fa9b83ddcb3bd4eb30f0e38"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/mentions/zipball/d05d119cc26096ce2fa9b83ddcb3bd4eb30f0e38",
-                "reference": "d05d119cc26096ce2fa9b83ddcb3bd4eb30f0e38",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.7"
-            },
-            "type": "elgg-plugin",
-            "autoload": {
-                "psr-0": {
-                    "": "classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "time": "2019-02-12T14:27:27+00:00"
-        },
-        {
             "name": "elgg/opensearch",
-            "version": "dev-master",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/opensearch.git",
@@ -1798,11 +1732,14 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "source": "https://github.com/Elgg/opensearch/tree/master"
+            },
             "time": "2015-07-21T05:59:42+00:00"
         },
         {
             "name": "elgg/showcase",
-            "version": "dev-master",
+            "version": "1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/showcase.git",
@@ -1816,6 +1753,10 @@
             },
             "type": "elgg-plugin",
             "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/Elgg/showcase/issues",
+                "source": "https://github.com/Elgg/showcase/tree/master"
+            },
             "time": "2016-12-29T10:06:14+00:00"
         },
         {
@@ -1937,53 +1878,6 @@
                 "icon"
             ],
             "time": "2016-10-24T15:52:54+00:00"
-        },
-        {
-            "name": "google/recaptcha",
-            "version": "1.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/google/recaptcha.git",
-                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/google/recaptcha/zipball/614f25a9038be4f3f2da7cbfd778dc5b357d2419",
-                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.2.20|^2.15",
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ReCaptcha\\": "src/ReCaptcha"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
-            "homepage": "https://www.google.com/recaptcha/",
-            "keywords": [
-                "Abuse",
-                "captcha",
-                "recaptcha",
-                "spam"
-            ],
-            "time": "2020-03-31T17:50:54+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -5291,20 +5185,9 @@
         "brettp/bulk_user_admin": 20,
         "brettp/elgg-registration-randomizer": 20,
         "brettp/stale_users": 20,
-        "elgg/ban": 20,
-        "elgg/community_groups": 20,
-        "elgg/community_plugins": 20,
-        "elgg/community_solr": 20,
-        "elgg/community_spam_tools": 20,
-        "elgg/community_web_services": 20,
-        "elgg/dbvalidator": 20,
-        "elgg/drop_unvalidated": 20,
         "elgg/community": 20,
-        "elgg/opensearch": 20,
-        "elgg/showcase": 20,
         "ewinslow/elgg-google": 20,
-        "jumbojett/vroom": 20,
-        "elgg/mentions": 20
+        "jumbojett/vroom": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -5313,5 +5196,5 @@
     "platform-overrides": {
         "php": "7.0"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
