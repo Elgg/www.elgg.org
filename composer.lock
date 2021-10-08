@@ -1270,12 +1270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "c305896941a5d0a4b353eed1abe75ec4fcbf000f"
+                "reference": "4c3308d8fb7479bfa37ed584828d8de88e50ea50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/c305896941a5d0a4b353eed1abe75ec4fcbf000f",
-                "reference": "c305896941a5d0a4b353eed1abe75ec4fcbf000f",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/4c3308d8fb7479bfa37ed584828d8de88e50ea50",
+                "reference": "4c3308d8fb7479bfa37ed584828d8de88e50ea50",
                 "shasum": ""
             },
             "require": {
@@ -1283,6 +1283,7 @@
                 "components/highlightjs": "^8.7.0",
                 "composer/installers": ">=1.0.8"
             },
+            "default-branch": true,
             "type": "elgg-plugin",
             "license": [
                 "GPL-2.0"
@@ -1305,7 +1306,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2021-09-24T12:39:39+00:00"
+            "time": "2021-10-08T14:22:27+00:00"
         },
         {
             "name": "elgg/community_groups",
