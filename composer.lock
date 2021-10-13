@@ -469,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/Bulk-User-Admin.git",
-                "reference": "55b6151f7fe60bc0e7ba6a504a59b6110dbbaf50"
+                "reference": "c0e80d8520b88427c1c79a575805b2177dd74de2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/Bulk-User-Admin/zipball/55b6151f7fe60bc0e7ba6a504a59b6110dbbaf50",
-                "reference": "55b6151f7fe60bc0e7ba6a504a59b6110dbbaf50",
+                "url": "https://api.github.com/repos/ColdTrick/Bulk-User-Admin/zipball/c0e80d8520b88427c1c79a575805b2177dd74de2",
+                "reference": "c0e80d8520b88427c1c79a575805b2177dd74de2",
                 "shasum": ""
             },
             "require": {
@@ -511,7 +511,7 @@
                     "url": "https://www.paypal.me/ColdTrick"
                 }
             ],
-            "time": "2021-10-13T10:22:44+00:00"
+            "time": "2021-10-13T10:29:29+00:00"
         },
         {
             "name": "brettp/elgg-registration-randomizer",
