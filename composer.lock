@@ -266,7 +266,7 @@
             "version": "2.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
@@ -414,12 +414,12 @@
             "version": "2.3.6",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jrburke/requirejs-bower.git",
+                "url": "https://github.com/requirejs/requirejs-bower.git",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
+                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "type": "bower-asset",
@@ -1280,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "9db63b3df3fafe48da8adafecca6629e022ed7bb"
+                "reference": "d30fcd68bb9c7b2824890c29d6ef33939e4502ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/9db63b3df3fafe48da8adafecca6629e022ed7bb",
-                "reference": "9db63b3df3fafe48da8adafecca6629e022ed7bb",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/d30fcd68bb9c7b2824890c29d6ef33939e4502ab",
+                "reference": "d30fcd68bb9c7b2824890c29d6ef33939e4502ab",
                 "shasum": ""
             },
             "require": {
@@ -1293,7 +1293,6 @@
                 "components/highlightjs": "^8.7.0",
                 "composer/installers": ">=1.0.8"
             },
-            "default-branch": true,
             "type": "elgg-plugin",
             "license": [
                 "GPL-2.0"
@@ -1316,7 +1315,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2021-11-19T12:38:41+00:00"
+            "time": "2021-12-03T13:54:36+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -1895,12 +1894,12 @@
             "version": "v0.6.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/avalanche123/Imagine.git",
+                "url": "https://github.com/php-imagine/Imagine.git",
                 "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
                 "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
                 "shasum": ""
             },
@@ -5207,5 +5206,5 @@
     "platform-overrides": {
         "php": "7.0"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }
