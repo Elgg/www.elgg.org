@@ -266,7 +266,7 @@
             "version": "2.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
@@ -1280,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "e945854b978a7fc6f432fd94cd6bdab0db1dbfcd"
+                "reference": "1736f49ceb7123b123f939a1d31f1fe54f86368f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/e945854b978a7fc6f432fd94cd6bdab0db1dbfcd",
-                "reference": "e945854b978a7fc6f432fd94cd6bdab0db1dbfcd",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/1736f49ceb7123b123f939a1d31f1fe54f86368f",
+                "reference": "1736f49ceb7123b123f939a1d31f1fe54f86368f",
                 "shasum": ""
             },
             "require": {
@@ -1315,7 +1315,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2022-07-04T11:56:49+00:00"
+            "time": "2022-07-21T07:11:27+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -1361,16 +1361,16 @@
         },
         {
             "name": "elgg/community_plugins",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "8177e4a1d63b9cf1e396cebda369c85dabd39973"
+                "reference": "2d4b19b774b37f955616e8c85d6af077b08efa9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/8177e4a1d63b9cf1e396cebda369c85dabd39973",
-                "reference": "8177e4a1d63b9cf1e396cebda369c85dabd39973",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/2d4b19b774b37f955616e8c85d6af077b08efa9b",
+                "reference": "2d4b19b774b37f955616e8c85d6af077b08efa9b",
                 "shasum": ""
             },
             "require": {
@@ -1408,10 +1408,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/Elgg/community_plugins/tree/2.3.2",
+                "source": "https://github.com/Elgg/community_plugins/tree/2.3.3",
                 "issues": "https://github.com/Elgg/community_plugins/issues"
             },
-            "time": "2022-04-22T09:36:24+00:00"
+            "time": "2022-07-21T07:09:12+00:00"
         },
         {
             "name": "elgg/community_solr",
