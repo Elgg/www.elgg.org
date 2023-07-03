@@ -4,6 +4,7 @@
     "minimum-stability": "dev",
     "require": {
         "arckinteractive/elgg_solr": "^2.0",
+        "beck24/elgg_recaptcha": "dev-elgg-2.x",
         "beck24/image_proxy": "~1.2.0",
         "beck24/spam_login_filter": "~2.1.0",
         "beck24/spam_throttle": "~2.1.0",
@@ -62,6 +63,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:ColdTrick/Bulk-User-Admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/jeabakker/elgg_recaptcha.git"
         },
 		{
             "type": "vcs",
