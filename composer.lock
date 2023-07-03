@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeabakker/elgg_recaptcha.git",
-                "reference": "7fec0a1da18c758d8f9fb03503b213e4914bff76"
+                "reference": "62e1a8faa8bcc29928551fe2f35490920f93ecce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeabakker/elgg_recaptcha/zipball/7fec0a1da18c758d8f9fb03503b213e4914bff76",
-                "reference": "7fec0a1da18c758d8f9fb03503b213e4914bff76",
+                "url": "https://api.github.com/repos/jeabakker/elgg_recaptcha/zipball/62e1a8faa8bcc29928551fe2f35490920f93ecce",
+                "reference": "62e1a8faa8bcc29928551fe2f35490920f93ecce",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "issues": "https://github.com/beck24/elgg_recaptcha/issues",
                 "source": "https://github.com/jeabakker/elgg_recaptcha/tree/elgg-2.x"
             },
-            "time": "2023-07-03T10:06:15+00:00"
+            "time": "2023-07-03T10:29:50+00:00"
         },
         {
             "name": "beck24/image_proxy",
