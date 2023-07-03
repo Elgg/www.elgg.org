@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a06506477e0efc274e5685eadb4526d6",
+    "content-hash": "48d1d5fcfc4f70b2e3c21dac931e135d",
     "packages": [
         {
             "name": "arckinteractive/elgg_solr",
@@ -1751,25 +1751,36 @@
         },
         {
             "name": "elgg/showcase",
-            "version": "1.9",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/showcase.git",
-                "reference": "ffdbdf6110eb8ba9fa6750d99db4220eeaf89152"
+                "reference": "b0d1cce23d2175c554ae873b989a3f7040540456"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/showcase/zipball/ffdbdf6110eb8ba9fa6750d99db4220eeaf89152",
-                "reference": "ffdbdf6110eb8ba9fa6750d99db4220eeaf89152",
+                "url": "https://api.github.com/repos/Elgg/showcase/zipball/b0d1cce23d2175c554ae873b989a3f7040540456",
+                "reference": "b0d1cce23d2175c554ae873b989a3f7040540456",
                 "shasum": ""
             },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/Elgg/showcase/issues",
-                "source": "https://github.com/Elgg/showcase/tree/master"
+            "require": {
+                "composer/installers": "^1.0.8"
             },
-            "time": "2016-12-29T10:06:14+00:00"
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Show off implementations/uses of your product",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "showcase"
+            ],
+            "support": {
+                "source": "https://github.com/Elgg/showcase",
+                "issues": "https://github.com/Elgg/showcase/issues"
+            },
+            "time": "2023-07-03T09:06:14+00:00"
         },
         {
             "name": "ewinslow/elgg-google",
