@@ -295,7 +295,7 @@
             "version": "v0.8.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:flot/flot.git",
+                "url": "https://github.com/flot/flot.git",
                 "reference": "453b017cc5acfd75e252b93e8635f57f4196d45d"
             },
             "dist": {
@@ -1324,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "38a1fb3b850eaa1fd58eefa5c8af2a5e10e10e25"
+                "reference": "6f2e9e46fbf4d6f2fdc83f6ce198968b62ceaf57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/38a1fb3b850eaa1fd58eefa5c8af2a5e10e10e25",
-                "reference": "38a1fb3b850eaa1fd58eefa5c8af2a5e10e10e25",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/6f2e9e46fbf4d6f2fdc83f6ce198968b62ceaf57",
+                "reference": "6f2e9e46fbf4d6f2fdc83f6ce198968b62ceaf57",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1359,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2023-08-16T11:54:56+00:00"
+            "time": "2023-09-08T07:06:46+00:00"
         },
         {
             "name": "elgg/community_groups",
