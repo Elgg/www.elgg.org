@@ -513,12 +513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/Bulk-User-Admin.git",
-                "reference": "c0e80d8520b88427c1c79a575805b2177dd74de2"
+                "reference": "3f26503aaae6e16173926340bc9e4cb018e2105c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/Bulk-User-Admin/zipball/c0e80d8520b88427c1c79a575805b2177dd74de2",
-                "reference": "c0e80d8520b88427c1c79a575805b2177dd74de2",
+                "url": "https://api.github.com/repos/ColdTrick/Bulk-User-Admin/zipball/3f26503aaae6e16173926340bc9e4cb018e2105c",
+                "reference": "3f26503aaae6e16173926340bc9e4cb018e2105c",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                     "url": "https://www.paypal.me/ColdTrick"
                 }
             ],
-            "time": "2021-10-13T10:29:29+00:00"
+            "time": "2023-10-19T08:32:04+00:00"
         },
         {
             "name": "brettp/elgg-registration-randomizer",
@@ -1324,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "d1e94d645121d5d6ac8f2389b95c3489ec553a14"
+                "reference": "5c25d8565798268d03f9ff6e77eb241f5976071d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/d1e94d645121d5d6ac8f2389b95c3489ec553a14",
-                "reference": "d1e94d645121d5d6ac8f2389b95c3489ec553a14",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/5c25d8565798268d03f9ff6e77eb241f5976071d",
+                "reference": "5c25d8565798268d03f9ff6e77eb241f5976071d",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1359,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2023-10-11T07:49:17+00:00"
+            "time": "2023-10-19T08:34:12+00:00"
         },
         {
             "name": "elgg/community_groups",
