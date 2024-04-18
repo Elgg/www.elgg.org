@@ -1324,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "934c424cb92ec30efdd435f0c254fb3f9538acfd"
+                "reference": "46f097c3ea3b35e500f528617f803eb1cf641ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/934c424cb92ec30efdd435f0c254fb3f9538acfd",
-                "reference": "934c424cb92ec30efdd435f0c254fb3f9538acfd",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/46f097c3ea3b35e500f528617f803eb1cf641ba4",
+                "reference": "46f097c3ea3b35e500f528617f803eb1cf641ba4",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1359,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2024-03-22T13:59:36+00:00"
+            "time": "2024-04-18T14:06:40+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -1405,16 +1405,16 @@
         },
         {
             "name": "elgg/community_plugins",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "c6c02c48c6d6fdc29bb7aef82aa83a20e262bbe9"
+                "reference": "d2b188b1e5cb954dcb1d0c0450933943a3363236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/c6c02c48c6d6fdc29bb7aef82aa83a20e262bbe9",
-                "reference": "c6c02c48c6d6fdc29bb7aef82aa83a20e262bbe9",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/d2b188b1e5cb954dcb1d0c0450933943a3363236",
+                "reference": "d2b188b1e5cb954dcb1d0c0450933943a3363236",
                 "shasum": ""
             },
             "require": {
@@ -1452,10 +1452,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/Elgg/community_plugins/tree/2.3.5",
+                "source": "https://github.com/Elgg/community_plugins/tree/2.3.6",
                 "issues": "https://github.com/Elgg/community_plugins/issues"
             },
-            "time": "2023-10-24T12:34:50+00:00"
+            "time": "2024-04-18T14:06:27+00:00"
         },
         {
             "name": "elgg/community_solr",
