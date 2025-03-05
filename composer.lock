@@ -260,12 +260,12 @@
             "version": "v1.8.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/harvesthq/chosen-package.git",
+                "url": "git@github.com:harvesthq/bower-chosen.git",
                 "reference": "ad86732b668627c131e61ee8f0e6e9ed52e4db8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/harvesthq/chosen-package/zipball/ad86732b668627c131e61ee8f0e6e9ed52e4db8d",
+                "url": "https://api.github.com/repos/harvesthq/bower-chosen/zipball/ad86732b668627c131e61ee8f0e6e9ed52e4db8d",
                 "reference": "ad86732b668627c131e61ee8f0e6e9ed52e4db8d"
             },
             "type": "bower-asset-library",
@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "56b615cadde9cb764371d4a0e665f90297cc9b6c"
+                "reference": "43a079fcea6dff982ec6bfdf92c3da4256272f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/56b615cadde9cb764371d4a0e665f90297cc9b6c",
-                "reference": "56b615cadde9cb764371d4a0e665f90297cc9b6c",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/43a079fcea6dff982ec6bfdf92c3da4256272f3d",
+                "reference": "43a079fcea6dff982ec6bfdf92c3da4256272f3d",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2025-02-14T08:25:21+00:00"
+            "time": "2025-03-05T12:13:47+00:00"
         },
         {
             "name": "elgg/community_groups",
