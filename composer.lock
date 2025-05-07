@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "8ca1b0327938b622e84ecb16b567ed8fe5a99b73"
+                "reference": "91cc76e8d4c475e8201e612397482c85dcdf0fff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/8ca1b0327938b622e84ecb16b567ed8fe5a99b73",
-                "reference": "8ca1b0327938b622e84ecb16b567ed8fe5a99b73",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/91cc76e8d4c475e8201e612397482c85dcdf0fff",
+                "reference": "91cc76e8d4c475e8201e612397482c85dcdf0fff",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2025-04-14T11:28:10+00:00"
+            "time": "2025-05-07T13:02:36+00:00"
         },
         {
             "name": "elgg/community_groups",
