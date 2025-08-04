@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "5e3e9b9fff3fa5c9d06a9ff67e67027fc2ab0319"
+                "reference": "fbd6a20e1fb3d741ac6a6c882b804d3712845ed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/5e3e9b9fff3fa5c9d06a9ff67e67027fc2ab0319",
-                "reference": "5e3e9b9fff3fa5c9d06a9ff67e67027fc2ab0319",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/fbd6a20e1fb3d741ac6a6c882b804d3712845ed8",
+                "reference": "fbd6a20e1fb3d741ac6a6c882b804d3712845ed8",
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1338,6 @@
                 "components/highlightjs": "^8.7.0",
                 "composer/installers": ">=1.0.8"
             },
-            "default-branch": true,
             "type": "elgg-plugin",
             "license": [
                 "GPL-2.0"
@@ -1361,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2025-07-08T12:33:05+00:00"
+            "time": "2025-08-04T11:51:15+00:00"
         },
         {
             "name": "elgg/community_groups",
@@ -5356,10 +5355,10 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "7.0"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "1.1.0"
 }
