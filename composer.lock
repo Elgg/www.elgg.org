@@ -1406,16 +1406,16 @@
         },
         {
             "name": "elgg/community_plugins",
-            "version": "2.3.8",
+            "version": "2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community_plugins.git",
-                "reference": "737a443fbb02c73e59b96514a67d921f94185f1b"
+                "reference": "74ceaf02ef75a8b30e31625cb56210b76bc0a5d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/737a443fbb02c73e59b96514a67d921f94185f1b",
-                "reference": "737a443fbb02c73e59b96514a67d921f94185f1b",
+                "url": "https://api.github.com/repos/Elgg/community_plugins/zipball/74ceaf02ef75a8b30e31625cb56210b76bc0a5d5",
+                "reference": "74ceaf02ef75a8b30e31625cb56210b76bc0a5d5",
                 "shasum": ""
             },
             "require": {
@@ -1453,10 +1453,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/Elgg/community_plugins/tree/2.3.8",
+                "source": "https://github.com/Elgg/community_plugins/tree/2.3.9",
                 "issues": "https://github.com/Elgg/community_plugins/issues"
             },
-            "time": "2025-04-14T11:27:07+00:00"
+            "time": "2025-09-02T11:41:58+00:00"
         },
         {
             "name": "elgg/community_solr",
