@@ -310,7 +310,7 @@
             "version": "2.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "1de23254e7cda31ec3ecb31a7a6b71df021f407c"
+                "reference": "6ca1c3a76c97fecd7c88e543a76a81fa5096d9c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/1de23254e7cda31ec3ecb31a7a6b71df021f407c",
-                "reference": "1de23254e7cda31ec3ecb31a7a6b71df021f407c",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/6ca1c3a76c97fecd7c88e543a76a81fa5096d9c3",
+                "reference": "6ca1c3a76c97fecd7c88e543a76a81fa5096d9c3",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2025-09-02T11:19:06+00:00"
+            "time": "2025-10-03T11:04:35+00:00"
         },
         {
             "name": "elgg/community_groups",
