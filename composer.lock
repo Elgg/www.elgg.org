@@ -260,12 +260,12 @@
             "version": "v1.8.7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:harvesthq/bower-chosen.git",
+                "url": "https://github.com/harvesthq/chosen-package.git",
                 "reference": "ad86732b668627c131e61ee8f0e6e9ed52e4db8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/harvesthq/bower-chosen/zipball/ad86732b668627c131e61ee8f0e6e9ed52e4db8d",
+                "url": "https://api.github.com/repos/harvesthq/chosen-package/zipball/ad86732b668627c131e61ee8f0e6e9ed52e4db8d",
                 "reference": "ad86732b668627c131e61ee8f0e6e9ed52e4db8d"
             },
             "type": "bower-asset-library",
@@ -340,7 +340,7 @@
             "version": "1.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jackmoore/colorbox.git",
+                "url": "https://github.com/jackmoore/colorbox.git",
                 "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "dist": {
@@ -407,7 +407,7 @@
             "version": "1.11.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:components/jqueryui.git",
+                "url": "https://github.com/components/jqueryui.git",
                 "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
             },
             "dist": {
@@ -458,12 +458,12 @@
             "version": "2.3.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/requirejs/requirejs-bower.git",
+                "url": "git@github.com:jrburke/requirejs-bower.git",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
+                "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
                 "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "type": "bower-asset",
@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "10a299d19a026d3f6617b1575648bbd07240d295"
+                "reference": "d79d50a4e31b866167017d5d06ccaa7e6b5b74dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/10a299d19a026d3f6617b1575648bbd07240d295",
-                "reference": "10a299d19a026d3f6617b1575648bbd07240d295",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/d79d50a4e31b866167017d5d06ccaa7e6b5b74dc",
+                "reference": "d79d50a4e31b866167017d5d06ccaa7e6b5b74dc",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2026-01-16T13:27:08+00:00"
+            "time": "2026-03-24T10:55:00+00:00"
         },
         {
             "name": "elgg/community_groups",
