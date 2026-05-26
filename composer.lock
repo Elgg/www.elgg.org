@@ -407,7 +407,7 @@
             "version": "1.11.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:components/jqueryui.git",
+                "url": "https://github.com/components/jqueryui.git",
                 "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
             },
             "dist": {
@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/community.git",
-                "reference": "38a41e2291ccf61764c886572bd438b7829c94c0"
+                "reference": "5cc10c9604b689815d4988968020b5298a63f1d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/community/zipball/38a41e2291ccf61764c886572bd438b7829c94c0",
-                "reference": "38a41e2291ccf61764c886572bd438b7829c94c0",
+                "url": "https://api.github.com/repos/Elgg/community/zipball/5cc10c9604b689815d4988968020b5298a63f1d3",
+                "reference": "5cc10c9604b689815d4988968020b5298a63f1d3",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/Elgg/community/tree/master",
                 "issues": "https://github.com/Elgg/community/issues"
             },
-            "time": "2026-04-01T13:55:09+00:00"
+            "time": "2026-05-26T07:29:57+00:00"
         },
         {
             "name": "elgg/community_groups",
